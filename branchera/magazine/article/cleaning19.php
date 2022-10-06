@@ -153,7 +153,7 @@ include ($inc_path."/lib/inc/header.php");
 						<p class="mb3">雑巾のはじを揃えて、2つ折りにし、その後、4つ折りにします。このように、雑巾を畳んでから拭き掃除をすると、汚れた面を裏返して、きれいな面を使って拭き掃除できます。雑巾を畳んで使えば、何度も水ですすぐ必要がないため、拭き掃除が効率的になります。</p>
 					</div>
 				</div>
-        <h4 class="cleaning01__ttl_m mb2">雑巾の絞り</h4>				
+        <h4 class="cleaning01__ttl_m mb2">雑巾の絞り方</h4>				
 				<div class="mb3 flex">
 					<figure class="w50 center">
 						<img src="<?php echo $img_url?>/magazine/comic03/cleaning/19/cleaning19-03@2x.jpg" class="u-img__max mb1_sp" alt="雑巾の絞り方" style="max-width:320px;" loading="lazy">

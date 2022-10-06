@@ -175,7 +175,7 @@ $release_day ="31";
 					</figure>
 					<div>
 						<p class="mb2">カーテンはハウスダストを集めやすいアイテムです。また、湿気や窓の結露が多い時期はカビが発生しやすいため、アレルギー症状を引き起こす原因にもなります。</p>
-						<p class="mb2">そのため、<strong>カーテンはご家庭でも洗えるものを選び、年に2回は洗濯</strong>することをおすすめします。洗濯してハウスダストや汚れを取り除いた後、除菌用アルコールスプレーをかけるのも有効です。特に<a href="<?php echo($base_url)?>/magazine/article/cafe-vol27-report.php" class="recipe-design__link">結露</a>の発生しやすい季節は1日1回の頻度でかけましょう。<br>ただし、素材によっては変色する恐れもあるので、目立たない裾裏で一度試してから使用するようにしてくださいね。</p>
+						<p class="mb2">そのため、<strong>カーテンはご家庭でも洗えるものを選び、年に2回は洗濯</strong>することをおすすめします。洗濯してハウスダストや汚れを取り除いた後、除菌用アルコールスプレーをかけるのも有効です。特に<a href="<?php echo($base_url)?>/magazine/article/cafe-vol27-report.php" class="recipe-design__link" data-ga-click="cleaning05_2">結露</a>の発生しやすい季節は1日1回の頻度でかけましょう。<br>ただし、素材によっては変色する恐れもあるので、目立たない裾裏で一度試してから使用するようにしてくださいね。</p>
 					</div>
 				</div>
 				<h4 class="cleaning01__ttl_m mb2">ぬいぐるみ</h4>

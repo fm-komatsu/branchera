@@ -138,9 +138,31 @@
 				$dataGaClick = 'news_topics_rashiku-monitor2022';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
+		<?php // テクニック
+				$cntId = '15164';
+				$noticeLabel = 'new';
+				$category = 'マガジン';
+				$cntTtl = '「今さら聞けない料理のアレコレ『煮しめのレシピ！和食の定番料理を簡単に美味しく作る方法をご紹介』';
+				$predicate = 'を公開しました。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_technic164';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // 交換商品
+				$cntId = '10063';
+				$noticeLabel = 'new';
+				$category = '住まいレージ';
+				$cntTtl = '交換商品に3種のおせち【期間・数量限定】';
+				$predicate = 'が追加されました！';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_exchange-new-year-dishes_2023';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
 		<?php // いま暮らアンケート
 				$cntId = '11087';
-				$noticeLabel = 'new';
+				$noticeLabel = '';
 				$category = 'アンケート';
 				$cntTtl = 'いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」';
 				$predicate = '募集中です！';
@@ -151,10 +173,10 @@
 				?>
 		<?php // お掃除コンテンツ
 				$cntId = '27022';
-				$noticeLabel = 'new';
+				$noticeLabel = '';
 				$category = 'マガジン';
 				$cntTtl = '「部屋のお掃除プロ監修 三毛猫きらりのお掃除攻略ガイド『窓の結露対策、どうすればよい？カビの予防方法もご紹介』」';
-				$predicate = 'を公開しました。';
+				$predicate = '公開中です。';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
 				$dataGaClick = 'news_topics_cleaning22';
@@ -172,15 +194,26 @@
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 抽選賞品
-				$cntId = '9075';
+				$cntId = '9076';
 				$noticeLabel = '';
 				$category = '住まいレージ';
-				$cntTtl = '「抽選で6名さまに当たる！【CLAYMORE】LAMP Cabin クレイモアランプ キャビン」';
+				$cntTtl = '「抽選で20名さまに当たる！【長谷工あんしんデリ】たなかみ米 3.6kg」';
 				$predicate = '募集中です。';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_monthly_2209';
+				$dataGaClick = 'news_topics_monthly_2210';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // いま暮らcaféレポート
+				// $cntId = '25042';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「いま暮らCafé『○○なら長谷工！どんなイメージ？～後編～』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_cafe-report_41-2';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // ClubOff by HASEKO
 				$cntId = '3025';
@@ -192,26 +225,37 @@
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // いま暮らcaféレポート
-				$cntId = '25008';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「いま暮らCafé『あなたの今を聞かせて！季節替わりの準備』」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_imakura_08';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '25008';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「いま暮らCafé『あなたの今を聞かせて！季節替わりの準備』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_imakura_08';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // 何でか、部屋が片付かない。
+				// $cntId = '12006';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「何でか、部屋が片付かない。『第6話　洋服のたたみ方のコツはラクラクシカク！？』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_comic_06';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 交換商品
-				$cntId = '8004';
-				$noticeLabel = '';
-				$category = '住まいレージ';
-				$cntTtl = '「有名メーカー家具のご購入」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_hit-furniture220928';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '8004';
+				// $noticeLabel = '';
+				// $category = '住まいレージ';
+				// $cntTtl = '「有名メーカー家具のご購入」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_hit-furniture220928';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>				
       	<?php
 				// $cntId = '4096';
@@ -238,17 +282,6 @@
 				?>
 
 
-      	<?php // テクニック
-				// $cntId = '15163';
-				// $noticeLabel = '';
-				// $category = 'マガジン';
-				// $cntTtl = '「今さら聞けない料理のアレコレ『きんぴらごぼうの作り方！簡単に美味しくできる基本のレシピ』';
-				// $predicate = 'を公開しました。';
-				// $news_imgUrl = '';
-				// $news_cntUrl = '';
-				// $dataGaClick = 'news_topics_technic163';
-				// include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
       	<?php // ALSOK 暮らしの危機管理
 				// $cntId = '19005';
 				// $noticeLabel = '';

@@ -234,7 +234,7 @@ $release_day ="31";
 									</h4>
 								</div>
 								<h5 class="pr__ttl center mb3">自分で落とせない水垢はプロにお任せ！</h5>
-									<p class="mb2">水まわりは毎日使う場所なので、油断するとすぐ水垢がたまってしまいがち…。どうしても落とせないときは、長谷工のハウスクリーニングがおすすめです！<br>キッチン、浴室、トイレがセットになった「水まわりクリーニングおとくパック」なら、気になる汚れをまとめてきれいにできます。<br>また、<a href="<?php echo $base_url; ?>/smile/article/hcm-housecoating.php" class="">ハウスコーティング</a>で水まわりを保護すると、水垢を予防することができますよ。</p>
+									<p class="mb2">水まわりは毎日使う場所なので、油断するとすぐ水垢がたまってしまいがち…。どうしても落とせないときは、長谷工のハウスクリーニングがおすすめです！<br>キッチン、浴室、トイレがセットになった「水まわりクリーニングおとくパック」なら、気になる汚れをまとめてきれいにできます。<br>また、<a href="<?php echo $base_url; ?>/smile/article/hcm-housecoating.php" class="" data-ga-click="cleaning01_2">ハウスコーティング</a>で水まわりを保護すると、水垢を予防することができますよ。</p>
 									<div class="center">
 										<p class="pr__txt">水まわりクリーニングおとくパック</p>
 										<a href="https://e-suteki.haseko.jp/service/deals-package.html" target="_blank" data-ga-click="cleaning01_1" class="pr__btn center">詳しくはこちら</a>

@@ -48,6 +48,50 @@ include($inc_path . "/lib/inc/header.php");
 
 		<section class="main__item smile-exchange mb10">
 			<h2 class="u-ttl__l" id="exchange">スマイルを商品に交換する</h2>
+			<div class="smile-exchange__row new-year-dishes mb3">
+				<h3 class="smile-exchange__ttl new-year-dishes mb2" id="osechi"><span class="smile-exchange__ex">《期間限定 お申込みは<br class="u-only__sp">2022年12月6日（火）まで！》<br>3種のおせち</span></h3>
+				<div class="u-photolist__row">
+					<?php /*  echo show_id_smile_photo("10064"); 【神楽坂 くろす×京都祇園 日本料理 山玄茶】東西料亭の饗宴和風おせち「神玄」二段重（冷凍） */ ?>
+					<article class="u-photolist__item smile-exchange new">
+						<label class="u-photolist__wrap smile-exchange new">
+							<a href="<?php echo $base_url ?>/smile/article/exchange-new-year-dishes_2023.php#shingen" class="u-photolist__inner new">
+								<div class="u-photolist__exchange">
+									<div class="u-photolist__pcwrap u-clearfix">
+										<div class="u-photolist__img smile-exchange new"><img alt="【神楽坂 くろす×京都祇園 日本料理 山玄茶】東西料亭の饗宴和風おせち「神玄」二段重（冷凍）" class="new js-show" src="<?php echo $img_url ?>/thum/exchange-new-year-dishes_2023_shingen.jpg"></div>
+										<div class="u-photolist__txtbox">
+											<h4 class="u-photolist__ttl new">【神楽坂 くろす×京都祇園 日本料理 山玄茶】東西料亭の饗宴和風おせち「神玄」二段重（冷凍）</h4>
+										</div>
+									</div>
+									<div class="u-photolist__pointwrap">
+										<p class="u-photolist__point new">16,500<span class="u-font__small">スマイル</span></p>
+									</div>
+								</div>
+								<div class="u-photolist__icon new"><span>new</span></div>
+							</a>
+						</label>
+					</article>
+					<?php /* echo show_id_smile_photo("10065"); 【日本料理 山玄茶×Bistro & Wine Salon YAMADA×広東御料理 竹香 京都祗園三店舗監修】和洋中おせち「たつみ」三段重（冷凍） */ ?>
+					<article class="u-photolist__item smile-exchange new">
+						<label class="u-photolist__wrap smile-exchange new">
+							<a href="<?php echo $base_url ?>/smile/article/exchange-new-year-dishes_2023.php#tatsumi" class="u-photolist__inner new">
+								<div class="u-photolist__exchange">
+									<div class="u-photolist__pcwrap u-clearfix">
+										<div class="u-photolist__img smile-exchange new"><img alt="日本料理 山玄茶×Bistro & Wine Salon YAMADA×広東御料理 竹香 京都祗園三店舗監修】和洋中おせち「たつみ」三段重（冷凍）" class="new js-show" src="<?php echo $img_url ?>/thum/exchange-new-year-dishes_2023_tatsumi.jpg"></div>
+										<div class="u-photolist__txtbox">
+											<h4 class="u-photolist__ttl new">【日本料理 山玄茶×Bistro & Wine Salon YAMADA×広東御料理 竹香 京都祗園三店舗監修】和洋中おせち「たつみ」三段重（冷凍）</h4>
+										</div>
+									</div>
+									<div class="u-photolist__pointwrap">
+										<p class="u-photolist__point new">20,000<span class="u-font__small">スマイル</span></p>
+									</div>
+								</div>
+								<div class="u-photolist__icon new"><span>new</span></div>
+							</a>
+						</label>
+					</article>
+					<?php echo show_id_smile_photo("10066"); /* 【京都現代の名工 神田正幸監修】「百万石」和洋与段重（冷凍） */ ?>
+				</div>
+			</div>
 			<div class="smile-exchange__row gourmet mb3">
 				<h3 class="smile-exchange__ttl gourmet mb2"><span class="smile-exchange__ex">グルメ</span></h3>
 				<div class="u-photolist__row">
@@ -104,7 +148,7 @@ include($inc_path . "/lib/inc/header.php");
 			<!--<div class="smile-exchange__row living mb3">
 				<h3 class="smile-exchange__ttl living mb2"><span class="smile-exchange__ex">リビング</span></h3>
 				<div class="u-photolist__row">
-					<? php // echo show_id_smile_photo("10051"); /* 【BALMUDA】<br>BALMUDA The Speaker */
+					<?php // echo show_id_smile_photo("10051"); /* 【BALMUDA】<br>BALMUDA The Speaker */
 					?>
 				</div>
 			</div>-->

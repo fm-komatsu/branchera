@@ -38,10 +38,10 @@
           </a>
         </figure>
         <figure class="main-v__item swiper-slide">
-          <?php echo show_category_home__random_ttl("lottery", 1, "抽選で6名さまに当たる！<br>【CLAYMORE】LAMP Cabin", "slider_monthly"); ?>
+          <?php echo show_category_home__random_ttl("lottery", 1, "抽選で20名さまに当たる！<br>【長谷工あんしんデリ】たなかみ米 3.6kg", "slider_monthly"); ?>
         </figure>
         <figure class="main-v__item swiper-slide">
-          <?php echo show_categorys_home__ttl("recipe-technic", "きんぴらごぼうの作り方", "slider_technic163");  ?>
+          <?php echo show_categorys_home__ttl("recipe-technic", "煮しめの作り方", "slider_technic164");  ?>
           <?php /* echo show_categorys_home__ttl("recipe-collect","常備菜レシピまとめ");*/ ?>
         </figure>
         <figure class="main-v__item swiper-slide">

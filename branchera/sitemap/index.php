@@ -94,7 +94,7 @@ include($inc_path . "/lib/inc/header.php");
 					<ul class="u-list__ul">
 						<li><a href="<?php echo $base_url; ?>/smile/about.php">住まいレージとは</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/accumulate-smileage.php">住まいレージをためる</a></li>
-						<li><a href="<?php echo $base_url ?>/smile/article/lottery-202209.php">抽選で6名さまに当たる！【CLAYMORE】LAMP Cabin クレイモアランプ キャビン</a></li>
+						<li><a href="<?php echo $base_url ?>/smile/article/lottery-202210.php">抽選で20名さまに当たる！【長谷工あんしんデリ】たなかみ米 3.6kg</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/hit-furniture.php">ブランド家具ご購入</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/hre-mediation.php">不動産売買仲介手数料割引</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/hre-renovation.php">リノベーションマンション購入</a></li>
@@ -122,6 +122,7 @@ include($inc_path . "/lib/inc/header.php");
 						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-airdog.php">【Airdog】X3s</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-mochimugi.php">【たなかみのもち⻨×林久右衛⾨のスープ】もち⻨スープセット</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-airweave-pillow.php">【エアウィーヴ】エアウィーヴ ピロー S-LINE</a></li>
+						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-new-year-dishes_2023.php">3種のおせち【期間・数量限定】</a></li>
 					</ul>
 				</div>
 				<div class="sitemap-list__item">

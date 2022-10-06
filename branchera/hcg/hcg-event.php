@@ -27,6 +27,17 @@ include($inc_path . "/lib/inc/header.php");
 		</nav>
 		<section class="main__item">
 			<h2 class="u-ttl__l">長谷工グループのイベント情報</h2>
+			<!-- 飛鳥ハーフマラソン -->
+			<div class="event-list">
+				<div class="event-list__img">
+					<img data-src="<?php echo ($img_url) ?>/hcg/event-img__asuka-marathon.jpg" loading="lazy" alt="長谷工グループは奈良県明日香村で開催される「飛鳥ハーフマラソン」を応援しています" class="u-img__max" style="max-width: 389px;">
+				</div>
+				<div class="event-list__ex">
+					<h3 class="event-list__ttl">長谷工グループは奈良県明日香村で開催される「飛鳥ハーフマラソン」を応援しています</h3>
+					<p class="event-list__text u-font__palt">2023年3月12日(日)に飛鳥ハーフマラソン2023が開催されます！<br>記念すべき第１回となった前大会は、約3,000名のランナーが飛鳥路を駆け抜け、非常に盛り上がる大会となりました。今年はエキスポも開催予定！<br>絶賛エントリー受付中です！みなさまぜひご参加ください！</p>
+					<a href="https://asuka-marathon.jp/" class="event-list__btn u-btn_point" data-ga-click="hcg-page__asukamarathon__info2023" target="_blank" rel="sponsored">詳しくはこちら</a>
+				</div>
+			</div>
 			<!-- 長谷工マンションミュージアムワークショップ -->
 			<div class="event-list">
 				<div class="event-list__img">

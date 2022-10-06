@@ -1,4 +1,10 @@
 <dl class="u-news">
+  <dt>2022年10月5日</dt>
+  <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic164.php">【マガジン】「今さら聞けない料理のアレコレ『煮しめのレシピ！和食の定番料理を簡単に美味しく作る方法をご紹介』」を公開しました。詳しくはこちら</a></dd>
+  <dt>2022年10月5日</dt>
+  <dd><a href="<?php echo $base_url ?>/smile/article/exchange-new-year-dishes_2023.php">【住まいレージ】「3種のおせち【期間・数量限定】」を追加しました。詳しくはこちら</a></dd>
+  <dt>2022年10月3日</dt>
+  <dd><a href="<?php echo $base_url ?>/smile/article/lottery-202210.php">【住まいレージ】「抽選で20名さまに当たる！【長谷工あんしんデリ】たなかみ米 3.6kg」募集中です。詳しくはこちら</a></dd>
   <dt>2022年9月28日</dt>
   <dd><a href="<?php echo $base_url ?>/event/article/rashiku-monitor.php">【キャンペーン】「《限定１名さま》ご自宅のキッチンにジャストフィット！「RASHIKU」モニターキャンペーン」募集中です。詳しくはこちら</a></dd>
   <dt>2022年9月28日</dt>
@@ -20,7 +26,7 @@
   <dt>2022年9月7日</dt>
   <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic163.php">【マガジン】「今さら聞けない料理のアレコレ『きんぴらごぼうの作り方！簡単に美味しくできる基本のレシピ』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年9月1日</dt>
-  <dd><a href="<?php echo $base_url ?>/smile/article/lottery-202209.php">【住まいレージ】「抽選で6名さまに当たる！【CLAYMORE】LAMP Cabin クレイモアランプ キャビン」募集中です。詳しくはこちら</a></dd>
+  <dd>【住まいレージ】「抽選で6名さまに当たる！【CLAYMORE】LAMP Cabin クレイモアランプ キャビン」【募集は終了しました】</dd>
   <dt>2022年8月31日</dt>
   <dd>【オンラインイベント】「こだわりのキッチンツアー&料理教室」【募集は終了しました】</dd>
   <dt>2022年8月31日</dt>
@@ -69,46 +75,4 @@
   <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic161.php">【マガジン】「今さら聞けない料理のアレコレ『紅茶のいれ方。本格的に楽しむコツ＆美味しいアレンジティーをご紹介』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年7月1日</dt>
   <dd>【住まいレージ】「抽選で5名さまに当たる！【ボーネルンド】マグ・フォーマー クリエイティブセット（90ピース）日本語あそび方冊子付」【募集は終了しました】</dd>
-  <dt>2022年6月29日</dt>
-  <dd>【アンケート】【50スマイルプレゼント】「いま暮らアンケート『リフォームをやってみてわかったこと』」【募集は終了しました】</dd>
-  <dt>2022年6月29日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/sumai-sos-vol09.php">【マガジン】「プロが解決！住まいのSOS『使わないモノだけど、捨てることには罪悪感…どうすればスッキリできる？』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月29日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning13.php">【マガジン】「ベランダ掃除のコツとは？マンションでも安心して掃除できる方法をご紹介！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月22日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cafe-vol36-report.php">【マガジン】「いま暮らCaf&eacute;『あなたの今を聞かせて！これからどうなる？テレワーク』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月22日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning12.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『洗濯機の掃除方法は？酸素系漂白剤で汚れやカビをきれいに！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月15日</dt>
-  <dd>【アンケート】【50スマイルプレゼント】「いま暮らアンケート『美味しいコーヒーいかがですか？』」【募集は終了しました】</dd>
-  <dt>2022年6月15日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning11.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『キッチンの排水口掃除の仕方とは？簡単にピカピカにする方法をご紹介！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月8日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning10.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『網戸掃除を簡単に！外さずほこりをきれいに落とす掃除方法をご紹介』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月8日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cafe-vol35-report.php">【マガジン】「いま暮らCaf&eacute;『きれいな空気、最高！おうちで何ができる？』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年6月1日</dt>
-  <dd>【住まいレージ】「抽選で30名さまに当たる！【いま暮らCafé×放香堂加琲】オリジナルブレンドコーヒー（ドリップバッグセット）」【募集は終了しました】</dd>
-  <dt>2022年6月1日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic160.php">【マガジン】「今さら聞けない料理のアレコレ『瓶の煮沸消毒のやり方は？保存容器を清潔に保つ方法を解説！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月26日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cafe-vol34-report.php">【マガジン】「いま暮らCaf&eacute;『シニアの暮らしを考える』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月25日</dt>
-  <dd>【アンケート】【50スマイルプレゼント】「いま暮らアンケート『ボーっと使っちゃいけません！SNSの利用は？』」【募集は終了しました】</dd>
-  <dt>2022年5月25日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning09.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『室外機の掃除は必要？自分でできる掃除の仕方をご紹介』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月19日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/sumai-sos-vol08.php">【マガジン】「プロが解決！住まいのSOS『雨でも夜でも、洗濯物をカラっと乾かしたい！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月18日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning08.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『エアコン掃除は自分でできる！家にあるものできれいにする掃除法』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月18日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/alsok-vol89.php">【マガジン】「プロに聞く。暮らしの危機管理。『川遊び中の事故にご注意を 知っておきたいレジャーの安全対策』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月11日</dt>
-  <dd>【アンケート】【50スマイルプレゼント】「いま暮らアンケート『これからどうなる？テレワーク』」【募集は終了しました】</dd>
-  <dt>2022年5月11日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning07.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『トイレタンクの掃除方法。部品を傷めない正しい掃除の仕方をご紹介！』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月11日</dt>
-  <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic159.php">【マガジン】「今さら聞けない料理のアレコレ『プリンの作り方。オーブンなし！蒸すだけでなめらかに仕上げる簡単レシピ』」を公開しました。詳しくはこちら</a></dd>
-  <dt>2022年5月2日</dt>
-  <dd>【住まいレージ】「抽選で8名さまに当たる！【BRUNO】マルチふとんドライヤー（アイボリー）」【募集は終了しました】</dd>
 </dl>
