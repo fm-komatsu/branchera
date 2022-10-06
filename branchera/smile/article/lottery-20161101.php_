@@ -1,0 +1,113 @@
+<?php
+include ("../../function.php");
+$title ="【レコルト】ソロブレンダーサンテ";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="1人分のスムージーが作れるブレンダー。コンパクトなサイズとシンプルな機能だから、毎日手軽に健康生活！";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9003;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/6";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-pc.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-20161101-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-20161101-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-20161101-img3.png" alt="">
+      </div>
+    </div>
+
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">フレッシュスムージーを毎朝手軽に！</h4>
+      <p>野菜やフルーツを切って、入れて、スイッチを押すだけ！1人分のフレッシュスムージーが簡単お手軽にできてしまいます。ボトルがそのままグラス代わりになるので、洗い物も少なくて後片付け楽々。毎朝手軽にビタミン補給で、キレイと健康を目指しましょう！</p>
+      <h4 class="pageSmilePoint-ttl icon-2">冷製スープやドレッシングも作れる！</h4>
+      <p>使い道はスムージーだけではありません。冷製スープやドレッシングも作れて、お家で作るお料理のレパートリーが広がります。専用レシピブック付き。</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">セット内容</h6>
+            <p class="u-spec-desc">■本体　■ボトル　■専用レシピブック</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">消費電力</h6>
+            <p class="u-spec-desc">125W</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">定格電圧</h6>
+            <p class="u-spec-desc">100V 50/60Hz</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">サイズ</h6>
+            <p class="u-spec-desc">約 幅10 × 奥行10 × 高さ29cm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">約 750g</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">容量</h6>
+            <p class="u-spec-desc">約 300ml</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">材質</h6>
+            <p class="u-spec-desc">■本体：PP　■リング/カバー：ABS樹脂　■ブレンダーボトル：AS樹脂　■カッター：ステンレス（チタンコーティング）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、12月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">11月の抽選賞品 <br><span>【レコルト】ソロブレンダーサンテ</span><br>抽選で<span>20</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">【レコルト】ソロブレンダーサンテ</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/6" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

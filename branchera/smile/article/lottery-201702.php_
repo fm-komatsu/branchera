@@ -1,0 +1,97 @@
+<?php
+include ("../../function.php");
+$title ="【ルルド】バスピロー";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="かわいい形のカラフルなバスピロー。完全防水・乾きやすい仕様なので毎日のバスタイムに使えます。心地よい刺激で1日の疲れもリフレッシュ。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9007;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/29";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1702.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1702-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201702-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201702-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201702-img3.png" alt="">
+      </div>
+    </div>
+
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">肩甲骨と首にフィット、使い方はいろいろ！</h4>
+      <p>肩甲骨と首にフィットする形。３つのモーター内蔵でブルブルと振動し、疲れた身体を気持ちよく刺激します。肩甲骨はもちろん、足や腰など好きなところに使ってリフレッシュ！単３電池４本で動きます。（※電池は別売になります。）</p>
+      <h4 class="pageSmilePoint-ttl icon-2">10分タイマー</h4>
+      <p>10分間のタイマー付き。消し忘れても安心安全の設計です。</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">セット内容</h6>
+            <p class="u-spec-desc">■本体</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">サイズ</h6>
+            <p class="u-spec-desc">本体：約　縦8cm×横30cm×高さ26cm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">約 500g</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年3月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">2月の抽選賞品 <br><span>【ルルド】バスピロー</span><br>抽選で<span>15</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">2月の抽選賞品【ルルド】バスピロー</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/29" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

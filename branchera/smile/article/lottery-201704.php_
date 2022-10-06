@@ -1,0 +1,103 @@
+<?php
+include ("../../function.php");
+$title ="【イデア】BRUNOクーラートート";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="容量20Lのクーラートート。収納ポケットは全部で8つ！しっかり入るサイズ感と耐荷重20kgのバッグは、ピクニックだけでなく普段のお買い物にも便利な使いやすさです。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9010;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/35";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1704.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1704-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+     <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201704-img3.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201704-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201704-img2.png" alt="">
+      </div>
+      
+      <small>※カラーはブルー（ブラック×ホワイト）のみとなります。</small>
+    </div>
+    
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">フラップ部分も保冷対応！</h4>
+      <p>裏地素材はアルミ蒸着シート。全面を閉じられるフラップで保冷効率をアップしてくれます。手づくりのお弁当やお好きなドリンクなどを持ってお出かけすれば、気分も晴れやかに♪</p>
+      <h4 class="pageSmilePoint-ttl icon-2">底面はタイベック素材でアウトドアにぴったり</h4>
+      <p>底面は、超軽量・耐久性・耐水性を兼ね備えた高密度ポリエチレン不織布「タイベック」素材を使用。<br>アウトドアシーンにも最適です。<br>※タイベック…米国デュポン社製の高密度ポリエチレン不織布。タイベックは米国デュポン社の登録商標です。</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+         <div class="u-spec-item">
+            <h6 class="u-spec-ttl">機能</h6>
+            <p class="u-spec-desc">容量：20L <br>耐荷重：20kg</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">サイズ</h6>
+            <p class="u-spec-desc">横幅：360mm 　 高さ：260mm 　 奥行：220mm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">約435g</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">素材</h6>
+            <p class="u-spec-desc">表地：綿/タイベック®（高密度ポリエチレン不織布）<br>裏地： PET(アルミ蒸着）<br>持ち手：合成皮革(ポリウレタン)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年5月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">4月の抽選賞品 <br><span>【イデア】BRUNOクーラートート</span><br>抽選で<span>15</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">4月の抽選賞品【イデア】BRUNOクーラートート</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/35" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

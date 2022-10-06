@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZHC3W');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>お友達紹介キャンペーン - 長谷工の会員サービス「ブランシエラクラブ」</title>
+<link rel="stylesheet" href="common/css/style.css" type="text/css" media="screen">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZHC3W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<header class="suteki">
+		<div class="wrapper">
+			<a class="mark" href="https://www.haseko.co.jp/branchera/" target="_blank"></a>
+			<h1><img src="img/title.png" width="640" height="385" alt="お友達紹介キャンペーン"></a></h1>
+			<div class="summary">
+				<h2><img src="img/title_summary.png" width="500" height="150" alt="あなたさまもお友達も両方ハッピー！！"></h2>
+				<div class="happiness">
+					<div><img src="img/happiness1.png" width="300" height="240" alt="ご紹介した方には2,000スマイルプレゼント！"></div>
+					<div><img src="img/happiness2.png" width="300" height="240" alt="ご紹介された方には3,000スマイルプレゼント！ （新規登録）1,000スマイル+（紹介キャンペーン）2,000スマイル"></div>
+				</div>
+				<p>
+					ブランシエラクラブをご紹介していただくと、あなたさまにもお友達にも、スマイルをプレゼント！たまったスマイルは長谷工グループの各種サービス利用や素敵な商品との交換、プレゼント応募にご利用いただけます。
+				</p>
+				<div class="period">
+					<div><img src="img/period1.png" width="203" height="25" alt="キャンペーン期間"></div>
+					<div><img src="img/period2.png" width="402" height="25" alt="2019年1月8日～2019年3月31日"></div>
+				</div>
+				<p>
+					※ご紹介のスマイルプレゼントは最大10,000スマイル（ご紹介者5名さま分）となります。<br>
+					※本キャンペーンのスマイルプレゼントは、キャンペーン期間終了後となります。<br>
+					※本キャンペーンは予告なく終了する場合がございます。予めご了承ください。
+				</p>
+				<a class="join" href="https://haseko.flpjp.com/regMail?snsSwith=2&memberTypeNo=1" target="_blank"><img src="img/btn_join.png" width="410" height="95" alt="新規入会はこちら（登録・年会費無料）"></a>
+			</div>
+		</div>
+	</header>
+	<section id="about">
+		<div class="wrapper">
+			<div><img src="img/title_about.png" width="500" height="137" alt="スマイルとは、長谷工のサービスをオトクに使えるポイントです！"></div>
+			<div class="about">
+				<div><img src="img/about1.png" width="500" height="143" alt="お得な長谷工のポイントサービス「住まいレージ」長谷工グループのサービス利用や素敵な商品と交換できます。"></div>
+				<div><img src="img/about2.png" width="500" height="143" alt="毎月抽選で素敵なプレゼントが当たるチャンス！！ スマイルポイントを利用してご応募できます。"></div>
+			</div>
+		</div>
+	</section>
+	<section id="step">
+		<div class="wrapper">
+			<div><img src="img/title_step.png" width="600" height="120" alt="簡単4ステップ ブランシエラクラブご入会方法"></div>
+			<div class="step">
+				<div><img src="img/step1.png" width="500" height="218" alt="【step1】新規登録画面にアクセスしてメールアドレスを登録"></div>
+				<div><img src="img/step2.png" width="500" height="218" alt="【step2】返信メールに記載されたURLにアクセス"></div>
+				<div><img src="img/step3.png" width="500" height="218" alt="【step3】紹介してくれた方の「長谷工ID」を“キャンペーンコード欄”に入力"></div>
+				<div><img src="img/step4.png" width="500" height="174" alt="【step4】必要事項を入力して完了"></div>
+			</div>
+			<a class="join" href="https://haseko.flpjp.com/regMail?snsSwith=2&memberTypeNo=1" target="_blank"><img src="img/btn_join.png" width="410" height="95" alt="新規入会はこちら（登録・年会費無料）"></a>
+		</div>
+	</section>
+	<section id="cluboff">
+		<div class="wrapper">
+			<div><img src="img/title_cluboff.png" width="600" height="377" alt="さらに！新優待サービス ClubOff by HASEKO"></div>
+			<p>
+				ブランシエラクラブ会員のみなさま限定のお得なサービスが昨年秋に登場しました。登録料・年会費は無料で、国内外の宿泊施設、グルメ、レジャー、ショッピングなど、全国20万カ所以上の施設が割引価格でご利用いただけます。<br>
+				※月額500円（税別）で、VIP会員も任意でご登録いただけます。
+			</p>
+			<div><img src="img/cluboff.png" width="600" height="427" alt=""></div>
+		</div>
+	</section>
+	<section id="etc">
+		<div class="wrapper">
+			<div><img src="img/title_etc.png" width="600" height="138" alt="ほかにもお得で便利な情報が満載です。この機会にぜひブランシエラクラブにご登録ください。"></div>
+			<div class="etc">
+				<div id="etc1"><img src="img/etc1.png" width="640" height="203" alt="●ブランシエラマガジン"></div>
+				<div id="etc2"><img src="img/etc2.png" width="640" height="300" alt="●イベント・キャンペーン"></div>
+				<div id="etc3"><img src="img/etc3.png" width="640" height="478" alt="●優待サービス"></div>
+				<div id="etc4"><img src="img/etc4.png" width="640" height="245" alt="●住まいレージ"></div>
+				<div id="etc5"><img src="img/etc5.png" width="640" height="64" alt="●ポイントがもらえるアンケート"></div>
+				<div id="etc6"><img src="img/etc6.png" width="640" height="65" alt="●長谷工グループのイベント情報"></div>
+			</div>
+			<a class="join" href="https://haseko.flpjp.com/regMail?snsSwith=2&memberTypeNo=1" target="_blank"><img src="img/btn_join.png" width="410" height="95" alt="新規入会はこちら（登録・年会費無料）"></a>
+			<a class="site" href="https://www.haseko.co.jp/branchera/" target="_blank"><img src="img/btn_site.png" width="410" height="85" alt="詳しくはブランシエラクラブ公式ホームページをご確認ください。"></a>
+		</div>
+	</section>
+	<script>
+		window.WebFontConfig = {
+			google: { families: ['Noto+Sans+JP'] },
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
+</body>
+</html>

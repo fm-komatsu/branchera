@@ -1,0 +1,97 @@
+<?php
+include ("../../function.php");
+$title ="【ボーネルンド】クアドリラ・ベーシックセット";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="自由に組み立てて、毎回ワクワクドキドキ！子どもの目線で作られた、ヨーロッパ発の優れたあそび道具です。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9011;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/40";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1705.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1705-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+     <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201705-img3.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201705-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201705-img2.png" alt="">
+      </div>
+    </div>
+    
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">自由に組み立てて、毎回ワクワクドキドキ</h4>
+      <p>何種類ものレールやキューブには、驚くしかけがいっぱい。組み立て方によってビー玉のスピードや方向が変わるので、楽しみ方は無限大です。</p>
+      <h4 class="pageSmilePoint-ttl icon-2">子供だけでなく大人も楽しい！</h4>
+      <p>重力や摩擦などの物理理論が隠されたクアドリラには、子どもだけでなく大人も夢中になってしまう魅力がいっぱいです。パーツもカラフルで、お部屋にあるだけで楽しい気持ちに。</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+         <div class="u-spec-item">
+            <h6 class="u-spec-ttl">パッケージサイズ</h6>
+            <p class="u-spec-desc">34×43.5×8cm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">素材</h6>
+            <p class="u-spec-desc">ポリプロピレン、木、ガラス</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">セット内容</h6>
+            <p class="u-spec-desc">ブロック（7種類）11個、スパイラルレール1本、カーブレール3本、補足パーツ（5種類）25個、ビー玉（袋入り）50個</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年6月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">5月の抽選賞品 <br><span>【ボーネルンド】クアドリラ・ベーシックセット</span><br>抽選で<span>10</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">5月の抽選賞品【ボーネルンド】クアドリラ・ベーシックセット</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/40" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿<?php
+include ("../../function.php");
+$title ="【Coleman】レジャーシート ストライプ";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="アウトドアは大人を子どもに、子どもを大人にする特別なイベント。 Colemanのレジャーシートは安心で快適なアウトドアライフをサポートしてくれます。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9014;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/58";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1708.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+     <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201708-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201708-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201708-img3.png" alt="">
+      </div>
+    </div>
+    
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">ファミリーピクニックにちょうど良いサイズ！</h4>
+      <p>ピクニックや海水浴など、屋外で遊ぶときにレジャーシートはもはや必需品ですね。Colemanのレジャーシートは大人もゆったり足を伸ばせる200ｘ170cmのビッグサイズだから、ご家族でゆったりくつろげます。また、ロールアップ式収納だから持ち運びの際はとってもコンパクトに。</p>
+      <h4 class="pageSmilePoint-ttl icon-2">表面は優しくなめらかな肌ざわり、座り心地も快適</h4>
+      <p>表地は、思わず寝転びたくなる肌ざわりの良い起毛素材を採用。またインナーにはウレタンフォームを使用しているので、固い地面の上に敷いても座り心地は快適。ピクニックはもちろん、海水浴など様々なアウトドアシーンでご活用いただけます。</p>
+    </div>
+
+    <div class="assist mb4">
+    <div class="flex between" style="align-items: center;">
+    <div class="w20 tb"><img src="../../img/smile/article/comment@2x.png"></div>
+    <div class="w50_sp center mb2 sp"><img src="../../img/smile/article/comment@2x.png"></div>
+    <div class="w80"><p>これからの季節、海水浴やピクニックなど屋外で遊ぶ機会が多くなりますよね。そんなときにあると便利なのがレジャーシート！これさえあれば<strong>砂浜でも芝生の上でも快適</strong>に過ごすことができます。ぜひこれを持っていろいろな場所にお出かけしてくださいね♪</p>
+    </div>
+    </div>
+      
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+         <div class="u-spec-item">
+            <h6 class="u-spec-ttl">本体サイズ</h6>
+            <p class="u-spec-desc">約200×170cm（収納時：約&Phi;15×45cm）</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">1.2kg</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">材質</h6>
+            <p class="u-spec-desc">表地／アクリル、インナー／PUフォーム、裏地／PVC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年9月中旬頃お手元に届くよう、賞品を発送いたします。
+</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">8月の抽選賞品 <br><span>【Coleman】レジャーシート ストライプ</span><br>抽選で<span>20</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">8月の抽選賞品【Coleman】レジャーシート ストライプ</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/58" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

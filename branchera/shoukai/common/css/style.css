@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+html {
+	font-size: 16px;
+}
+body, body * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans JP', sans-serif !important;
+	font-size: 0.875rem;
+	line-height: 1.7;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+sup {
+	font-size: 0.5em;
+}
+.wrapper {
+	width: 660px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+section {
+	margin: 0;
+}
+header {
+	position: relative;
+	background: url(../../img/bg.png) no-repeat top center;
+	background-size: contain;
+	width: 1024px;
+	margin: 0 auto;
+}
+header .mark {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35vw;
+	max-width: 260px;
+	height: 35vw;
+	background: url(../../img/mark_branchera.png) no-repeat 0 0;
+	background-size: contain;
+}
+header h1 {
+	position: relative;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+header.suteki h1:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: -20px;
+	width: 150px;
+	height: 150px;
+	background: url(../../img/suteki.png) no-repeat 0 0;
+	background-size: contain;
+}
+header .summary {
+	padding: 20px;
+	background-color: rgba(255,255,255,0.7);
+	color: #f198ae;
+}
+header .summary h2 {
+	margin: -60px 0 0;
+	text-align: center;
+}
+header .happiness,
+header .period {
+	display: flex;
+	justify-content: space-between;
+}
+header .happiness>div {
+	width: calc(50% - 10px);
+}
+header .happiness+p {
+	margin-bottom: 35px;
+	font-size: 1.125rem;
+}
+header .period+p {
+	margin-bottom: 35px;
+	font-size: 0.75rem;
+	color: #727171;
+}
+a.join,
+a.site {
+	display: block;
+	width: 410px;
+	max-width: 100%;
+	margin: 35px auto;
+}
+section#about {
+	position: relative;
+	margin-top: 0;
+	padding-top: 70px;
+}
+section#about::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 42px;
+	background: url(../../img/icon_gift.png) no-repeat 0 0;
+	background-size: contain;
+}
+section#about .wrapper {
+	width: 1024px;
+}
+section#about .wrapper>div {
+	margin-bottom: 20px;
+	text-align: center;
+}
+section#about .wrapper>div.about {
+	display: flex;
+	justify-content: space-between;
+}
+section#step {
+	margin-top: 90px;
+	padding-bottom: 35px;
+	background: url(../../img/bg.png) no-repeat top center;
+	background-size: 100%;
+	position: relative;
+}
+section#step::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.5);
+}
+section#step .wrapper {
+	width: 600px;
+	position: relative;
+	top: -35px;
+}
+section#step .wrapper>div:first-of-type {
+	margin: 0 -50px 20px;
+}
+section#step .wrapper>div.step {
+	padding: 50px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.7);
+}
+section#cluboff {
+	padding: 55px 0;
+	background-color: #fff9d9;
+}
+section#cluboff .wrapper {
+	width: 600px;
+}
+section#cluboff .wrapper>p {
+	margin: 25px 50px;
+	color: #163259;
+	font-size: 1rem;
+}
+section#etc {
+	padding: 55px 0;
+}
+section#etc .wrapper {
+	width: 1024px;
+}
+section#etc .wrapper>div:first-of-type {
+	text-align: center;
+}
+section#etc .wrapper>div.etc {
+	margin: 55px 0;
+	width: 1024px;
+	height: 750px;
+	position: relative;
+	overflow: hidden;
+}
+section#etc .wrapper>div.etc>div {
+	position: absolute;
+}
+section#etc .wrapper>div.etc>div img {
+	max-width: none;
+}
+section#etc .wrapper>div.etc>div#etc1 {
+	top: 0;
+	left: 0;
+}
+section#etc .wrapper>div.etc>div#etc2 {
+	top: 235px;
+	left: 83px;
+}
+section#etc .wrapper>div.etc>div#etc3 {
+	top: 60px;
+	left: 524px;
+}
+section#etc .wrapper>div.etc>div#etc4 {
+	top: 491px;
+	left: 15px;
+}
+section#etc .wrapper>div.etc>div#etc5 {
+	bottom: 104px;
+	left: 654px;
+}
+section#etc .wrapper>div.etc>div#etc6 {
+	bottom: 1px;
+	left: 543px;
+}
+
+@media screen and (max-width: 640px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+	section {
+		margin: 35px 0;
+	}
+	header {
+		width: auto;
+		background-size: 100vh;
+	}
+	header.suteki h1:before {
+		top: 10px;
+		right: 0;
+		width: 25%;
+		height: 100px;
+	}
+	header .summary h2 {
+		margin-top: -40px;
+	}
+	header .happiness,
+	header .period {
+		display: block;
+	}
+	header .happiness>div {
+		width: 80%;
+		margin: 0 auto 20px;
+	}
+	header .happiness+p {
+		font-size: 0.875rem;
+	}
+	header .period>div {
+		text-align: center;
+	}
+	header .period>div:first-of-type {
+		max-width: 50%;
+		margin: 0 auto 5px;
+	}
+	header .period+p {
+		font-size: 0.625rem;
+		color: #727171;
+	}
+	section#about .wrapper>div.about {
+		display: block;
+	}
+	section#about .wrapper>div.about>div {
+		margin-bottom: 20px;
+	}
+	section#step {
+		margin-top: 35px;
+		padding-bottom: 0;
+		background-image: none;
+	}
+	section#step .wrapper {
+		top: 0;
+	}
+	section#step .wrapper>div:first-of-type {
+		margin: 0 0 20px;
+	}
+	section#step .wrapper>div.step {
+		padding: 0;
+		background-color: transparent;
+	}
+	section#cluboff {
+		padding: 20px 0;
+	}
+	section#cluboff .wrapper>p {
+		margin: 25px 10px;
+	}
+	section#etc {
+		padding: 0;
+	}
+	section#etc .wrapper>div.etc {
+		margin: 35px 0;
+		width: 100%;
+		height: auto;
+	}
+	section#etc .wrapper>div.etc>div {
+		position: static;
+		margin-bottom: 20px;
+	}
+	section#etc .wrapper>div.etc>div#etc2 {
+		margin-bottom: 0;
+	}
+	section#etc .wrapper>div.etc>div img {
+		max-width: 100%;
+	}
+}

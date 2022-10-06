@@ -1,0 +1,291 @@
+<?php
+include ("../function.php");
+$title ="住まいレージとは？";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="住まいレージとは、スマイル（長谷工ポイント）を利用して、あなたの暮らしを快適にするサービスや商品に交換することができます。交換特典は随時拡大中です！新しいサービスや商品が追加された時は、メルマガでご案内いたします。";
+$body_class ="smile list";
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php 
+   $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+<div id="conts">
+<div class="conts-head">
+  <div class="wrapper">
+    <div class="inner smile">
+      <h1 class="page-title"><?php echo $title ?></h1>
+      <p>
+        <?php echo $meta_description ?>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="tags">
+    <div class="tags-ttl">人気ワード</div>
+    <?php echo show_search_words("exchange-product",$search_link); ?>
+  </div>
+</div>
+<article class="article">
+<div class="wrapper">
+
+<section class="section useSmileArea mb4">
+
+  <img src="<?php echo $base_url ?>/img/smile/about/img-ttl@2x.png" alt="住まいレージ" class="mb3" >
+
+  <p class="ttl-text">「住まいレージ」とはブランシエラクラブが提供するオリジナルポイントサービスです。長谷工グループのサービスを利用したり、ブランシエラクラブのコンテンツをお楽しみいただくことでスマイルがたまり、たまったスマイルは長谷工グループのサービスや、素敵な商品と交換することが可能です。ぜひご活用ください！</p>
+
+<ul class="PageSmilSnav-row">
+  <li class="PageSmilSnav-item">
+    <a href="<?php echo $base_url ?>/smile/about.php#save" class="PageSmilSnav-inner sSave " data-scroll ><span>住まいレージのため方</span></a>
+  </li>
+  <li class="PageSmilSnav-item">
+    <a href="<?php echo $base_url ?>/smile/about.php#use" class="PageSmilSnav-inner sUse" data-scroll ><span>住まいレージのつかい方</span></a>
+  </li>
+</ul>
+
+</section>
+
+<section class="section useSmileArea" id="save">
+
+  <div class="pageSmileaboutTtl-row">
+    <div class="pageSmileaboutTtl-item-img">
+      <img src="<?php echo $base_url ?>/img/smile/about/img-ttl02@2x.png" alt="ためる" >
+    </div>
+    <p class="pageSmileaboutTtl-item-text">さまざまなシーンでたまる住まいレージ。
+      <br class="tb">ブランシエラクラブで「ため方」を覚えて、
+      <br class="tb">オトクな商品・サービスに活用しましょう！</p>
+  </div>
+
+  <div class="useArea mb4">
+    <h5 class="useArea-ttl">ブランシエラクラブ<span>でためる</span></h5>
+    <ul class="useArea-row">
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_1@2x.png" alt="長谷工ID新規登録キャンペーン 1000スマイル" />
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_2@2x.png" alt="アンケートへの回答 100スマイル">
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_3@2x.png" alt="ブランシエラクラブサイトへログイン 5スマイル">
+      </li>
+    </ul>
+
+    <h5 class="useArea-ttl">長谷工グループ<span>でためる</span></h5>
+    
+    <ul class="useArea-row">
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_4@2x.png" alt="【長谷工コミュニティ】素敵生活サービス利用代金の…5パーセント" />
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_5@2x.png" alt="【長谷工リフォーム】室内リフォーム工事代金の…5パーセント" />
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_6@2x.png" alt="【長谷工インテック】ブランド家具お支払い代金の…5パーセント" />
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_7@2x.png" alt="【長谷工リアルエステート】不動産売買仲介手数料の…5パーセント" />
+      </li>
+      <li class="useArea-item">
+        <img src="<?php echo $base_url ?>/img/smile/about/icon_save_8@2x.png" alt="【長谷工リアルエステート】リノベーションマンションのご購入…0.5パーセント" />
+      </li>
+    </ul>
+  </div>
+
+  <div class="useDetail" id="useDetail">
+    <h4>「ためる」の詳細</h4>
+    <dl class="flex between">
+      <dt class="w20">[ 新規登録 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>【ご好評につき9/30（土）まで延長！】<br>長谷工ID新規登録時に、１ユーザーに１回、1,000スマイルが付与されます。</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ アンケート ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>ブランシエラクラブのアンケートにお答えいただくと、１ユーザーに１回、100スマイルが付与されます。</li>
+          <li>アンケートの開催は、メールマガジンやブランシエラクラブ内で情報を発信します。</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ ログイン ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>マイページにログインすると、１ユーザーにつき１日１回、5スマイルが付与されます（付与は翌日になります）。</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工インテックで家具を購入 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工インテックが取り扱うブランド家具のご購入代金<sup>※1</sup>の5％をスマイルとして付与いたします。</li>
+          <li>ご入金後、原則、翌月末までにスマイルは付与されます。</li>
+          <li>関西圏・東海圏以外のお客さまは、コンシェルジュデスクにお問い合わせください。
+            <br>■コンシェルジュデスク　0120-875-713　9：00～17：30（定休日 / 水・土・日・祝日・国民の休日・夏季・冬季休暇）</li>
+          <li>関西圏・東海圏のお客さまはこちら
+            <br>■家具の相談をご希望の方は、「SCALE（スケール）」06-6536-1178　/　Fax:06-6536-1918　/　Adrs:大阪市西区南堀江3-9-9　※受付 / 10:00～19：00（水曜定休）
+            <br>■実際に家具を見て検討をご希望の方は、下記ショールームにご予約ください。<br>
+            ・「IDC大塚家具」大阪南港ショールーム<br>TEL：06-6612-4321　法人担当まで　/　Adrs：大阪市住之江区南港北2-1-10　ATC ITM棟　 ※受付 / 10:30～19:00　※南港ショールーム以外をご希望の方はその旨をお伝えください。<br>
+            ・「＋CASA（プラスカーサ）」<br>TEL：077-553-5500　/　Fax:077-553-5039　/　Adrs:滋賀県栗東市上鈎69-2　11:00～19：00（平日）、10:00～19：00（土日祝） ※受付 / 10:00～19：00（水曜定休）</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工リフォームでリフォーム工事 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工リフォームで室内リフォーム工事（戸建の場合、内装・外装リフォーム工事）を行なった際の工事代金<sup>※1</sup>の5％をスマイルとして付与いたします。</li>
+          <li>首都圏：東京都・神奈川県・埼玉県・千葉県、関西圏：大阪府・京都府・兵庫県・奈良県・滋賀県（※一部地域を除く）にお住まいの方のみ対象となります。</li>
+          <li>工事が完了し全額ご入金後、翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは長谷工リフォームにお問い合わせください。
+            <br>長谷工リフォーム　0120-04-4152　9：00～17：30（日・月・祝定休）</li>
+        </ul>
+      </dd>
+    </dl>
+
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工スマイルコミュニティでリフォーム工事 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工スマイルコミュニティで室内リフォーム工事を行なった際の工事代金<sup>※1</sup>の5%をスマイルとして付与いたします。</li>
+          <li>長谷工スマイルコミュニティ管理物件にお住まいの方のみ対象となります。</li>
+          <li>工事が完了し全額ご入金後、翌月末までにスマイルは付与されます。</li>
+          <li>詳しくはお問い合わせください。<br>素敵生活サービスデスク　0120-875-532　8：00～22：00（無休）</li>
+        </ul>
+      </dd>
+    </dl>
+    
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工インテックでリフォーム工事 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工インテックで室内リフォーム工事（戸建の場合、内装・外装リフォーム工事）を行なった際の工事代金<sup>※1</sup>の5％をスマイルとして付与いたします。</li>
+          <li>東海圏：愛知県にお住まいの方のみ対象となります。</li>
+          <li>入金後、原則、翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは長谷工インテックにお問い合わせください。
+            <br>長谷工インテック 名古屋支店　052-238-2391　 9:00～12:00、13:00～17:30（土・日・祝日休み）</li>
+        </ul>
+      </dd>
+    </dl>
+    
+    <dl class="flex between">
+      <dt class="w20">[長谷工リアルエステートでの不動産売買仲介手数料]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工リアルエステートで不動産売買の際の仲介手数料<sup>※1</sup>の5％をスマイルとして付与いたします。</li>
+          <li>引き渡し後、翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは長谷工リアルエステートにお問い合わせください。
+            <br>長谷工リアルエステート
+            <br>関東：0120-585-250　9：30～18：00（水定休）　関西：0120-944-081　9：30～18：00（水定休）</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[長谷工リアルエステートでリノベーションマンションを購入]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工リアルエステートでリノベーションマンションをご購入いただいた際のご購入代金<sup>※1</sup>の0.5％をスマイルとして付与いたします。</li>
+          <li>引き渡し後、翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは長谷工リアルエステートにお問い合わせください。
+            <br>長谷工リアルエステート
+            <br>関東：0120-585-250　9：30～18：00（水定休）　関西：0120-944-081　9：30～18：00（水定休）</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工コミュニティで素敵生活サービス利用 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工コミュニティが提供する素敵生活サービスご利用料金<sup>※1</sup>の5％をスマイルとして付与いたします。</li>
+          <li>長谷工コミュニティ管理物件にお住まいの方のみ対象となります。</li>
+          <li>ご入金後、原則翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは素敵生活サービスデスクにお問い合わせください。
+          <br>素敵生活サービスデスク<br>0120-875-532　8：00～22：00（無休）</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ 長谷工スマイルコミュニティで素敵生活サービス利用 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>長谷工スマイルコミュニティが提供する素敵生活サービスご利用料金<sup>※1</sup>の5％をスマイルとして付与いたします。</li>          
+          <li>冊子「リフィーナvol.30以降」並びに「リフィーナウエストvol.30以降」に住まいレージマーク付で掲載されているサービスが対象となります。</li>
+          <li>静岡県・沖縄県の長谷工スマイルコミュニティ管理物件にお住まいの方は、対象外となります。</li>
+          <li>ご入金後、原則翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは素敵生活サービスデスクにお問い合わせください。
+          <br>素敵生活サービスデスク<br>0120-875-532　8：00～22：00（無休）</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="flex between">
+      <dt class="w20">[ 総合ハウジングサービスで素敵生活サービス利用 ]</dt>
+      <dd class="w80">
+        <ul>
+          <li>総合ハウジングサービスが提供する素敵生活サービスご利用料金<sup>※1</sup>の5％をスマイルとして付与します。</li>          
+          <li>冊子「リフィーナvol.30以降」並びに「リフィーナウエストvol.30以降」に住まいレージマーク付で掲載されているサービスが対象となります。</li>
+          <li>ご入金後、原則翌月末までにスマイルは付与されます。</li>
+          <li>詳しくは素敵生活サービスデスクにお問い合わせください。
+          <br>素敵生活サービスデスク<br>0120-875-532　8：00～22：00（無休）</li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+  
+  <div class="smileCap">
+      <div class="ttl">「住まいレージをためる」共通注意事項</div>
+        <ul>
+            <li>※1：付与されるスマイルの計算元となる代金につきましては、割引額や優待分などを差し引いた、実際にお支払いいただいた金額となります。</li>
+            <li>※2：長谷工グループ各社サービス利用からのスマイル付与につきましては、100マイル未満は切り捨てとなります（一部商品・サービスを除く）。</li>
+        </ul>
+  </div>
+</section>
+
+<section class="section useSmileArea pt0" id="use">
+
+  <div class="pageSmileaboutTtl-row">
+    <div class="pageSmileaboutTtl-item-img">
+      <img src="<?php echo $base_url ?>/img/smile/about/img-ttl03@2x.png" alt="つかう">
+    </div>
+    <p class="pageSmileaboutTtl-item-text">住まいレージは、長谷工グループの
+      <br class="tb">サービスや交換商品、または応募などで
+      <br class="tb">ご利用いただけます。</p>
+  </div>
+
+
+  <div class="useArea mb4 useArea2">
+    <h5 class="useArea-ttl">抽選に応募<span>する</span></h5>
+    <ul class="useArea-row">
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_1@2x.png" alt="抽選に応募する 100スマイル" /></li>
+    </ul>
+
+    <h5 class="useArea-ttl">サービスでつかう・商品に交換<span>する</span></h5>
+    <ul class="useArea-row">
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_2@2x.png" alt="【長谷工コミュニティ】ハウスクリーニング 1,000スマイル～" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_3@2x.png" alt="【長谷工インテック】ブランド家具ご購入 10,000スマイル～" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_4@2x.png" alt="【長谷工リフォーム】室内リフォーム工事 10,000スマイル～" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_5@2x.png" alt="【長谷工リアルエステート】不動産売買仲介手数料 10,000スマイル～" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_6@2x.png" alt="【長谷工リアルエステート】リノベーションマンションご購入代金 10,000スマイル～" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_7@2x.png" alt="【長谷工あんしんデリ】たなかみのお米1.8kg 3,600スマイル" /></li>
+      <li class="useArea-item"><img src="<?php echo $base_url ?>/img/smile/about/icon_use_8@2x.png" alt="商品に交換する 1,000スマイル、5,000スマイル、10,000スマイル" /></li>
+    </ul>
+  </div>
+  <a href="<?php echo $base_url ?>/smile" class="u-btn"><span>抽選・交換商品の一覧はこちら</span></a>
+
+</section>
+</div>
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

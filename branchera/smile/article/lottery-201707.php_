@@ -1,0 +1,112 @@
+<?php
+include ("../../function.php");
+$title ="【Made in TSUBAME】純銅タンブラー";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="伝統と歴史のある金属加工の街「新潟県燕市」で作られた抗菌作用・熱伝導に優れた純銅製のタンブラーです。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9013;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/51";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1707.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1706-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+     <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201707-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201707-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201707-img3.png" alt="">
+      </div>
+    </div>
+    
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">クリーミーな泡立ちのきりっと冷えたビールはいかが？</h4>
+      <p>熱伝導に優れた純銅製タンブラーだから、飲み物の冷たさを素早く伝え、そのままキープしてくれます。また、内面の鍚メッキ下の内面研磨がビールの泡立ちをクリーミーにさせるから美味しさも抜群！</p>
+      <h4 class="pageSmilePoint-ttl icon-2">「Made in TSUBAME」の安全で高品質な製品です</h4>
+      <p>飲み物を入れる食器類はその安全性も気になるところ。本製品は伝統と歴史のある金属加工の街「新潟県燕市」の燕商工会議所が認証した「Made in TSUBAME」のマークを取得済み。日本製の安全・高品質なタンブラーで思いっきりビールを楽しんでください。</p>
+    </div>
+
+    <div class="assist mb4">
+    <div class="flex between" style="align-items: center;">
+    <div class="w20 tb"><img src="../../img/smile/article/comment@2x.png"></div>
+    <div class="w50_sp center mb2 sp"><img src="../../img/smile/article/comment@2x.png"></div>
+    <div class="w80"><p>純銅タンブラーのメリットとして熱伝導と共に知っておきたいのが「抗菌作用」。本製品には<strong>内面の鍚（スズ）メッキにも抗菌作用があり、水を浄化し雑味を取り除き、お酒がまろやかになる</strong>といわれています。いつものビールとぜひ飲み比べしてみてくださいね♪</p>
+    </div>
+    </div>
+      
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+         <div class="u-spec-item">
+            <h6 class="u-spec-ttl">本体サイズ</h6>
+            <p class="u-spec-desc">口径 約77&Phi;×高さ 約135mm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">310g</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">容量</h6>
+            <p class="u-spec-desc">約440cc</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">材質</h6>
+            <p class="u-spec-desc">純銅（内面錫メッキ仕上げ・側面クリヤー塗装仕上げ）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年8月中旬頃お手元に届くよう、賞品を発送いたします。
+</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">7月の抽選賞品 <br><span>【Made in TSUBAME】純銅タンブラー</span><br>抽選で<span>15</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">7月の抽選賞品【Made in TSUBAME】純銅タンブラー</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/51" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

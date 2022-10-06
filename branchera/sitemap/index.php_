@@ -1,0 +1,139 @@
+<?php
+include ("../function.php");
+$title ="サイトマップ";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="ブランシエラクラブのサイトマップページです。";
+$body_class ="sitemap"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php include ($inc_path."/inc/pan.php"); ?>
+
+<div id="conts">
+
+<div class="conts-head">
+  <div class="wrapper">
+    <div class="inner sitemap">
+      <h1 class="page-title"><?php echo $title ?></h1>
+      <p><?php echo $meta_description ?></p>
+    </div>
+  </div>
+</div>
+
+<article class="article">
+
+<div class="wrapper">
+
+<div class="section sitemapList">
+
+  <div class="sitemapList-row">
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url?>/">ホーム</a></h4>
+      <ul class="list">
+        <li><a href="<?php echo $base_url?>/news/"><span>ニュース一覧</span></a></li>
+        <?php if($ssoFlag == 1){ ?>
+          <li><a href="<?php echo $logout_url?>"><span>ログアウト</span></a></li>
+        <?php }else{ ?>
+          <li><a href="<?php echo $myentry_url?>" target="_blank" rel="nofollow"><span>新規入会</span></a></li>
+          <li><a href="<?php echo $login_url ?>"><span>ログイン</span></a></li>
+        <?php }; ?>
+        <li><a href="<?php echo $mytop_url ?>" target="_blank" rel="nofollow"><span>マイページ</span></a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url ?>/magazine">ブランシエラマガジン</a></h4>
+      <ul class="list">
+        <li class="technology"><a href="<?php echo $base_url ?>/magazine/">長谷工の技術・サービス</a></li>
+        <li class="wakuwaku"><a href="<?php echo $base_url ?>/magazine/index.php#wakuwaku">Mr.わくわくメンテナンス講座</a></li>
+        <li class="nishidai80"><a href="<?php echo $base_url ?>/magazine/town.php">すてきな「街」みつけました</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url ?>/gift/">会員さま特典</a></h4>
+      <ul class="list">
+        <li class="mail"><a href="<?php echo $base_url; ?>/gift/article/mail.php">メルマガ配信・会報誌のお届け</a></li>
+        <li class="enq"><a href="<?php echo $base_url; ?>/gift/article/enq.php">商品企画アンケートへのご参加</a></li>
+        <li class="furniture"><a href="<?php echo $base_url ?>/gift/article/furniture.php">ブランド家具ご購入割引</a></li>
+        <li class="kasikosh"><a href="<?php echo $base_url ?>/gift/article/kasikosh.php">ブランド品・貴金属などの無料宅配買取「最大5,000円UP」</a></li>
+        <li class="inet"><a href="<?php echo $base_url ?>/gift/article/inet.php">賃貸マンション仲介手数料最大50%OFF</a></li>
+        <li class="nursing"><a href="<?php echo $base_url ?>/gift/article/nursing.php">長谷工グループの高齢者住宅「無料」体験宿泊</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url ?>/smile/">住まいレージをつかう</a></h4>
+      <ul class="list">
+        <li><a href="<?php echo $base_url ?>/smile/about.php">住まいレージとは</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/lottery-201612.php">抽選で20名さまに当たる！【レコルト】プレスサンドメーカー キルト</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hcm-toilet.php">トイレ・洗面所サービス</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hcm-bathroom.php">バスルームサービス</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hcm-kitchen.php">キッチン・換気サービス</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hcm-housecleaning.php">ハウスクリーニング</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hcm-housecoating.php">ハウスコーティング</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hit-furniture.php">ブランド家具ご購入</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hre-mediation.php">不動産売買仲介手数料割引</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hre-renovation.php">リノベーションマンション購入</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/hrf-interior.php">室内リフォーム工事</a></li>
+
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-kome.php">たなかみのお米1.8kg</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-solokaffe.php">【レコルト】ソロカフェ</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-okayu.php">【ホテルオークラ】おかゆ・雑炊スープセット</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-fdb20r.php">【シボレー】 折りたたみ自転車 FDB20R</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-truesleeper.php">トゥルースリーパー プレミアム</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-am09.php">【ダイソン】hot + cool AM09</a></li>
+        <li><a href="<?php echo $base_url ?>/smile/article/exchange-recipe.php">【シャープ】電気無水鍋</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url ?>/event">アンケート・イベント</a></h4>
+      <ul class="list">
+        <li><a href="<?php echo $base_url ?>/event/article/event-kotsuban.php">【脱ゆがみライフ！骨盤調整レッスンご招待】会員さま限定イベント第1弾参加者募集！</a></li>
+        <li><a href="<?php echo $base_url ?>/event/article/seeing.php">長谷工ならではの技術見学会</a></li>
+        <li><a href="<?php echo $base_url ?>/event/article/report-l.php">長谷工ならではの技術見学会 Vol.2</a></li>
+        <li><a href="<?php echo $base_url ?>/event/index.php#seminar">長谷工グループのセミナー・イベント</a></li>
+        <li><a href="<?php echo $base_url ?>/event/index.php#mansion">長谷工グループ 分譲中マンション・戸建てのイベント情報</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url; ?>/mansion">販売中の物件情報</a></h4>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4><a href="<?php echo $base_url; ?>/about">ブランシエラクラブとは</a></h4>
+      <ul class="list">
+        <li class="brand"><a href="<?php echo $base_url; ?>/about/brand.php">ブランシエラブランド</a></li>
+        <li class="history"><a href="<?php echo $base_url; ?>/about/history.php">ブランシエラの歴史</a></li>
+        <li class="post"><a href="<?php echo $base_url; ?>/about/post.php">ブランシエラクラブポスト</a></li>
+        <li class="faq"><a href="<?php echo $base_url; ?>/about/faq.php">よくあるご質問</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemapList-item">
+      <h4>その他</h4>
+      <ul class="list">
+        <li><a href="<?php echo $base_url; ?>/rules">当サービスのご利用について</a></li>
+        <li><a href="<?php echo $base_url; ?>/rules/id.php">長谷工ID利用規約</a></li>
+        <li><a href="<?php echo $contact_url; ?>" target="_blank">お問い合わせ</a></li>
+        <li><a href="<?php echo $withdrawal_url; ?>" target="_blank">登録解除</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+</div><!-- wrapper -->
+
+</article>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<?php
+include ("../../function.php");
+$title ="【レコルト】プレスサンドメーカー キルト";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="かわいいキルト模様のホットサンドが焼けるプレスサンドメーカー（レッド）。短時間でカリッとおいしく焼き上がります。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9004;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/25";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-pc.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201612-img3.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201612-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201612-img1.png" alt="">
+      </div>
+    </div>
+
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">あっという間に耳までカリッと！</h4>
+      <p>予熱をしたプレートに、食パンと好きな具材を乗せて焼くだけ。ハム＆チーズのホットサンドなら、焼き時間はたったの3分なので、忙しい朝にもぴったり！かわいいキルト柄の焼き目で、見た目もおしゃれです。</p>
+      <h4 class="pageSmilePoint-ttl icon-2">専用レシピ付きでアレンジメニューも♪</h4>
+      <p>33種類のメニューが載ったレシピ付き。食パンだけでなく、イングリッシュマフィンやバゲットを使ったり、変わり種の具材で作ったり、フレンチトーストに挑戦したり。アイディア次第で毎日楽しい！</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">セット内容</h6>
+            <p class="u-spec-desc">■本体　■専用レシピ</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">消費電力</h6>
+            <p class="u-spec-desc">600W</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">定格電圧</h6>
+            <p class="u-spec-desc">100V 50/60Hz</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">サイズ</h6>
+            <p class="u-spec-desc">本体： 約 幅13.0 × 奥行23.0 × 高さ9.5cm <br>プレート：約 幅12.0 × 奥行13.0cm
+</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">約 1kg</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">材質</h6>
+            <p class="u-spec-desc">■本体：フェノール樹脂　■プレート：アルミダイキャスト（ノンスティック加工）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年1月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">12月の抽選賞品 <br><span>【レコルト】プレスサンドメーカー キルト</span><br>抽選で<span>20</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">12月の抽選賞品【レコルト】プレスサンドメーカー キルト</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/25" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

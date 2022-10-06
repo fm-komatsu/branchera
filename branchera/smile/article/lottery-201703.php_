@@ -1,0 +1,98 @@
+<?php
+include ("../../function.php");
+$title ="【レコルト】カプセルカッター キャトル";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="「刻む・混ぜる・練る・潰す・砕く」などすべての作業がアタッチメント付け替えなしで可能なフードプロセッサー。";
+$thumbnail_url = $img_url."/common/dummy/img.png";
+$body_class ="article smile"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/smile/","住まいレージをつかう");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<?php 
+  $contents_id=9008;
+  $smileNum = "<em>100</em>スマイルで１回抽選";
+  $mypageLinkNum = "/33";
+  include ($inc_path."/inc/article-conts-head-lottery.php") 
+?>
+<article class="article">
+  
+  <div class="pageSmileBar">
+    <div class="center tb"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1703.png" alt="" /></div>
+    <div class="center sp"><img src="<?php echo $base_url ?>/img/smile/article/lottery-1703-sp@2x.png" alt="" /></div>
+  </div>
+
+  <section class="section pageSmileImg wrapper">
+    <div class="pageSmileImg-row">
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201703-img1.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201703-img2.png" alt="">
+      </div>
+      <div class="pageSmileImg-item">
+        <img src="../../img/smile/article/lottery-201703-img3.png" alt="">
+      </div>
+    </div>
+
+    <div class="pageSmilePoint">
+      <h4 class="pageSmilePoint-ttl icon-1">シンプルなパーツ、簡単操作！</h4>
+      <p><strong>1.材料を入れる　2.カバーと本体をセットする　3.プッシュ</strong>　の3ステップで操作は簡単！プッシュボタンの操作時間を変えることで、材料を「粗い」「細かい」「なめらか」…といろいろな状態に加工することができます。カップには割れにくいトライタン樹脂を採用。</p>
+      <h4 class="pageSmilePoint-ttl icon-2">パワフル4枚刃で様々な素材を思いのままに。</h4>
+      <p>肉のミンチや野菜のみじん切りはもちろん、市販の硬い氷や凍らせたフルーツもあっという間に粉砕することができます。</p>
+    </div>
+
+    <div class="pageSmileSpec mb4">
+      <h5 class="pageSmileSpec-ttl">詳細スペック</h5>
+      <div class="u-spec">
+        <div class="u-spec-row">
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">セット内容</h6>
+            <p class="u-spec-desc">■本体<br>■カップ<br>■ブレード<br>■カバー<br>■オリジナルスパチュラ<br>■専用レシピブック</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">サイズ</h6>
+            <p class="u-spec-desc">約 幅11.6 × 奥行11.6 × 高さ23.3cm</p>
+          </div>
+          <div class="u-spec-item">
+            <h6 class="u-spec-ttl">重量</h6>
+            <p class="u-spec-desc">約 1.04kg</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small>※写真はイメージです。<br>※メーカー等の都合によって、賞品の色・デザイン・仕様などを予告なく変更する場合がございます。<br>※抽選結果は賞品の発送をもって代えさせていただきます。ご当選者さまには、2017年4月中旬頃お手元に届くよう、賞品を発送いたします。</small>
+  </section>
+
+  <div class="pageSmileBar mb6">
+    <h3 class="pageSmileBar-ttl wrapper">3月の抽選賞品 <br><span>【レコルト】カプセルカッター キャトル</span><br>抽選で<span>10</span>名さまに当たります！</h3>
+  </div>
+  <section class="section pageSmileBottom">
+    <div class="pageSmileBottom-row wrapper">
+      <h3 class="pageSmileBottom-item ttl">3月の抽選賞品【レコルト】カプセルカッター キャトル
+</h3>
+      <div class="pageSmileBottom-item ex">
+        <div>必要スマイル</div>
+        <div class="smile"><span>100</span>スマイルで１回抽選</div>
+      </div>
+      <div class="pageSmileBottom-item btn">
+        <a href="<?php echo $mypoint_url ?>/33" target="_blank" rel="nofollow"><span>マイページから<br>応募する</span></a>
+      </div>
+    </div>
+  </section>
+  
+<?php include ($inc_path."/inc/u-smile-snav.php") ?>
+</article>
+<?php include ($inc_path."/inc/return-smile.php") ?>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>
