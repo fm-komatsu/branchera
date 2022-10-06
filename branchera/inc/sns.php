@@ -1,0 +1,2 @@
+<a href="https://twitter.com/share?url=<?php echo $link_url ?>&text=<?php echo $title ?>" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow" class="tweet">ツイート</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $link_url ?>" onClick="window.open(encodeURI(decodeURI(this.href)),'sharewindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;" class="facebook">facebook</a>

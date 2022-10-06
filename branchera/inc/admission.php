@@ -1,0 +1,1 @@
+<div class="img center"><img src="<?php echo $base_url ?>/img/member/img-02.png" alt="" style="width: 259px;" ></div>
