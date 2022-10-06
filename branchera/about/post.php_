@@ -1,0 +1,72 @@
+<?php
+  include ("../function.php");
+  $title ="ブランシエラクラブポスト";
+  $meta_title ="".$title." | ".$sitename."";
+  $meta_description ="ブランシエラクラブポストページです。長谷工コーポレーションのマンションブランド「ブランシエラ」";
+  $body_class ="about";
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/about/","ブランシエラクラブとは？");
+  include ($inc_path."/inc/pan.php");
+?>
+
+
+<div id="conts">
+<article class="article">
+
+<div class="main">
+<?php include ($inc_path."/inc/about-snav.php") ?>
+</div>
+
+<div class="wrapper">
+
+<div class="section" id="post">
+
+   <h2>こんなイベントをしてほしい！あんなことを詳しく知りたい！</h2>
+    <p class="fl"><img src="<?php echo $base_url ?>/img/common/body/bran01.png" style="width:auto;" /></p>
+    <p class="fl mb tb" style="text-align:left;">ブランシエラクラブでは、会員さまのアイディアで「より快適な暮らし」を<br>今よりもっと実現するために、ご意見・ご要望を募集しています。<br>みなさまのご投稿をお待ちしております♪</p>
+    <p class="fl mb sp" style="text-align:left;">ブランシエラクラブでは、会員さまのアイディアで「より快適な暮らし」を今よりもっと実現するために、ご意見・ご要望を募集しています。<br>みなさまのご投稿をお待ちしております♪</p>
+
+    <br clear="all">
+
+    <p class="center mb4"><img src="<?php echo $base_url ?>/img/about/post/img01.png" /></p>
+
+   <h4>ブランシエラクラブ ポストご利用の流れ</h4>
+   <div class="fl w70" style="margin-right:0 !important;">      
+      <ul class="postflow">
+          <li class="mb2 pc">右のボタンをクリックしてお入りください。</li>
+          <li class="mb2 sp">下のボタンをクリックしてお入りください。</li>
+          <li class="mb2">ログイン画面に移動しますので、ご登録いただいているメールアドレスとパスワードでログインしてください。</li>
+          <li class="mb4">投稿フォームに移動しますので、ご意見ご要望をご記入いただき、送信ボタンを押してください。</li>
+      </ul>
+      <p>ありがとうございました！ </p>
+   </div>
+    <p class="fr w30 pcat" style="margin-left:0 !important;">
+      <a href="<?php echo $base_url ?>/form/form-post/" target="_blank"><img class="w100" src="<?php echo $base_url ?>/img/about/post/img02@2x.png" /></a>
+    </p>
+
+   <br clear="all">
+   <hr class="mb4">
+
+   <p class="center mb2">また、会員さまからよくいただくご質問をまとめました。<br>こちらもあわせてご覧ください。</p>
+
+   <p class="center bt blue mb4"><a href="<?php echo $link_url ?>/about/faq.php">よくあるご質問はこちら</a></p>
+
+   <p class="cap">※お寄せいただきましたご意見・ご要望は、会員さまとのコミュニケーションまたは、ブランシエラクラブの改善のためのみに活用させていただくものでその他の目的で利用することはございません。</p>
+
+</div>
+
+</div>
+
+<?php include ($inc_path."/inc/about-snav.php") ?>
+<?php include ($inc_path."/inc/u-sns.php") ?>
+</article>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

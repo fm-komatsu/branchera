@@ -1,0 +1,102 @@
+<?php
+include ("../function.php");
+$title ="新春ご入会“Wチャンス”キャンペーン！";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="ご入会で豪華賞品が当たる！ご紹介でクオカードが当たる！新春ご入会“Wチャンス”キャンペーン開催中！";
+$body_class ="cam";
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  include ($inc_path."/inc/pan.php");
+?>
+<div id="conts">
+<article class="article">
+
+<section class="section">
+    <div class="img mb4 tb" style="width:100%;"><img src="<?php echo $base_url; ?>/img/gift/campaign/img01@2x.png" alt="新春ご入会“Wチャンス”キャンペーン！" /></div>
+    <div class="img mb4 sp"><img src="<?php echo $base_url; ?>/img/gift/campaign/img01-sp.png" alt="新春ご入会“Wチャンス”キャンペーン！" /></div>
+
+   <div class="wrapper cam2">
+    <ul class="column2 mb4">
+        <li class="bt wide mb-cam"><a href="<?php echo $myentry_url ?>" target="_blank"><span>ブランシエラクラブへのご入会はこちら</span></a></li>
+        <li class="bt wide blue"><a href="<?php echo $link_url ?>/gift/"><span>会員さま特典一覧はこちら</span></a></li>
+    </ul>
+    
+    <div class="img mb4 tb"><img src="<?php echo $base_url; ?>/img/gift/campaign/img02.png" alt="賞品一覧" /><img src="<?php echo $base_url; ?>/img/gift/campaign/img03.png" alt="賞品一覧" /></div>
+    <div class="img mb4 sp"><img src="<?php echo $base_url; ?>/img/gift/campaign/img02-sp.png" alt="賞品一覧" /><img src="<?php echo $base_url; ?>/img/gift/campaign/img03-sp.png" alt="賞品一覧" /></div>
+    
+    
+    <ul class="column2 mb4">
+        <li class="bt wide mb-cam"><a href="<?php echo $myentry_url ?>" target="_blank"><span>ブランシエラクラブへのご入会はこちら</span></a></li>
+        <li class="bt wide blue"><a href="<?php echo $link_url ?>/gift/"><span>会員さま特典一覧はこちら</span></a></li>
+    </ul>
+    
+    <div class="img mb4 tb"><img src="<?php echo $base_url; ?>/img/gift/campaign/img04.png" alt="ご紹介キャンペーンの流れ" usemap="#Map" />
+      <map name="Map">
+        <area shape="rect" coords="61,484,96,503" href="<?php echo $contact_url ?>" target="_blank">
+      </map>
+    </div>
+    <div class="img mb4 sp"><img src="<?php echo $base_url; ?>/img/gift/campaign/img04-sp.png" alt="ご紹介キャンペーンの流れ" usemap="#Map2" />
+      <map name="Map2">
+        <area shape="rect" coords="51,595,96,619" href="<?php echo $contact_url ?>" target="_blank">
+      </map>
+    </div>
+    
+    <ul class="column2 mb4">
+        <li class="bt wide mb-cam"><a href="<?php echo $myentry_url ?>" target="_blank"><span>ブランシエラクラブへのご入会はこちら</span></a></li>
+        <li class="bt wide blue"><a href="<?php echo $link_url ?>/gift/"><span>会員さま特典一覧はこちら</span></a></li>
+    </ul>
+    
+    </div>
+    
+    <div class="cam-line mb4"> </div>
+    
+    <div class="wrapper cam2">
+    <b>■「新規ご入会キャンペーン」「ご家族・ご友人紹介キャンペーン」共通注意事項</b>
+    <ul class="cap mb2">
+        <li>※賞品の当選発表は、キャンペーン期間終了後、発送をもってかえさせていただきます。</li>
+        <li>※賞品の発送は、2016年3月中旬を予定しております。</li>
+        <li>※賞品の色は、写真のものと異なる場合があります。また、賞品はご指定いただけません。</li>
+        <li>※賞品の仕様・内容は変更になる場合があります。</li>
+        <li>※当選者のご連絡先に不備があった場合や転居先不明等の理由によりご連絡がつかない場合は当選権利を取り消す場合があります。</li>
+        <li>※ご応募や抽選結果のご確認についてはお答えいたしかねますのであらかじめご了承ください。</li>
+        <li>※本キャンペーンの内容は予告なしに変更する場合があります。また、事前の告知なしに本キャンペーンを中断・中止することがあります。</li>
+        <li>※賞品の使用・サービスに起因または関連して生じた一切の損害については責任を負いません。</li>
+        <li>※長谷工グループ社員および関係者の方はキャンペーン対象外となります。</li>
+    </ul>
+    <b>■「ご家族・ご友人紹介キャンペーン」注意事項</b>
+    <ul class="cap">
+        <li>※キャンペーン期間中、1名さまご紹介ごとに抽選の対象となります。</li>
+        <li>※入会者さま・紹介者さまどちらかが賞品発送前に退会された場合は、キャンペーン対象外となります。</li>
+        <li>※紹介者さまは現会員の方に限ります。</li>
+        <li>※未成年者はご入会いただけません。</li>
+    </ul>
+</div>
+
+</section>
+
+<?php include ($inc_path."/inc/u-sns.php") ?>
+</article>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<script src="<?php echo $link_url ?>/js/plugins/jquery.rwdImageMaps.min.js"></script>
+<script>
+     $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+     });
+</script>
+<script>
+var ua = navigator.userAgent;
+var chkFF = ua.indexOf("Firefox",0);
+if(chkFF>0){
+  if($("#Map area").length){
+    $("#Map area").attr("onFocus","");
+  }
+}
+</script>
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

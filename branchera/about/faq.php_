@@ -1,0 +1,186 @@
+<?php
+include ("../function.php");
+$title ="よくあるご質問";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="ブランシエラクラブのよくあるご質問です。";
+$body_class ="about"
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/about/","ブランシエラクラブとは？");
+  include ($inc_path."/inc/pan.php");
+?>
+
+<div id="conts">
+<article class="article">
+
+<div class="main">
+<?php include ($inc_path."/inc/about-snav.php") ?>
+</div>
+
+<div class="wrapper">
+
+  <div class="section" id="post">
+
+    <p class="mb4">会員さまからよくお問い合わせいただくご質問をまとめました。<br>各項目をクリックすると回答がご覧いただけます。</p>
+
+    <h2>ブランシエラクラブについてのご質問</h2>
+
+    <div class="accordion">
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>ブランシエラクラブとは何ですか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">ブランシエラクラブは、「暮らしを もっと楽しく より快適に」をテーマに、会員のみなさまお一人おひとりが望む豊かな暮らし、それをかなえるためのお手伝いをしていく、長谷工の会員サービスです。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>ブランシエラクラブのサービスを利用するには何をすればいいですか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">基本、無料でお楽しみいただけます。また、<a href="<?php echo $myentry_url ?>" target="_blank" rel="nofollow" class="a-arrow">こちら</a>から長谷工ID登録（無料）をしていただくと、会員さま限定のプレゼント企画や割引特典がご利用いただけます。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>利用するのにお金はかかりますか。</h4><span class="arr"> </span></dt>
+        <dd class="ans">一切かかりません。長谷工IDの登録も無料です。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>登録した内容の確認や変更はどうしたらよいでしょうか？</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $myinfo_url ?>" target="_blank" rel="nofollow" class="a-arrow">マイページ</a>からご確認、ご変更いただけます。</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="section" id="post">
+    <h2>長谷工ID・マイページについてのご質問</h2>
+    <div class="accordion">
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>長谷工IDとはなんですか？<span class="arr"> </span></h4></dt>
+        <dd class="ans">長谷工IDは、長谷工グループの各種サービスをご利用いただくときに使える「長谷工グループ共通のID」です。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>長谷工IDに登録すると何ができますか？<span class="arr"> </span></h4></dt>
+        <dd class="ans">長谷工IDと連携した各種サービスをご利用いただけます。詳しくは<a href="<?php  echo $IDabout_url ?>" target="_blank" class="a-arrow blank">「長谷工IDとは？」ページ</a>をご確認ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>マイページにログインできません。<span class="arr"> </span></h4></dt>
+        <dd class="ans">メールアドレスやパスワードが正しく入力されていない可能性がございます。
+          <br>入力内容について、全角・半角、大文字・小文字など間違っていないか再度ご確認ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>登録したメールアドレスを忘れてしまいました。</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $contact_url ?>" target="_blank" class="a-arrow blank">こちら</a>からお問い合わせください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>パスワードを忘れてしまいました。</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $mybase_url ?>" target="_blank" rel="nofollow" class="a-arrow">ログインページ</a>の「パスワードを忘れた方はこちら」から、パスワードを再設定してください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>パスワードを設定した記憶がありません。</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $contact_url ?>" target="_blank" class="a-arrow blank">お問い合せフォーム</a>からお問い合わせください。
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="section" id="post">
+    <h2>住まいレージ・スマイルについてのご質問</h2>
+    <div class="accordion">
+      <dl>
+        <dt class="ques" id="Q1"><h4><span class="icon">Q</span>住まいレージとはなんですか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">長谷工IDをご登録いただいた方にご提供するポイントサービスです。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q2"><h4><span class="icon">Q</span>スマイルとはなんですか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">対象サービスのご利用に応じて進呈するポイントのことです。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q3"><h4><span class="icon">Q</span>スマイルにはどんな使い方がありますか？</h4><span class="arr"> </span></dt>
+          <dd class="ans">長谷工グループのサービスや、素敵な商品と交換することが可能です。詳しくは<a href="<?php echo $base_url ?>/smile/about.php" class="a-arrow">こちら</a>をご覧ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q4"><h4><span class="icon">Q</span>スマイルはどうやったらたまりますか？</h4><span class="arr"> </span></dt>
+          <dd class="ans">長谷工グループのサービスを利用したり、ブランシエラクラブのコンテンツをお楽しみいただくことで貯まります。詳しくは<a href="<?php echo $base_url ?>/smile/about.php" class="a-arrow">こちら</a>をご覧ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q5"><h4><span class="icon">Q</span>ためたスマイルはどこで確認できますか？</h4><span class="arr"> </span></dt>
+          <dd class="ans"><a href="<?php echo $mytop_url ?>" target="_blank" rel="nofollow" class="a-arrow">マイページ</a>から確認できます。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q6"><h4><span class="icon">Q</span>スマイルの獲得や利用の履歴は確認できますか？</h4><span class="arr"> </span></dt>
+          <dd class="ans"><a href="<?php echo $myhistory_url ?>" target="_blank" rel="nofollow" class="a-arrow">マイページ</a>のスマイル履歴より確認できます。</dd>
+      </dl>
+
+      <dl>
+        <dt class="ques" id="Q7"><h4><span class="icon">Q</span>商品やサービスに申込みをした後、スマイルはいつ消費されますか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">商品交換・抽選応募は注文後すぐに消費されます。各種サービスに関しては<a href="<?php echo $contact_url ?>" target="_blank" class="a-arrow blank" >お問い合わせ</a>ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q8"><h4><span class="icon">Q</span>スマイルが足りない場合は、どうなりますか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">スマイルが足りない場合はサービスのご利用や商品への交換はできません。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q9"><h4><span class="icon">Q</span>スマイルは換金できますか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">住まいレージはポイントサービスのため、換金はできません。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q10"><h4><span class="icon">Q</span>スマイルに有効期限はありますか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">スマイルの有効期限は、獲得した年度の翌々々年度末日までです。<br>（例：2017年4月1日から2018年3月31日までの期間に獲得したスマイルの有効期限は、翌々々年度末日である2021年3月31日までとなります）</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q11"><h4><span class="icon">Q</span>スマイルが付与されていないようなのですが。</h4><span class="arr"> </span></dt>
+          <dd class="ans">付与対象となるサービスによっては、付与までに時間がかかる場合もございます。詳しくは<a href="<?php echo $base_url ?>/smile/about.php#useDetail" class="a-arrow">こちら</a>をご確認ください。</dd>
+      </dl>
+      <dl>
+        <dt class="ques" id="Q12"><h4><span class="icon">Q</span>スマイルを商品等に交換した後で取り消すことはできますか？</h4><span class="arr"> </span></dt>
+        <dd class="ans">商品等を申し込んだ後で、お申し込みの取り消し・変更はできません。</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="section" id="post">
+    <h2>その他のご質問</h2>
+    <div class="accordion">
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>携帯・スマートフォンにメールが届きません。</h4><span class="arr"> </span></dt>
+        <dd class="ans">フリーメール（Gmail、Yahoo!メール、hotmailなど）やご利用のメール環境によっては、お送りするメールが迷惑メール扱いになる場合がございます。また、迷惑メール拒否設定などをされている場合、メールが届かない場合があります。「haseko.co.jp」ドメイン指定受信ができるよう設定をお願いします。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>長谷工IDを登録した記憶がありません。</h4><span class="arr"> </span></dt>
+        <dd class="ans">長谷工IDはサイト内からだけでなく、さまざまな媒体よりご登録いただけるようになっております。恐れ入りますが、ご登録経路の調査はいたしかねますのでご了承ください。なお、登録解除を希望される場合は、お手数ですが<a href="<?php echo $withdrawal_url; ?>" target="_blank" rel="nofollow" class="a-arrow">こちら</a>よりお手続きをお願いいたします。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>メールの配信を停止するにはどうしたらよいでしょうか？</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $myinfo_url ?>" target="_blank" rel="nofollow" class="a-arrow">マイページの「登録情報の確認・変更」</a>からメール配信停止のお手続きをお願いいたします。</dd>
+      </dl>
+      <dl>
+        <dt class="ques"><h4><span class="icon">Q</span>登録解除するにはどうしたらよいでしょうか？</h4><span class="arr"> </span></dt>
+        <dd class="ans"><a href="<?php echo $withdrawal_url; ?>" target="_blank" rel="nofollow" class="a-arrow">こちら</a>から登録解除のお手続きをお願いいたします。</dd>
+      </dl>
+    </div>
+  </div>
+
+</div>
+
+<?php include ($inc_path."/inc/about-snav.php") ?>
+<?php include ($inc_path."/inc/u-sns.php") ?>
+</article>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<script>
+$(function() {
+  $(".accordion").each(function() {
+    var accordion = $(this);
+    $(this).find(".ques").click(function() {
+        var targetContentWrap = $(this).next(".ans");
+        if ( targetContentWrap.css("display") === "none" ) {
+            accordion.find(".ans").slideUp("fast");
+            accordion.find(".ques.open").removeClass("open");
+        }
+        targetContentWrap.slideToggle("fast");
+        $(this).toggleClass("open");
+    });
+  });
+});
+</script>
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

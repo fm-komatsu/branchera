@@ -1,0 +1,5 @@
+Satisfy Any
+Order deny,allow
+Deny from all
+Allow from brc.aws-testserver.com
+Allow from www.haseko.co.jp

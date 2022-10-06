@@ -1,0 +1,88 @@
+<?php
+//base
+include ("../function.php");
+$pageTtl = 'ブランシエラブランド';
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+$metaDesc = "ブランシエラマンションシリーズのご紹介ページです。長谷工コーポレーションのマンションブランド「ブランシエラ」";
+$metaThum = $img_url."/thum/home@2x.png";
+
+//bodyClass
+$body_class ="page-about about-brand";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+	<article class="main__row">
+		<?php
+		$panAry[] = array("/about/","ブランシエラクラブとは？");
+		include ($inc_path."/lib/inc/pan.php");
+		?>
+		<nav class="main__snav snav">
+			<?php include ($inc_path."/lib/inc/page/_about/__snav.php") ?>
+		</nav>
+
+		<section class="main__item mb10" id="brand">
+			<h3>「ブランシエラ」とは、長谷工のマンションブランドです。</h3>
+			<div class="logo">ブランシエラクラブ</div>
+			<p>“ブランシエラ”とは、マンション施工実績No.1<sup>※1</sup>の長谷工が贈る、<strong>先進・先端</strong>という意味のマンションブランド。<br>その名の通り、お客さまの声を採り入れ、<strong>数々の先進技術を開発</strong>してきました。これからも、次の住み心地のために、住まいのカタチを創造し続けます。<br><strong>より新しい技術</strong>で、<strong>より良いマンション</strong>を。
+				住まう方がいつまでも心地よい日々を重ねられる<strong>安全・安心・快適</strong>な住まいづくりを目指しています。</p>
+		</section>
+
+		<section class="main__item" id="series">
+
+			<h3>ブランシエラシリーズマンション</h3>
+			<p class="ex">安全・安心・快適な住まいのための先進技術を取り入れた、「ブランシエラ」シリーズの販売中マンションをご紹介します。</p>
+
+			<h4 class="u-ttl__m">首都圏</h4>
+
+			<ul class="flex u-list__ul_flex mb3">
+				<li class="w33">
+					<a href="http://www.haseko-sumai.com/syuto/sinki/komaba146/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','komaba146');" target="_blank" rel="nofollow">
+						<img src="<?php echo $img_url ?>/about/brand/series-09@2x.png" alt="埼玉県さいたま市浦和区 ブランシエラ浦和駒場"
+						class="u-img__max">
+					</a>
+					<p class="mb2">JR京浜東北線「浦和」駅徒歩18分「東京」駅へ24分。緑豊かな邸宅街に146邸誕生。</p>
+					<a href="http://www.haseko-sumai.com/syuto/sinki/komaba146/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','komaba146');" target="_blank" rel="nofollow"  class="u-btn_l">公式サイトはこちら</a>
+				</li>
+
+			</ul>
+
+			<h4 class="u-ttl__m">その他のエリア</h4>
+
+			<ul class="flex u-list__ul_flex mb3">
+				<li class="w33">
+					<a href="http://www.takamiya5.jp/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','takamiya5');" target="_blank" rel="nofollow">
+						<img src="<?php echo $img_url ?>/about/brand/bc-takamiya@2x.png" alt="福岡県福岡市南区高宮五丁目 ブランシエラ高宮五丁目"
+						class="u-img__max">
+					</a>
+					<p>西鉄天神大牟田線「高宮」駅から徒歩3分。ブランシエラ高宮始動。</p>
+					<div class="bt site blue"><a href="http://www.takamiya5.jp/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','takamiya5');" target="_blank" rel="nofollow"  class="u-btn_l">公式サイトはこちら</a></div>
+				</li>
+				<li class="w33">
+					<a href="http://www.haseko-sumai.com/syuto/sinki/iwaki/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','iwaki');" target="_blank" rel="nofollow">
+						<img src="<?php echo $img_url ?>/about/brand/bc-iwakitaira@2x.png" alt="福島県いわき市平1町目のマンション ブランシエラいわき平一丁目"
+						class="u-img__max">
+					</a>
+					<p>ついに出逢えた平一町目、都市と緑に寄り添う駅近レジデンス。</p>
+					<div class="bt site blue"><a href="http://www.haseko-sumai.com/syuto/sinki/iwaki/" onclick="vars=s_gi('dvjpnbrancheraclub'); s.tl(true,'o','iwaki');" target="_blank" rel="nofollow"  class="u-btn_l">公式サイトはこちら</a></div>
+				</li>
+			</ul>
+
+	</section>
+
+	<nav class="main__snav snav mb0">
+		<?php include ($inc_path."/lib/inc/page/_about/__snav.php") ?>
+	</nav>
+	<small class="u-small">※1.長谷工コーポレーションのマンション施工累計実績は<a href="http://www.haseko.co.jp/hc/what/works/results/" target="_blank" rel="nofollow" class="u-icon">こちら</a></small>
+
+</article>
+</main>
+
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>

@@ -1,0 +1,9 @@
+Satisfy Any
+Order deny,allow
+Deny from all
+Allow from brc.aws-testserver.com
+Allow from branchera.aws-testserver.com
+Allow from stage.haseko.co.jp
+Allow from www.haseko.co.jp
+Allow from www1.haseko.co.jp
+Allow from stage.ism.life

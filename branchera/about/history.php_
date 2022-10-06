@@ -1,0 +1,71 @@
+<?php
+//base
+include ("../function.php");
+$pageTtl = 'ブランシエラの歴史';
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+$metaDesc = siteDesc($pageTtl);
+$metaThum = $img_url."/thum/home@2x.png";
+
+//bodyClass
+$body_class ="page-about about-history";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+	<article class="main__row">
+		<?php
+		$panAry[] = array("/about/","ブランシエラクラブとは？");
+		include ($inc_path."/lib/inc/pan.php");
+		?>
+		<nav class="main__snav snav">
+			<?php include ($inc_path."/lib/inc/page/_about/__snav.php") ?>
+		</nav>
+
+		<section class="main__item mb4" id="history" style="max-width:908px;margin:0 auto;">
+			<div class="u-only__pc">
+				<img
+				data-src="../lib/img/about/history/his01.png"
+				data-retina="../lib/img/about/history/his01@2x.png"
+				width="908"
+				height="834"
+				class="u-img__max">
+				<img
+				data-src="../lib/img/about/history/his02.png"
+				data-retina="../lib/img/about/history/his02@2x.png"
+				width="908"
+				height="1469"
+				class="u-img__max">
+				<img
+				data-src="../lib/img/about/history/his03.png"
+				data-retina="../lib/img/about/history/his03@2x.png"
+				width="908"
+				height="385"
+				class="u-img__max">
+			</div>
+			<div class="u-only__sp" style="max-width:430px;margin:0 auto;">
+				<img data-src="../lib/img/about/history/his-sp01.png" class="u-img__max">
+				<img data-src="../lib/img/about/history/his-sp02.png" class="u-img__max">
+				<img data-src="../lib/img/about/history/his-sp03.png" class="u-img__max">
+				<img data-src="../lib/img/about/history/his-sp04.png" class="u-img__max">
+				<img data-src="../lib/img/about/history/his-sp05.png" class="u-img__max">
+				<img data-src="../lib/img/about/history/his-sp06.png" class="u-img__max">
+			</div>
+		</section>
+
+
+		<nav class="main__snav snav mb0">
+			<?php include ($inc_path."/lib/inc/page/_about/__snav.php") ?>
+		</nav>
+		<small class="u-small">※1.長谷工コーポレーションのマンション施工累計実績は<a href="http://www.haseko.co.jp/hc/what/works/results/" target="_blank" rel="nofollow" class="u-icon">こちら</a></small>
+
+	</article>
+</main>
+
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>

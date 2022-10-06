@@ -1,0 +1,434 @@
+[
+	{
+		"identification_id": "MitMagComicTidy04D20200923",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidy06D20200923",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidy11D20200923",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol01D20201104",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol02D20201104",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol07D20201104",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipe12D20201201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipe13D20201201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipe22D20201201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagOnlineAdviserD20210106",
+		"pnt_value": "30",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSeniorNippori2D20210106",
+		"pnt_value": "30",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagKasikosh2D20210106",
+		"pnt_value": "30",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic119D20210201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic112D20210201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic94D20210201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagKotusbanLesson01D20210301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagKotusbanLesson02D20210301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagKotusbanLesson03D20210301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol01ReportD20210401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol05ReportD20210401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol07ReportD20210401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic08D20210507",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic40D20210507",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic03D20210507",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol38D20210601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol80D20210601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol84D20210601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol05D20210701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol08D20210701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagWVol10D20210701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidyEx02D20210802",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidyEx03D20210802",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidyEx04D20210802",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagOnlineAdviserD20210901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRentD20210901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagReformD20210901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic105D20211001",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic28D20211001",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTecnic56D20211001",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol04ReportD20211101",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol09ReportD20211101",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol12ReportD20211101",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos01D20211201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos03D20211201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos04D20211201",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol68D20220106",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol80D20220106",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol64D20220106",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidy03D20220203",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidy05D20220203",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidy06D20220203",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicRentD20220301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicKasikoshD20220301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicReformD20220301",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos05D20220401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos06D20220401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagSumaiSos03D20220401",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCleaning01D20220502",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCleaning02D20220502",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCleaning03D20220502",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol02ReportD20220601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol06ReportD20220601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagCafeVol12ReportD20220601",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol61D2022701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol84D20220701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagAlsokVol78D20220701",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic52D20220801",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic95D20220801",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagRecipeTechnic96D20220801",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": false
+	},
+	{
+		"identification_id": "MitMagComicTidyEx01D20220901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": true
+	},
+	{
+		"identification_id": "MitMagComicTidy01D20220901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": true
+	},
+	{
+		"identification_id": "MitMagComicTidy05D20220901",
+		"pnt_value": "10",
+		"reason": "見つけた！ポイント付与",
+		"active": true
+	}
+]
