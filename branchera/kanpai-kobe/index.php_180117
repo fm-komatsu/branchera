@@ -1,0 +1,134 @@
+<?php
+include ("../function.php");
+$title ="カンパイKOBE抽選結果発表";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="カンパイKOBE抽選結果発表";
+$body_class ="id"
+?>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title><?php echo $meta_title ?></title>
+<meta name="description" content="<?php echo $meta_description; ?>">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<script src="<?php echo $base_url ?>/js/modernizr.js"></script>
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/common.css">
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/base.css">
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/id-common.css">
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/page.css">
+
+<link rel="shortcut icon" href="<?php echo $base_url ?>/img/favicon.ico">
+
+<!-- OGP -->
+<meta property="og:title" content="<?php echo $title ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="<?php echo $meta_description; ?>" />
+<meta property="og:url" content="<?php echo $_SERVER[" REQUEST_URI "]; ?>" />
+<meta property="og:site_name" content="<?php echo $sitename ?>" />
+<!-- //OGP -->
+
+</head>
+
+<body class="<?php echo $body_class." ".$mydir." ".$filename ?>">
+<?php include ($inc_path."/inc/ie10.php") ?>
+<div id="all">
+
+<header class="header">
+
+  <div class="headerlogo2">
+    <a href="../index.php"  target="_blank"></a>
+  </div>
+
+  <div class="headerlogo">
+    <a href="<?php echo $hc_url; ?>" class="headerlogo-item" target="_blank">長谷工コーポレーション</a>
+  </div>
+
+</header>
+
+
+<main id="main">
+<article id="conts">
+
+
+<section class="mainArea" id="sec-main">
+
+<div class="kobeHead">
+<div class="kHeadInner flex between">
+  <div class="w20 m-slideUp w35_sp center mb1_sp"><img src="<?php echo $base_url ?>/img/kanpai-kobe/klogo@2x.png"></div>
+  <div class="w80"><img src="<?php echo $base_url ?>/img/kanpai-kobe/main@2x.png"></div>
+</div>
+</div>
+<div class="wrap mb8">
+<div class="tousen m-slideUp">  
+  <div class="ttl"><div class="w55 center"><img src="<?php echo $base_url ?>/img/kanpai-kobe/ttl@2x.png"></div></div>
+  <div class="tousenInner">
+    <div class="w80 center"><img src="<?php echo $base_url ?>/img/kanpai-kobe/num@2x.png"></div>
+  </div>
+</div>
+
+<p class="kTxt m-slideUp">ご当選された方には、後日、担当者よりメールまたはお電話にて改めて当選のご連絡をさせていただきます。<br>ご不明な点がある、または8月末までに連絡がない場合は、下記お問い合わせフォーム、またはフリーダイヤルよりご連絡ください。</p>
+<p class="bt w50 center wide m-slideUp"><a href="<?php echo $base_url ?>/form/form-contact/" target="_blank">お問い合わせはこちらから</a></p>
+<p style="font-weight: normal;" class="m-slideUp">株式会社長谷工コーポレーション<br>長谷工グループ「ブランシエラクラブ」事務局<br>
+TEL：0120-432-670　<br>
+電話受付時間：8：00～22：00（無休）</p>
+</div>
+</section>
+<hr>
+
+<section class="section" id="sec-main">
+
+<div class="wrapper mb4 mt3">
+  <div class="mb4 w80 center m-slideUp">
+    <img src="<?php echo $base_url ?>/img/kanpai-kobe/img04@2x.jpg">
+  </div>
+  <p class="bt w50 center wide m-slideUp"><a href="<?php echo $myentry_url ?>" target="_blank">新規ご登録はこちらから</a></p>
+</div>
+<div class="wrapper mb4">
+<h2 style="text-align: left" class="m-slideUp">長谷工ID登録でご利用いただける<br>長谷工グループ ブランシエラクラブのご案内</h2>
+  <div class="mb2 m-slideUp">
+    <img src="<?php echo $base_url ?>/img/kanpai-kobe/img01@2x.jpg">
+  </div>
+  <div class="mb2 m-slideUp">
+    <img src="<?php echo $base_url ?>/img/kanpai-kobe/img02@2x.jpg">
+  </div>
+  <div class="mb4 m-slideUp">
+    <img src="<?php echo $base_url ?>/img/kanpai-kobe/img03@2x.jpg">
+  </div>
+
+  <p class="bt w50 center wide m-slideUp"><a href="<?php echo $myentry_url ?>" target="_blank">新規ご登録はこちらから</a></p>
+</div>
+
+
+
+</section>
+
+</article>
+</main>
+
+<fotter id="footer">
+  <nav class="footNav">
+    <ul class="footNav-row">
+      <li class="footNav-item"><a href="<?php echo $base_url ?>/rules/id.php" class="a-arrow" target="_blank"><span>長谷工ID規約</span></a></li>
+      <li class="footNav-item"><a href="http://www.haseko.co.jp/hc/privacy.html" class="a-arrow" target="_blank" rel="nofollow"><span>個人情報保護方針</span></a></li>
+      <li class="footNav-item"><a href="http://www.haseko.co.jp/hc/social.html" class="a-arrow" target="_blank" rel="nofollow"><span>ソーシャルメディアガイドライン</span></a></li>
+      <li class="footNav-item"><a href="<?php echo $base_url ?>/form/form-contact/" class="a-arrow" target="_blank"><span>お問い合わせ</span></a></li>
+      <li class="footNav-item"><a href="<?php echo $base_url ?>" class="a-arrow" target="_blank"><span>運営</span></a></li>
+    </ul>
+  </nav>
+
+  <address>
+  <div class="copyright">© HASEKO GROUP BRANCHERA CLUB. All Rights Reserved.</div>
+</address>
+
+</fotter>
+
+</div>
+
+<script src="<?php echo $base_url ?>/js/common.js"></script>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>

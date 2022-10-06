@@ -1,0 +1,7 @@
+<header id="header">
+  <div class="Header">
+    <h1 class="HeaderLogo"><a href="<?php echo $brc_url ?>" target="_blank"><?php echo $meta_title ?></a></h1>
+  </div>
+</header>
+
+
