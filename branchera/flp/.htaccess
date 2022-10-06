@@ -1,0 +1,7 @@
+<Files ~ "\.(php|pem)$">
+deny from all
+</Files>
+
+<Files ~ "flp_redirect.php">
+allow from all
+</Files>
