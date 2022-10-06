@@ -180,7 +180,6 @@ include($inc_path . "/lib/inc/header.php");
 				<div class="sitemap-list__item">
 					<h4 class="u-ttl__m"><a href="<?php echo $base_url; ?>/enquete">アンケート</a></h4>
 					<ul class="u-list__ul">
-						<li><a href="<?php echo $base_url ?>/enquete/article/cafe-vol43.php">いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol22-report.php">第22回アンケートレポート「収納に関するアンケート」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol21-report.php">第21回アンケートレポート「満足度・意識調査2022」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol20-report.php">第20回アンケートレポート「お住まいに関するアンケート」</a></li>

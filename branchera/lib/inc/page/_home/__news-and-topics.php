@@ -161,15 +161,15 @@
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // いま暮らアンケート
-				$cntId = '11087';
-				$noticeLabel = '';
-				$category = 'アンケート';
-				$cntTtl = 'いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」';
-				$predicate = '募集中です！';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_imakura_enq43';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '11087';
+				// $noticeLabel = '';
+				// $category = 'アンケート';
+				// $cntTtl = 'いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」';
+				// $predicate = '募集中です！';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_imakura_enq43';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // お掃除コンテンツ
 				$cntId = '27022';
@@ -236,15 +236,15 @@
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 何でか、部屋が片付かない。
-				// $cntId = '12006';
-				// $noticeLabel = '';
-				// $category = 'マガジン';
-				// $cntTtl = '「何でか、部屋が片付かない。『第6話　洋服のたたみ方のコツはラクラクシカク！？』」';
-				// $predicate = '公開中です。';
-				// $news_imgUrl = '';
-				// $news_cntUrl = '';
-				// $dataGaClick = 'news_topics_comic_06';
-				// include($inc_path . "/lib/inc/page/_home/__news.php");
+				$cntId = '12011';
+				$noticeLabel = '';
+				$category = 'マガジン';
+				$cntTtl = '「何でか、部屋が片付かない。『第11話　扇風機はどこに収納？家電の収納方法を伝授！』」';
+				$predicate = '公開中です。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_comic_11';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 交換商品
 				// $cntId = '8004';

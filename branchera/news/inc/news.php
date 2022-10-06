@@ -8,7 +8,7 @@
   <dt>2022年9月28日</dt>
   <dd><a href="<?php echo $base_url ?>/event/article/rashiku-monitor.php">【キャンペーン】「《限定１名さま》ご自宅のキッチンにジャストフィット！「RASHIKU」モニターキャンペーン」募集中です。詳しくはこちら</a></dd>
   <dt>2022年9月28日</dt>
-  <dd><a href="<?php echo $base_url ?>/enquete/article/cafe-vol43.php">【アンケート】【50スマイルプレゼント】いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」募集中です。詳しくはこちら</a></dd>
+  <dd>【アンケート】【50スマイルプレゼント】いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」【募集は終了しました】</dd>
   <dt>2022年9月28日</dt>
   <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning22.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『窓の結露対策、どうすればよい？カビの予防方法もご紹介』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年9月21日</dt>

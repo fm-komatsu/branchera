@@ -12,7 +12,7 @@ $metaThum = $img_url . "/thum/home@2x.png";
 $body_class = "page-list";
 
 //imakura-cafe check
-$imakuraCheck = true;
+$imakuraCheck = false;
 
 //enqCheck check
 $enqCheck = false;

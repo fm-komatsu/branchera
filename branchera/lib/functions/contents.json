@@ -6074,9 +6074,9 @@
 		"category_list": "imakura-cafe",
 		"url": "/enquete/article/cafe-vol43.php",
 		"image": "cafe-50point.png",
-		"icon-img": "new",
+		"icon-img": "end",
 		"blank": "",
-		"priority": "",
+		"priority": -1,
 		"tag1": "アンケート",
 		"tag2": "NULL",
 		"tag3": "NULL"
