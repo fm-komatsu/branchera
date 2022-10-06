@@ -1,0 +1,11 @@
+<?php
+  include ("../function.php");
+
+  if (!$ssoFlag == 1) {
+    header("Location: https://www.haseko.co.jp/branchera/http404");
+    exit;
+  }else{
+		header("Location: https://www.haseko.co.jp/branchera/smile/");
+		exit;
+	};
+?>
