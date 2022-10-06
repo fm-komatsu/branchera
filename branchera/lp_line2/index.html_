@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZHC3W');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<title>株式会社長谷工コーポレーション</title>
+<meta name="description" 
+content="株式会社長谷工コーポレーションが２０１９GW期間中に開催するMRご来場LINEポイントプレゼントのキャンペーンサイトです。">
+<meta name="keywords" content="長谷工,HASEKO,マンション,">
+<meta name="viewport" content="width=640">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="css/import.css" media="all">
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZHC3W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="Container">
+
+    <!--▼▼▼MainVisual▼▼▼-->
+    <div id="MainVisual">
+    	<h1><img src="images/mainvisual.png" alt="モデルルームご来場キャンペーン GW中に対象モデルルームへのご来場者様にLINE POINT 2000Pプレゼント! キャンペーン期間:4月26日(金)～5月6日(月)"></h1>
+    </div><!--/#MainVisual-->
+    <!--▲▲▲MainVisual▲▲▲-->
+
+    <!--▼▼▼Contents▼▼▼-->
+    <div id="Contents">
+    
+		<section id="campaign">
+        	<h2><img src="images/campaign_ttl.png" alt="キャンペーン詳細"></h2>
+            <div id="campaignCol">
+            	<p><img src="images/campaign_flow.png" alt="STEP1:「LINE来場キャンペーンを見た」と、スタッフに伝える。STEP2:アンケートに回答し、スタッフにアンケート用紙を渡す。STEP3:スタッフから案内されるLINEアカウントとの友だち登録をする。STEP4:届いたメッセージ画面をスタッフに提示。STEP5:５月下旬に、アンケートにご記載いただいたメールアドレス宛に、ポイント受取URLが届きます。 LINEポイント2000PGET!"></p>
+            </div>
+        </section><!--/#campaign-->
+        
+        <section id="modelroom">
+        	<h2><img src="images/modelroom_ttl.png" alt="対象モデルルーム"></h2>
+            <div id="modelroomCol">
+            	<div class="anchor">
+                	<ul>
+                    <li><img src="images/modelroom_anchor_kanto.png" alt="関東"></li>
+                    <li><img src="images/modelroom_anchor_kansai.png" alt="関西"></li>
+                    <li><img src="images/modelroom_anchor_kyushu.png" alt="九州"></li>
+                    <li><img src="images/modelroom_anchor_tohoku.png" alt="東北"></li>
+                    </ul>
+                    <ul>
+                    <li><a href="#tokyo"><img src="images/modelroom_anchor_tokyo.png" alt="東京"></a></li>
+                    <li><a href="#kanagawa"><img src="images/modelroom_anchor_kanagawa.png" alt="神奈川"></a></li>
+                    <li><a href="#chiba"><img src="images/modelroom_anchor_chiba.png" alt="千葉"></a></li>
+                    <li><a href="#osaka"><img src="images/modelroom_anchor_osaka.png" alt="大阪"></a></li>
+                    <li><a href="#hyogo"><img src="images/modelroom_anchor_hyogo.png" alt="兵庫"></a></li>
+                    <li><a href="#fukuoka"><img src="images/modelroom_anchor_fukuoka.png" alt="福岡"></a></li>
+                    <li><a href="#nagasaki"><img src="images/modelroom_anchor_nagasaki.png" alt="長崎"></a></li>
+                    <li><a href="#fukushima"><img src="images/modelroom_anchor_fukushima.png" alt="福島"></a></li>
+                    </ul>
+                </div>
+                
+            	<div class="modelroomBox" id="tokyo">
+                	<dl>
+                    <dt><img src="images/modelroom_tokyo_01.jpg" alt="TOKYO キラリスナ PROJECT[交通]東京メトロ東西線「南砂町」駅徒歩13分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/kirarisuna/?utm_source=sgr-sumai&utm_campaign=kirarisuna" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_tokyo_02.jpg" alt="ルネ八王子トレーシアT[交通]JR「八王子」駅徒歩10分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/r-hachioji86/?utm_source=sgr-sumai&utm_medium=referral&utm_campaign=r-hachioji86" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_tokyo_03.jpg" alt="ルネ世田谷千歳台AYUMIE[交通]京王線「千歳烏山」駅徒歩17分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/r-chitosedai/?utm_source=sgr-sumai&utm_campaign=r-chitosedai" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_tokyo_04.jpg" alt="アデニウム亀戸[交通]東武亀戸線「小村井」駅徒歩2分"></dt>
+                    <dd><p class="btn"><a href="https://adenium.jp/ms/ekichika2/?utm_source=adenium&utm_medium=webportal&utm_campaign=ekichika&utm_content=top" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox" id="kanagawa">
+                	<dl>
+                    <dt><img src="images/modelroom_kanagawa_01.jpg" alt="ルネ本厚木[交通]小田急線「本厚木」駅徒歩6分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/r-atsugi222/?utm_source=sgr-sumai&utm_campaign=r-atsugi222" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_kanagawa_02.jpg" alt="アデニウムたまプラーザ[交通]東急田園都市線「たまプラーザ」駅バス8分、「荏子田二丁目」バス停下車徒歩2分"></dt>
+                    <dd><p class="btn"><a href="https://adenium.jp/ms/tamaplaza/?utm_source=adenium&utm_medium=webportal&utm_campaign=tamaplaza&utm_content=top" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox" id="chiba">
+                	<dl>
+                    <dt><img src="images/modelroom_chiba_01.jpg" alt="アデニウム上麻生 ザ・レジデンス[交通]小田急線「柿生」駅徒歩9分"></dt>
+                    <dd><p class="btn"><a href="https://adenium.jp/ms/kamiasao/?utm_source=adenium&utm_medium=webportal&utm_campaign=kamiasao&utm_content=top" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_chiba_02.jpg" alt="ルネ常盤平さくら通り[交通]新京成線「常盤平」駅徒歩8分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/r-tokiwadaira/?utm_source=sgr-sumai&utm_campaign=r-tokiwadaira" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox" id="osaka">
+                	<dl>
+                    <dt><img src="images/modelroom_osaka_01.jpg" alt="ルネ加島駅前 パークフロント[交通]JR東西線「加島」駅徒歩1分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/r-kashima98/?utm_source=sgr-sumai&utm_campaign=r-kashima98" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_osaka_02.jpg" alt="ルネ西宮仁川[交通]阪急今津線「仁川」駅徒歩16分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/nigawa236/?utm_source=sgr-sumai&utm_campaign=nigawa236" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox" id="hyogo">
+                	<dl id="fukuoka">
+                    <dt><img src="images/modelroom_hyogo_01.jpg" alt="シーフォレスト神戸 ルネ 六甲アイランドCITY[交通]神戸新交通六甲アイランド線「マリンパーク」駅徒歩3分"></dt>
+                    <dd><p class="btn"><a href="https://www.sgr-sumai.jp/mansion/kobe-rokuai268/gallery/" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_fukuoka_01.jpg" alt="ブランシエラ赤坂はなみずき通り[交通]地下鉄空港線「赤坂」駅徒歩13分"></dt>
+                    <dd><p class="btn"><a href="https://www.haseko-sumai.com/syuto/sinki/akasaka57/" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox">
+                	<dl>
+                    <dt><img src="images/modelroom_fukuoka_02.jpg" alt="MJR千早ブランシエラ[交通]西鉄線「香椎宮」駅徒歩1分"></dt>
+                    <dd><p class="btn"><a href="http://www.jrkyushu.co.jp/mjr/chihaya/index.html" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_fukuoka_03.jpg" alt="アーバンパレス香椎照葉[交通]西鉄バス「アイランドシティ中央公園前」バス停徒歩2分"></dt>
+                    <dd><p class="btn"><a href="http://island.0152.jp/#page1" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>
+                <div class="modelroomBox" id="nagasaki">
+                	<dl id="fukushima">
+                    <dt><img src="images/modelroom_nagasaki_01.jpg" alt="ブランシエラ幸町リバーサイド[交通]JR「長崎」駅徒歩10分"></dt>
+                    <dd><p class="btn"><a href="https://www.haseko-sumai.com/syuto/sinki/nagasaki44/" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                    <dl>
+                    <dt><img src="images/modelroom_fukushima_01.jpg" alt="ブランシエラいわき平一町目[交通]JR常磐線・磐越東線「いわき」駅徒歩7分"></dt>
+                    <dd><p class="btn"><a href="http://www.haseko-sumai.com/syuto/sinki/iwaki/" target="_blank"><img src="images/modelroom_btn.png" alt="詳しくはこちら"></a></p></dd>
+                    </dl>
+                </div>            
+            </div>
+        </section><!--/#modelroom-->
+        
+        <section id="notes">
+        	<h2><img src="images/notes_ttl.png" alt="注意事項"></h2>
+            <div id="notesCol">
+            	<ul>
+                <li>・ マンション購入を検討する20歳以上の方に限ります。</li> 
+                <li>・ 対象物件へ初めてご来場される方が対象となります。 </li>
+                <li>・ 事前に、モデルルームへのご来場の予約の上でお越しいただき、ご来場アンケートをご記入いただいた方に限ります。 </li>
+                <li>・ ご予約並びにご来場の際、販売担当者に、「ＬＩＮＥ来場キャンペーンを見た」とお伝えください。 </li>
+                <li>・ LINEポイントの進呈は、１物件あたり同一世帯１組様１回まで、且つ１LINEアカウントにつきキャンペーン期間中１回までとなります。 </li>
+                <li>・ その他実施しているキャンペーン・プレゼントと重複する場合は、どちらか選択いただく場合がございます。</li> 
+                <li>・ 応募件数が、既定の上限を超えた場合、期間内に予告なく本キャンペーンを終了する場合があります。</li> 
+                <li>・ 参加には、スマートフォンのインターネット接続環境が必要です。 </li>
+                <li>・ 不正または条件を満たしていないと判断された場合は、特典を受け取る権利を取り消す場合があります。また、その理由は開示いたしません。 </li>
+                <li>・ 都合により、本キャンペーンを予告なく変更・終了する場合があります。その際、当社は本キャンペーンの変更・終了などにより生じた損害その他一切の責を負いません。 </li>
+                <li>・ キャンペーンにご応募された場合、応募上の注意事項にご同意いただいたものとみなします。</li>
+				</ul>
+
+            </div>
+        </section><!--/#notes-->      
+
+    </div><!-- / #Contents -->
+    <!--▲▲▲Contents▲▲▲-->
+
+	<footer>
+		<div class="footer_inner">
+			<p class="copy">Copyright © HASEKO Corporation. All Rights Reserved.</p>
+		</div><!-- /.footer_inner -->
+		<p id="pageTop"><a href="#top"></a></p>
+	</footer>  
+
+</div><!-- /#Container -->
+
+<!-- 共通JS // -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

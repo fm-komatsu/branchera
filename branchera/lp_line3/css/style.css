@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+	background: #fff;
+	color: #000;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+a:link, a:active, a:visited {
+	text-decoration: underline;
+}
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+.txt_indent {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+	height: 0;
+}
+#main {
+}
+#campaign {
+}
+#reform {
+	position: relative;
+}
+#reform .reform_box {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+#reform .reform_inner {
+	padding: 0 20px;
+}
+#reform .reform_inner a img {
+	width: 50%;
+	float: left;
+}
+#notion {
+	background:#f3f3f3;
+}
+#notion ul {
+	width: 90.6%;
+	margin: 0 auto;
+	padding: 1.5em 0;
+	text-align: left;
+	font-size: 14px;
+	color: #3b3b3b;
+}
+#notion ul li {
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	background: #f3f3f3;
+	padding: 0.5em 0 1.5em;
+}
+footer .copyright {
+	color: #000;
+	font-size: 12px;
+}
+#pageTop {
+	width: 80px;
+	height: 80px;
+	background: #3365ac;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 100;
+	text-indent: -9999px;
+	border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+#pageTop a::before, #pageTop a::after {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	right: 26px;
+	margin: auto;
+	content: "";
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#pageTop:hover {
+    filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}

@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* ==================================================
+structure.css
+================================================== */
+
+/* ----------------------------------------
+ - body
+---------------------------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------------------
+ - Container
+---------------------------------------- */
+#Container {
+	text-align: left;
+	margin:0 auto;
+	text-align: center;
+	/*width:100%;*/
+	width:640px;
+}
+#Container img {
+	width:100%;
+}
+
+/* ----------------------------------------
+ - header
+---------------------------------------- */
+
+/* ----------------------------------------
+ - #MainVisual
+---------------------------------------- */
+#MainVisual {
+	width: 100%;
+	margin:0 auto;
+	position: relative;	
+}
+
+/* ----------------------------------------
+ - #Contents
+---------------------------------------- */
+#Contents {
+	padding:0 0 0;
+}
+
+/* ----------------------------------------
+ - #campaign
+---------------------------------------- */
+#Contents #campaign #campaignCol {
+	width:90.6%;
+	margin:0 auto;
+	padding:1.0em 0;
+}
+
+/* ----------------------------------------
+ - #modelroom
+---------------------------------------- */
+#Contents #modelroom {
+	background:#fffff3;
+}
+#Contents #modelroom #modelroomCol {
+	width:90.6%;
+	margin:0 auto;
+	padding:1.5em 0 1.8em;
+}
+#Contents #modelroom #modelroomCol .anchor {
+	padding:0 0 1.5em;
+}
+#Contents #modelroom #modelroomCol .anchor ul {
+	overflow:hidden;
+}
+#Contents #modelroom #modelroomCol .anchor ul li {
+	float:left;
+}
+
+#Contents #modelroom #modelroomCol .modelroomBox {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	flex-wrap: wrap;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+}
+#Contents #modelroom #modelroomCol .modelroomBox dl {
+	width:47.4%;
+	position:relative;
+	margin:0 0 1.6em;
+}
+#Contents #modelroom #modelroomCol .modelroomBox:last-child dl {
+	margin:0 0 0;
+}
+#Contents #modelroom #modelroomCol .modelroomBox dl dd {
+	position:absolute;
+	bottom:0.6em;
+	left:0;
+	width:100%;
+}
+#Contents #modelroom #modelroomCol .modelroomBox dl dd p.btn {
+	width:91.7%;
+	margin:auto;
+}
+
+
+/* ----------------------------------------
+ - #notes
+---------------------------------------- */
+#Contents #notes {
+	background:#f3f3f3;
+}
+#Contents #notes #notesCol {
+	width:90.6%;
+	margin:0 auto;
+	padding:1.5em 0;
+	text-align:left;
+	font-size:14px;
+	color:#3b3b3b;
+}
+#Contents #notes #notesCol ul li {
+	text-indent:-1.5em;
+	margin-left:1.5em;
+}
+
+
+/* ========================================================
+ footer
+======================================================== */
+footer{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	background:#f3f3f3;
+	padding:0.5em 0 1.5em;
+}
+footer .copy{
+	color:#000;
+	font-size:12px;
+}

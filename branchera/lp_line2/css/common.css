@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* ==================================================
+ - common
+================================================== */
+body {
+	background: #fff;
+	color: #000;
+	/*font-family :"游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;*/
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	-webkit-text-size-adjust:100%;
+}
+a, a p {
+	text-decoration: underline;
+}
+a:hover, a:hover p {
+	text-decoration: none;
+}
+a.noLink:hover, a.noLink:hover p {
+	text-decoration: none;
+}
+
+/* ----------------------------------------
+ - img
+---------------------------------------- */
+img {
+	line-height: 0;
+	vertical-align: top;
+}
+
+/* ---------------------------------------- 
+ - #pagetop
+---------------------------------------- */
+#pageTop {
+	width: 80px;
+	height: 80px;
+	background:#3365ac;
+	position:fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor:pointer;
+	z-index:100;
+	text-indent:-9999px;
+	border-radius: 50%;        /* CSS3草案 */  
+    -webkit-border-radius: 50%;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 50%;   /* Firefox用 */
+	filter:alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+#pageTop a::before,
+#pageTop a::after {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	right: 26px;
+	margin: auto;
+	content: "";
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#pageTop:hover {
+    filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+/* ----------------------------------------
+ - clearfix
+---------------------------------------- */
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+}
+
+/* ----------------------------------------
+ - clear
+---------------------------------------- */
+.clear {
+	clear: both !important;
+}
+.clearL {
+	clear: left !important;
+}
+.clearR {
+	clear: right !important;
+}
+

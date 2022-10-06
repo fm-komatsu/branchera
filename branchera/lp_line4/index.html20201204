@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="utf-8">
+<title>株式会社長谷工コーポレーション</title>
+<meta name="description" content="株式会社長谷工コーポレーションが開催するご来場LINEポイントプレゼントのキャンペーンサイトです。">
+<meta name="keywords" content="長谷工,HASEKO,マンション,">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,maximum-scale=10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/useful.css">
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZHC3W');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZHC3W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<div id="main">
+	<h1><img src="images/main.png" alt="リフォームフェアご来場キャンペーン" /></h1>
+</div>
+
+
+
+<section id="campaign">
+    <h2><img src="images/campaign_ttl.png" alt="キャンペーン詳細" /></h2>
+    <img src="images/campaign_flow.png" alt="キャンペーンの流れ" />
+</section><!-- /#campaign -->
+
+
+
+<section id="reform">
+	<h2><img src="images/reform_ttl.png" alt="対象のリフォームフェア" /></h2>
+    
+    <div class="reform_inner">
+        <div class="reform_box">
+            <img src="images/area_ttl01.png" alt="関東エリア" />
+            <a href="https://www.haseko-chukai.com/syutoken-buy/theme/openhouse" target="_blank"><img src="images/area_btn01.png" alt="オープンハウス" /></a>
+            <a href="https://www.haseko-chukai.com/shop-syutoken/" target="_blank"><img src="images/area_btn02.png" alt="店舗" /></a>
+        </div>
+        
+        <div class="reform_box">
+            <img src="images/area_ttl02.png" alt="関西エリア" />
+            <a href="https://www.haseko-chukai.com/kansai-buy/theme/openhouse" target="_blank"><img src="images/area_btn01.png" alt="オープンハウス" /></a>
+            <a href="https://www.haseko-chukai.com/shop-kansai/" target="_blank"><img src="images/area_btn02.png" alt="店舗" /></a>
+        </div>
+        <div class="clear"></div>
+        
+        <div class="reform_box">
+            <img src="images/area_ttl03.png" alt="名古屋エリア" />
+            <a href="https://www.haseko-chukai.com/nagoya-buy/theme/openhouse" target="_blank"><img src="images/area_btn01.png" alt="オープンハウス" /></a>
+            <a href="https://www.haseko-chukai.com/shop-nagoya/" target="_blank"><img src="images/area_btn02.png" alt="店舗" /></a>
+        </div>
+        
+        <div class="reform_box">
+            <img src="images/area_ttl04.png" alt="福岡エリア" />
+            <a href="https://www.haseko-chukai.com/fukuoka-buy/theme/openhouse" target="_blank"><img src="images/area_btn01.png" alt="オープンハウス" /></a>
+            <a href="https://www.haseko-chukai.com/shop-fukuoka/" target="_blank"><img src="images/area_btn02.png" alt="店舗" /></a>
+        </div>
+        <div class="clear"></div>
+	</div>
+    <img src="images/reform_bg.png" />
+</section><!-- /#reform -->
+
+
+
+<section id="notion">
+    <h2><img src="images/notion_ttl.png" alt="注意事項"></h2>
+    <ul>
+        <li>・ 不動産のご購入またはご売却を検討する20歳以上の方に限ります。</li>
+        <li>・ 事前に、ご来場の予約の上でお越しいただき、アンケートをご記入いただいた方に限ります。</li> 
+        <li>・ ご予約並びにご来場の際、担当者に、「ＬＩＮＥ来場キャンペーンを見た」とお伝えください。</li>
+        <li>・ LINEポイントの進呈は、同一世帯１組様１回まで、且つ１LINEアカウントにつきキャンペーン期間中１回までとなります。</li>
+        <li>・ その他実施しているキャンペーン・プレゼントと重複する場合は、どちらか選択いただく場合がございます。</li>
+        <li>・ 応募件数が、既定の上限を超えた場合、期間内に予告なく本キャンペーンを終了する場合があります。</li>
+        <li>・ 参加には、スマートフォンのインターネット接続環境が必要です。</li>
+        <li>・ 不正または条件を満たしていないと判断された場合は、特典を受け取る権利を取り消す場合があります。また、その理由は開示いたしません。</li>
+        <li>・ 都合により、本キャンペーンを予告なく変更・終了する場合があります。その際、当社は本キャンペーンの変更・終了などにより生じた損害その他一切の責を負いません。</li>
+        <li>・ キャンペーンにご応募された場合、応募上の注意事項にご同意いただいたものとみなします。</li>
+    </ul>
+</section><!-- /#notion -->
+
+
+
+<footer>
+	<p class="copyright">Copyright © HASEKO Corporation. All Rights Reserved.</p>
+    <p id="pageTop"><a href="#top"></a></p>
+</footer>
+
+
+
+</body>
+</html>
