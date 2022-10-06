@@ -5963,9 +5963,9 @@
 		"category_list": "enq",
 		"url": "/enquete/article/enq-vol23.php",
 		"image": "enq-vol04.png",
-		"icon-img": "new",
+		"icon-img": "end",
 		"blank": "",
-		"priority": "",
+		"priority": -1,
 		"tag1": "アンケート",
 		"tag2": "NULL",
 		"tag3": "NULL"

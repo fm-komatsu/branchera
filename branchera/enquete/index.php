@@ -15,7 +15,7 @@ $body_class = "page-list";
 $imakuraCheck = false;
 
 //enqCheck check
-$enqCheck = true;
+$enqCheck = false;
 
 //htmlHeader
 include($inc_path . "/lib/inc/head.php");

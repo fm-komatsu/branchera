@@ -149,17 +149,6 @@
 				$dataGaClick = 'news_topics_cleaning21';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-		<?php // アンケート
-				$cntId = '11086';
-				$noticeLabel = '';
-				$category = 'アンケート';
-				$cntTtl = '【300スマイルプレゼント】第23回会員さまアンケート「お住み替えに関するアンケート」';
-				$predicate = 'を実施します！';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_enq23';
-				include ($inc_path."/lib/inc/page/_home/__news.php");
-				?>
       	<?php // ClubOff by HASEKO
 				$cntId = '3025';
 				$noticeLabel = '';
@@ -181,7 +170,7 @@
 				$dataGaClick = 'news_topics_exchange220913';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-
+				
       	<?php // 抽選賞品
 				$cntId = '9075';
 				$noticeLabel = '';
@@ -193,6 +182,30 @@
 				$dataGaClick = 'news_topics_monthly_2209';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
+      	<?php
+				$cntId = '4096';
+				$noticeLabel = '';
+				$category = 'キャンペーン';
+				$cntTtl = '「8周年記念プレゼントキャンペーン当選者発表！」';
+				$predicate = 'を公開しました。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'present-campaign888';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+
+		<?php // アンケート
+				// $cntId = '11086';
+				// $noticeLabel = '';
+				// $category = 'アンケート';
+				// $cntTtl = '【300スマイルプレゼント】第23回会員さまアンケート「お住み替えに関するアンケート」';
+				// $predicate = 'を実施します！';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_enq23';
+				// include ($inc_path."/lib/inc/page/_home/__news.php");
+				?>
+
 
       	<?php // いま暮らアンケート
 				// $cntId = '11089';
@@ -216,29 +229,28 @@
 				// $dataGaClick = 'news_topics_technic163';
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-
-      	<?php
-				$cntId = '4096';
+      	<?php // ALSOK 暮らしの危機管理
+				$cntId = '19005';
 				$noticeLabel = '';
-				$category = 'キャンペーン';
-				$cntTtl = '「8周年記念プレゼントキャンペーン当選者発表！」';
-				$predicate = 'を公開しました。';
+				$category = 'マガジン';
+				$cntTtl = '「プロに聞く。暮らしの危機管理。『マンションの風水害対策』」';
+				$predicate = '公開中です。';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
-				$dataGaClick = 'present-campaign888';
+				$dataGaClick = 'news_topics_alsok_86';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
       	<?php // 住まいのSOS
-				// $cntId = '26011';
-				// $noticeLabel = '';
-				// $category = 'マガジン';
-				// $cntTtl = '「プロが解決！住まいのSOS『換気扇を回しているのに…最近お料理のニオイが取り切れない！』」';
-				// $predicate = 'を公開しました。';
-				// $news_imgUrl = '';
-				// $news_cntUrl = '';
-				// $dataGaClick = 'news_topics_sumai-sos_11';
-				// include($inc_path . "/lib/inc/page/_home/__news.php");
+				$cntId = '26011';
+				$noticeLabel = '';
+				$category = 'マガジン';
+				$cntTtl = '「プロが解決！住まいのSOS『換気扇を回しているのに…最近お料理のニオイが取り切れない！』」';
+				$predicate = '公開中です。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_sumai-sos_11';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
       	<?php // お掃除コンテンツ
@@ -306,17 +318,6 @@
 				// $news_cntUrl = '';
 				// $dataGaClick = 'news_topics_imakura_39';
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
-      	<?php // ALSOK 暮らしの危機管理
-				$cntId = '19005';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「プロに聞く。暮らしの危機管理。『マンションの風水害対策』」';
-				$predicate = '公開中です';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_alsok_86';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
       	<?php // ハウスクリーニング
 				// $cntId = '8006';

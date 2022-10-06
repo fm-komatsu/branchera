@@ -42,12 +42,6 @@ include($inc_path . "/lib/inc/header.php");
         </div>
       </div>
     </div>
-    <div class="mb4 center">
-      <a href="https://www.and-racine.com/c-item-detail?ic=000000000106" data-ga-click="imakura_coffee-hanbai1" target="_blank" class="center">
-        <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/imakura_coffee_online@2x.jpg" class="u-only__pc u-img__max center" style="max-width:791px;" alt="オリジナルブレンドコーヒー　オンライン販売">
-        <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/imakura_coffee_online-sp@2x.jpg" class="u-only__sp u-img__max" alt="オリジナルブレンドコーヒー　オンライン販売">
-      </a>
-    </div>
     <section class="main__wrapper">
       <div class="lottery-figs">
         <div class="lottery-figs__row">
@@ -197,12 +191,6 @@ include($inc_path . "/lib/inc/header.php");
       <a href="#point" data-scroll class="u-ilblock center" data-ga-click="imakura_coffee_4">
         <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/btn__point@2x.jpg" class="u-only__pc u-img__max center u-btn__hard-light" style="max-width:400px;" alt="いま暮ら珈琲のポイントはこちら" loading="lazy">
         <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/btn__point_sp@2x.jpg" class="u-only__sp u-img__max center u-btn__hard-light" style="max-width:85%;" alt="いま暮ら珈琲のポイントはこちら" loading="lazy">
-      </a>
-    </div>
-    <div class="mb5 center">
-      <a href="https://www.and-racine.com/c-item-detail?ic=000000000106" data-ga-click="imakura_coffee-hanbai2" target="_blank" class="center">
-        <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/imakura_coffee_online@2x.jpg" class="u-only__pc u-img__max center" style="max-width:791px;" alt="オリジナルブレンドコーヒー　オンライン販売">
-        <img src="<?php echo $img_url ?>/smile/article/exchange-original-coffee/imakura_coffee_online-sp@2x.jpg" class="u-only__sp u-img__max" alt="オリジナルブレンドコーヒー　オンライン販売">
       </a>
     </div>
 

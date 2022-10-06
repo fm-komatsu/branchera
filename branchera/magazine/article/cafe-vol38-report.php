@@ -188,16 +188,9 @@ include($inc_path . "/lib/inc/header.php");
 					</div>
 					<div class="u-column__item">
 						<div class="mb6">
-							<p class="mb6 mb3_sp">「いま暮らCafé」と日本最古のコーヒー店「放香堂加琲」がコラボした『いま暮ら珈琲』。これまでスマイル交換でしか楽しめませんでしたが、期間限定で販売中！ぜひこの機会にお試しください！
-								詳しくは下記サイト「and.Racine（アンド ラシーネ）」で。</p>
+							<p class="mb6 mb3_sp">「いま暮らCafé」と日本最古のコーヒー店「放香堂加琲」がコラボした『いま暮ら珈琲』。ブランシエラクラブのポイントサービス「住まいレージ」では、「いま暮ら珈琲」のコーヒー豆またはドリップバッグとスマイルを交換することができます。 <br>以下のリンクからは、お申込みはもちろん「いま暮ら珈琲」にまつわるエピソードなどを読むことができます。まずはアクセスしてみてください。</p>
 							<div class="mb4_sp u-only__sp">
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol<?php echo $cafeReportNum; ?>/sec05__img01@2x.png" alt="ドリップで美味しく淹れるコツは、最初に少量のお湯を注いで粉を20秒ほど蒸らすこと。忘れないでくださいね｜<?php echo strip_tags($pageTtl); ?>" class="u-img__max u-only__sp center mb2_sp" style="max-width:85%;" loading="lazy">
-							</div>
-							<div class="mb6 mb4_sp">
-								<a href="https://www.and-racine.com/c-item-detail?ic=000000000106&utm_source=brc_cafe_vol38&utm_medium=web&utm_campaign=racine_imakura_coffee" data-ga-click="cafe38_1" target="_blank">
-									<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol<?php echo $cafeReportNum; ?>/sec05__btn01@2x.png" alt="専用サイトから購入しよう！すてきテラスおすすめサイト「and.Racine」期間限定販売のご案内" class="u-img__max u-only__pc center" style="max-width:332px;" loading="lazy">
-									<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol<?php echo $cafeReportNum; ?>/sec05__btn01-sp@2x.png" alt="専用サイトから購入しよう！すてきテラスおすすめサイト「and.Racine」期間限定販売のご案内" class="u-img__max u-only__sp center" style="max-width:85%;" loading="lazy">
-								</a>
 							</div>
 							<div class="mb2 mb4_sp">
 								<a href="<?php echo $base_url ?>/smile/article/exchange-original_coffee.php" data-ga-click="cafe38_2" target="_blank">

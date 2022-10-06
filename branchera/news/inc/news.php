@@ -4,7 +4,7 @@
   <dt>2022年9月21日</dt>
   <dd><a href="<?php echo $base_url ?>/magazine/article/cafe-vol41-2-report.php">【マガジン】「いま暮らCaf&eacute;『○○なら長谷工！どんなイメージ？～後編～』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年9月15日</dt>
-  <dd><a href="<?php echo $base_url ?>/enquete/article/enq-vol23.php">【アンケート】「第23回アンケート『お住み替えに関するアンケート』」を公開しました。詳しくはこちら</a></dd>
+  <dd>【アンケート】「第23回アンケート『お住み替えに関するアンケート』」【募集は終了しました】</dd>
   <dt>2022年9月14日</dt>
   <dd><a href="<?php echo $base_url ?>/magazine/article/cafe-vol41-1-report.php">【マガジン】「いま暮らCaf&eacute;『○○なら長谷工！どんなイメージ？～前編～』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年9月14日</dt>
