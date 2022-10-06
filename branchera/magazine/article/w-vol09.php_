@@ -1,0 +1,80 @@
+<?php
+include ("../../function.php");
+$title ="Mr.わくわくメンテナンス講座 Vol.9";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="結露と上手に付き合って、冬のお部屋を快適に";
+$thumbnail_url = $img_url."/thm/town-spot-3.png";
+$body_class ="article magazine";
+?>
+<?php include ($inc_path."/inc/head.php") ?>
+<?php include ($inc_path."/inc/header.php") ?>
+<?php
+  $panAry[] = array("/magazine/","ブランシエラマガジン");
+  $panAry[] = array("/magazine/index.php#wakuwaku","Mr.わくわくメンテナンス講座");
+  include ($inc_path."/inc/pan.php");
+?>
+<div id="conts">
+<?php $contents_id=7009;include ($inc_path."/inc/article-conts-head.php") ?>
+<article class="article">
+<div class="wrapper narrow">
+
+  <section class="section clear">
+    <h2>結露と上手に付き合って、冬のお部屋を快適に</h2>
+    <p class="mb4">土壁や和紙などを使った昔の日本家屋と違い、気密性の高いマンションでは、冬場の結露に悩まされているお宅も多いのではないでしょうか。結露は空気中の余分な水分を排除してくれる役割をする一方、カビの発生や建物を傷める原因にもなりますので、仕組みを知って、結露を抑える工夫をしましょう。</p>
+    
+    <p class="center mb3"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/01.jpg" /></p>
+    <p class="center mb4"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/02.jpg" /></p>
+
+    <h4>結露の仕組み</h4>
+    <p class="center tb fr"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/03.jpg" /></p>
+    <p class="center sp" style="width:70%; margin:0 auto;"><img class="w100" src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/img03-sp@2x.png" /></p>
+      <p>結露は空気中に含まれる水蒸気が、冷たい物体に触れて冷やされることで、気体から液体に変わる現象です。</p>
+
+<p>冷たい水を入れたグラスに水滴が付くのと同じ原理で、冬は窓ガラスなど、外気の影響を受けて冷たくなった部分に結露が発生しやすくなります。</p>
+
+<p class="mb4">また、空気は温度が高い方がより多くの水蒸気を含むことができ、逆に北向きなど温度の低い部屋では、空気中に含むことができなかった水蒸気が結露となって現れやすくなります。</p>
+    <br clear="all">
+
+    <h4>結露の原因の一つは過剰な湿度</h4>
+    <p class="center tb fr"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/04.jpg" /></p>
+    <p class="center sp" style="width:70%; margin:0 auto;"><img class="w100" src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/img04-sp@2x.png" /></p>
+    <p>室内に干した洗濯物や水槽・観葉植物は、湿度を上げる原因になります。過剰な湿度は結露の発生しやすい状況をつくります。温湿度計などで、室内の状態をチェックし、冬は室内温度で20～23℃、湿度は50%以下を目指しましょう。ただし、乳幼児にとって乾燥は良くありませんので、乳幼児のいるお部屋は60%以下が目安となります。</p>
+    <br clear="all">
+    </section>
+
+  <section class="section">
+    
+    <h4>結露を軽減するための工夫</h4>
+    <h5>湿度が高い場合はまずは換気</h5>
+    <p>24時間換気システム（※）などの機械換気設備が設置されている場合は、夜間・外出時を含め24時間365日運転させておきましょう。その際、給気口が閉まっていると十分な換気が行えませんので、日頃から全開にしておきます。</p>
+
+    <p>※［24時間換気システムとは］
+     ファンなどを使い、常時給排気を行うシステム。シックハウス対策のため、2003年7月1日以降に着工した建物の居室には、設置が義務づけられています。</p>
+    <p>天気の良い日は、窓を開けて空気の入れ替えをすることも習慣にしましょう。</p>
+    <p>カーテンを閉めたままにしておくと、窓との間に冷気がたまって結露しやすくなりますので、適宜カーテンを開けて空気を循環させるようにします。</p>
+    <p>押入れやクローゼットも湿気がたまりやすい場所です。スノコを敷いたり、時々扉を開けて、空気を循環させるようにしましょう。</p>
+    <p class="mb4">また、水蒸気は発生した場所で、すぐに排出することが大切です。お湯を沸かすときも必ず換気扇を回して、室内に湿度をためないようにしましょう。</p>
+    
+        
+    <h5>室内の空気を改善するアイテムを活用してみる</h5>
+    <p>換気だけで湿度を下げることができない場合には、除湿機や、エコカラットなど調湿力のある壁材の利用も有効です。除湿機を使う際は、寒い北側の部屋に置くことがポイントです。</p>
+    <p>また、窓の結露がひどい場合には、二重サッシ（内窓）を設置したりすることで、室内側が外気の影響を受けにくくなり、結露を軽減することができます。暖房効率もアップして、冬のお部屋をより快適にしてくれます。</p>
+    <p class="center tb mb3"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/05.jpg" /></p>
+   <p class="center sp mb3"><img src="<?php echo $base_url ?>/img/magazine/wakuwaku/vol9/img05-sp@2x.jpg" /></p>
+  </section>
+
+  <div class="bt blue center mb4"><a href="<?php echo $link_url ?>/magazine/index.php#wakuwaku"><span>Mr.わくわくメンテナンス講座の目次に戻る</span></a></div>
+
+</div><!-- //wrapper -->
+
+<div class="return magazine"><a href="<?php echo $link_url ?>/magazine">マガジン一覧へ</a></div>
+
+<?php include ($inc_path."/inc/u-sns.php") ?>
+</article>
+</div>
+<?php include ($inc_path."/inc/footer.php") ?>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>
