@@ -177,6 +177,16 @@ include( $inc_path . "/lib/inc/header.php" );
         </div>
       </div>
       <!-- //wrapper -->
+      <div class="mb6">
+        <div>
+          <a href="<?php echo $base_url ?>/event/article/report-event-online02.php" data-ga-click="pr_<?php echo $filename ?>_pc" class="u-only__pc">
+            <img src="<?php echo $img_url ?>/magazine/comic01/comic-tidy09_pc@2x.jpg" alt="" class="u-img__max u-only__pc">
+          </a>
+          <a href="<?php echo $base_url ?>/event/article/report-event-online02.php" data-ga-click="pr_<?php echo $filename ?>_sp" class="u-only__sp">
+            <img src="<?php echo $img_url ?>/magazine/comic01/comic-tidy09_sp.jpg" alt="" class="u-img__max u-only__sp">
+          </a>
+        </div>
+      </div>
       <div class="wrapper wide">
         <div class="supervision">
           <figure><img src="../../lib/img/magazine/comic01/vol01/img03@2x.png">

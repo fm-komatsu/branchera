@@ -88,16 +88,16 @@ array ('mtr-end'),
 array ('ttl_l','mb0','基本のオムライスのレシピ'),
 
 // （本文1）
-array ('text','mb2','洋食屋の定番メニュー・オムライス。ビーフシチューがかけてあるものや、半熟のオムレツをチキンライスにのせた「タンポポオムライス」など、お店によってさまざまなオムライスのメニューがありますよね。今回は最もスタンダードな、チキンライスを卵で包んだ、木の葉型のオムライスのレシピをご紹介します。お店で出てくるような本格オムライスが作れる、基本のレシピと上手な包み方をマスターしましょう。'),
+array ('text','mb2','洋食屋の定番メニュー・オムライス。ビーフシチューがかけてあるものや、半熟の<a href="'.$base_url.'/magazine/article/recipe-technic48.php" class="recipe-design__link">オムレツ</a>をチキンライスにのせた「タンポポオムライス」など、お店によってさまざまなオムライスのメニューがありますよね。今回は最もスタンダードな、チキンライスを卵で包んだ、木の葉型のオムライスのレシピをご紹介します。お店で出てくるような本格オムライスが作れる、基本のレシピと上手な包み方をマスターしましょう。'),
 
 // （小見出し）
 array ('ttl_m','mb1','材料（2人分）'),
 array ('mtr-st'),
 array ('mtr','卵','4個'),
-array ('mtr','マヨネーズ','大さじ2'),
-array ('mtr','温かいご飯','茶碗2杯分（約300g）'),
+array ('mtr','マヨネーズ','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>2'),
+array ('mtr','温かいごはん','茶碗2杯分（約300g）'),
 array ('mtr','鶏もも肉','100g'),
-array ('mtr','塩','少々'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shio" class="recipe-design__link">塩</a>','少々'),
 array ('mtr','こしょう','少々'),
 array ('mtr','玉ねぎ','1/4個'),
 array ('mtr','ケチャップ','大さじ4'),
@@ -112,10 +112,10 @@ array ('mtr-end'),
 array ('ttl_m','mb1','手順'),
 array('step','01','mb0','鶏肉は2cm角に切り、塩、こしょうを振ります。'),
 array('step','02','mb0','玉ねぎは<a href="'.$base_url.'/magazine/article/recipe-technic16.php" class="recipe-design__link">みじん切り</a>にします。'),
-array('step','03','mb0','フライパンにサラダ油大さじ1を入れて中火で熱し、鶏肉を入れて炒めます。<br>色が変わってきたら、玉ねぎを加えてさっと炒めましょう。'),
-array('step','04','mb0','ケチャップ、中濃ソースを加えて全体を混ぜ合わせたら、温かいご飯を加えて再度全体を混ぜます。'),
-array('step','05','mb0','ご飯をボウルなどに取り出し、フライパンをきれいにします。'),
-array('step','06','mb3','別のボウルに卵2個を割ってほぐし、マヨネーズ大さじ1を加えて、菜箸で混ぜます。'),
+array('step','03','mb0','フライパンにサラダ油大さじ1を入れて<a href="'.$base_url.'/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>で熱し、鶏肉を入れて炒めます。<br>色が変わってきたら、玉ねぎを加えてさっと炒めましょう。'),
+array('step','04','mb0','ケチャップ、中濃ソースを加えて全体を混ぜ合わせたら、温かい<a href="'.$base_url.'/magazine/article/recipe-technic20.php" class="recipe-design__link">ごはん</a>を加えて再度全体を混ぜます。'),
+array('step','05','mb0','ごはんをボウルなどに取り出し、フライパンをきれいにします。'),
+array('step','06','mb3','別のボウルに卵2個を<a href="'.$base_url.'/magazine/article/recipe-technic08.php" class="recipe-design__link">割って</a>ほぐし、マヨネーズ大さじ1を加えて、菜箸で混ぜます。'),
 
 // ■Check
 array ('chk-st'),
@@ -161,7 +161,7 @@ array ('textimg','12','right','トマトソース','mb2','さっぱりしたト�
 
 //（小見出し）
 array ('ttl_m','mb1','きのこ入りホワイトソース'),
-array ('textimg','13','left','きのこ入りホワイトソース','mb2','ホワイトソースをかければ、よりコクのある味わいを楽しむことができます。<br>マッシュルームやエリンギなどのきのこを炒め、ホワイトソースと一緒に煮詰めましょう。ホワイトソースも電子レンジで簡単に作れるので、手作りするのがおすすめです。詳しいレシピは<a href="'.$base_url.'/magazine/article/recipe-technic81.php" class="recipe-design__link">こちら</a>！<br><a href="'.$base_url.'/magazine/article/recipe-technic46.php" class="recipe-design__link">ブロッコリー</a>や<a href="'.$base_url.'/magazine/article/recipe-technic76.php" class="recipe-design__link">アスパラガス</a>など、緑色の野菜をトッピングすると、より彩りがよくなります。'),
+array ('textimg','13','left','きのこ入りホワイトソース','mb2','<a href="'.$base_url.'/magazine/article/recipe-technic81.php" class="recipe-design__link">ホワイトソース</a>をかければ、よりコクのある味わいを楽しむことができます。<br>マッシュルームやエリンギなどの<a href="'.$base_url.'/magazine/article/recipe-technic27.php" class="recipe-design__link">きのこ</a>を炒め、ホワイトソースと一緒に煮詰めましょう。ホワイトソースも電子レンジで簡単に作れるので、手作りするのがおすすめです。詳しいレシピは<a href="'.$base_url.'/magazine/article/recipe-technic81.php" class="recipe-design__link">こちら</a>！<br><a href="'.$base_url.'/magazine/article/recipe-technic46.php" class="recipe-design__link">ブロッコリー</a>や<a href="'.$base_url.'/magazine/article/recipe-technic76.php" class="recipe-design__link">アスパラガス</a>など、緑色の野菜をトッピングすると、より彩りがよくなります。'),
 
 //（小見出し）
 array ('ttl_m','mb1','デミグラスソース'),
@@ -195,6 +195,15 @@ array ('fl','01','エッヘン、俺様になんでも聞いてくれ！<br>ソ�
 array ('mama','01','よ〜し、次はデミグラスソースをかけてみようっと！'),
 
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','15121'),
+  array ('recommend-recipe-id','15112'),
+  array ('recommend-recipe-id','15148'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

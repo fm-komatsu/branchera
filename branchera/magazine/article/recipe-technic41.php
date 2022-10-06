@@ -29,24 +29,24 @@ $introTxt = '第41回は「あじの三枚おろし」です。初心者でも�
 
 
 //キャプチャALTタグ
-$altCap01 = '新聞紙などの紙をまな板に敷きます。その上に、魚をのせましょう。<br>紙を敷くことで、まな板が汚れるのを防ぐことができますよ。';
-$altCap02 = 'うろこを取り除きます。包丁を身に垂直に当て、尾から頭に向かってこそぎましょう。力を入れすぎると身に傷が付いてしまうので、注意してください。裏面も同様に取り除きます。';
+$altCap01 = '新聞紙などの紙を<a href="'.$base_url.'/magazine/article/recipe-technic34.php" class="recipe-design__link">まな板</a>に敷きます。その上に、魚をのせましょう。<br>紙を敷くことで、まな板が汚れるのを防ぐことができますよ。';
+$altCap02 = 'うろこを取り除きます。<a href="'.$base_url.'/magazine/article/recipe-technic01.php" class="recipe-design__link">包丁</a>を身に垂直に当て、尾から頭に向かってこそぎましょう。力を入れすぎると身に傷が付いてしまうので、注意してください。裏面も同様に取り除きます。';
 $altCap03 = 'ぜいごは、尾の付け根から包丁を寝かせて入れ、上下に小刻みに動かしてそぎ取ります。裏面も同様にそぎ取りましょう。';
 $altCap04 = '胸ひれと腹びれを立てます。斜めに包丁を入れて、頭を切り落としてください。<br>ひれを立ててから切るのは、身を多く残すためです。';
-$altCap05 = '腹を少し切って内蔵を取り出します。<br>ちなみに、魚の身を切る際は、基本的に<a href="'.$base_url.'/magazine/article/recipe-technic17.php" class="recipe-design__link">引き切り</a>で切りましょう。';
+$altCap05 = '腹を少し切って内臓を取り出します。<br>ちなみに、魚の身を切る際は、基本的に<a href="'.$base_url.'/magazine/article/recipe-technic17.php" class="recipe-design__link">引き切り</a>で切りましょう。';
 $altCap06 = '塩水を入れたボウルを用意し、血合いの部分まできれいに洗います。<br>※塩水は水1リットルに対し、塩小さじ1の割合で作りましょう。';
 $altCap07 = 'ペーパーで、水気を拭き取ります。';
 $altCap08 = '頭を右にして置き、包丁を中骨に沿って切り進めていきます。';
 $altCap09 = '上下を返して、背側からも同様に切り進めます。';
 $altCap10 = 'つながっている尾の付け根を、包丁で切り離します。<br>ここで魚を開くと、二枚おろしとなります。';
 $altCap11 = '今度は背側から同様に、中骨に沿って切り進めます。上下を返して、腹側からも同様に切り進めてください。';
-$altCap12 = '尾を抑えて切り進め、つながっている尾のつけ根を包丁で切り離します。';
+$altCap12 = '尾を押さえて切り進め、つながっている尾のつけ根を包丁で切り離します。';
 $altCap13 = '腹骨をすくい取るように切り落とします。';
 $altCap14 = 'ゴージャスで目を引くお造り';
 $altCap15 = '骨抜きの方法';
 $altCap16 = 'あじの刺身';
 $altCap17 = '蒲焼き';
-$altCap18 = 'なめろう、たたき';
+$altCap18 = '<a href="'.$base_url.'/magazine/article/recipe-technic138.php" class="recipe-design__link">なめろう</a>、たたき';
 
 ?>
 <main class="main">
@@ -86,7 +86,7 @@ $altCap18 = 'なめろう、たたき';
       ?>
       <?php
         $recipeIcon ='mayu_01';
-        $speech ='コツをつかめばパパっとさばくことができますよ<br>お刺身の他にも、蒲焼きや煮物などいろいろ使えるので、<br class="u-only__pc">この機会にぜひマスターしましょう！';
+        $speech ='コツをつかめばパパっとさばくことができますよ<br>お刺身のほかにも、蒲焼きや煮物などいろいろ使えるので、<br class="u-only__pc">この機会にぜひマスターしましょう！';
         include ($inc_path."/lib/inc/page/_magazine/__recipe-icon.php");
       ?>
 
@@ -106,7 +106,7 @@ $altCap18 = 'なめろう、たたき';
       <div class="recipe__design recipe-design">
         <div class="recipe-design__howto mb0">
           <h3 class="recipe__ttl_l mb0">あじの三枚おろしのやり方</h3>
-          <p class="mb2">三枚おろしとは、魚のさばき方の一種で、右身、左身、中骨の3つの部分に切り分けることをいいます。このテクニックは、あじだけでなく、さんまやさば、ぶりなどの魚をおろすときにも使えますよ。ぜひチャレンジしてみてください！</p>
+          <p class="mb2">三枚おろしとは、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic40.php" class="recipe-design__link">魚</a>のさばき方の一種で、右身、左身、中骨の3つの部分に切り分けることをいいます。このテクニックは、あじだけでなく、さんまやさば、<a href="<?php echo $base_url ?>/magazine/article/recipe02.php" class="recipe-design__link">ぶり</a>などの魚をおろすときにも使えますよ。ぜひチャレンジしてみてください！</p>
           <h4 class="recipe__ttl">おろす前の下ごしらえ</h4>
           <dl class="recipe-design__step mb0">
             <dt class="recipe-design__step_img">
@@ -327,7 +327,7 @@ $altCap18 = 'なめろう、たたき';
               <img data-src="<?php echo $img_url; ?>/magazine/comic02/technic/41/tech41-17.jpg" data-retina="<?php echo $img_url; ?>/magazine/comic02/technic/41/tech41-17@2x.jpg"
               alt="マユ先生のHow To<?php echo ( '「'.$pageTtl .'」'.  strip_tags($altCap17)); ?>" style="max-width:300px" class="u-img__max">
             </figure>
-            <p>三枚におろしたあじの水気をしっかり拭き取ります。片栗粉をまぶします。フライパンにサラダ油を入れ、あじを皮目から焼いてください。両面焼けたら、醤油、みりん、砂糖で作った合わせ調味料をフライパンに入れて、あじに絡めます。煮汁がなくなってとろみが出たら、皿に盛って完成です。いりごまや、しその千切りをのせても美味しいですよ。</p>
+            <p>三枚におろしたあじの水気をしっかり拭き取ります。片栗粉をまぶします。フライパンにサラダ油を入れ、あじを皮目から焼いてください。両面焼けたら、<a href="<?php echo($base_url)?>/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>、みりん、<a href="<?php echo($base_url)?>/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>で作った合わせ調味料をフライパンに入れて、あじに絡めます。煮汁がなくなってとろみが出たら、皿に盛って完成です。いりごまや、しその千切りをのせても美味しいですよ。</p>
           </div>
           <h4 class="recipe__ttl"><?php echo $altCap18 ?></h4>
           <div class="u-clearfix">
@@ -335,7 +335,7 @@ $altCap18 = 'なめろう、たたき';
               <img data-src="<?php echo $img_url; ?>/magazine/comic02/technic/41/tech41-18.jpg" data-retina="<?php echo $img_url; ?>/magazine/comic02/technic/41/tech41-18@2x.jpg"
               alt="マユ先生のHow To<?php echo ( '「'.$pageTtl .'」'.  strip_tags($altCap18)); ?>" style="max-width:300px" class="u-img__max">
             </figure>
-            <p>三枚におろしたあじの身を、包丁で叩いていきます。身が細かくなったら、生姜と大葉のみじん切り、そしてお味噌を加えてください。さらに混ぜ合わせるように叩いていきましょう。よく混ざったら、お皿に盛り付けます。</p>
+            <p>三枚におろしたあじの身を、包丁で叩いていきます。身が細かくなったら、生姜やねぎなどの薬味類、そして味噌を加えてください。さらに混ぜ合わせるように叩いていきましょう。よく混ざったら、お皿に盛り付けます。</p>
           </div>
         </div>
       </div>
@@ -346,7 +346,7 @@ $altCap18 = 'なめろう、たたき';
       ?>
       <?php
         $recipeIcon ='mayu_01';
-        $speech ='魚は傷みやすいので、すぐに内臓を取り除いてペーパーに包み、<br class="u-only__pc">ラップできっちり包んで冷蔵保存してくださいね！';
+        $speech ='魚は傷みやすいので、すぐに内臓を取り除いてペーパーに包み、<br class="u-only__pc">ラップできっちり包んで<a href="'.$base_url.'/magazine/article/recipe-technic40.php#ichibi_reizo" class="recipe-design__link">冷蔵保存</a>してくださいね！';
         include ($inc_path."/lib/inc/page/_magazine/__recipe-icon.php");
       ?>
       <?php
@@ -354,6 +354,29 @@ $altCap18 = 'なめろう、たたき';
         $speech ='帰ったら、ママにも教えてあげよう<br>今日は、お魚パーティーだ～♪';
         include ($inc_path."/lib/inc/page/_magazine/__recipe-icon.php");
       ?>
+      <section class="mb3">
+				<h5>■関連記事</h5>
+				<ul>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-technic40.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/thumb_tech40.jpg" alt="●鮮度のよい魚の見分け方" class="f-photolist__reciperecommendimg u-img__max js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●鮮度のよい魚の見分け方</p>
+					</a>
+					</li>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-technic24.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/thumb_tech24.jpg" alt="●刺身の切り方を解説！基本の平造り＆そぎ切り" class="f-photolist__reciperecommendimg js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●刺身の切り方を解説！基本の平造り＆そぎ切り</p>
+					</a>
+					</li>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-technic25.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/thumb_tech25.jpg" alt="●簡単！刺身のおしゃれな盛り付け方" class="f-photolist__reciperecommendimg u-img__max js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●簡単！刺身のおしゃれな盛り付け方</p>
+					</a>
+					</li>
+				</ul>
+			</section>
       <div class="mb0">
         <?php
         include ($inc_path."/lib/inc/page/_magazine/__recipe-technic-footer.php");

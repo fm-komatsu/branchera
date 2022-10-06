@@ -39,7 +39,7 @@ array ( 'mama','01','大きくて立派なれんこんを買ってきちゃっ�
 array ( 'ko','01','まま、なにつくるの〜？'),
 
 // ママ　通常
-array ( 'mama','01','きんぴらを作るよ♪今のうちに下ごしらえしようっと！<br>とりあえず皮をむいて…切り方は適当でいいかな。このまま置いておこう〜'),
+array ( 'mama','01','<a href="'.$base_url.'/magazine/article/recipe-technic163.php#gomoku" class="recipe-design__link">きんぴら</a>を作るよ♪今のうちに下ごしらえしようっと！<br>とりあえず皮をむいて…切り方は適当でいいかな。このまま置いておこう〜'),
 
 // フラッキー　通常
 array ( 'fl','01','ミエ！れんこんを切ってそのまま放置すると変色するぞ～'),
@@ -51,7 +51,7 @@ array ( 'mama','03','えええっ？そうなの？'),
 array ( 'fl','01','それに、れんこんは切り方によっても食感が変わるんだぞ！<br>適当に切るんじゃなく、料理に合わせて切り方を変えるのが大事なんだぜ！'),
 
 // ママ　困り顔
-array ( 'mama','02','そうだったのね…！フラッキー、れんこんを美味しく食べるための下ごしらえ方法を教えて！'),
+array ( 'mama','02','そうだったんだ…！フラッキー、れんこんを美味しく食べるための下ごしらえ方法を教えて！'),
 
 // フラッキー　通常
 array ( 'fl','01','よし、俺に任せとけ！')
@@ -145,11 +145,11 @@ array('text','mb2','炒めても、煮込んでも美味しいれんこん。い
 
 // （小見出し）
 array('ttl_m','','れんこんのきんぴら'),
-array('textimg','06','right','れんこんのきんぴら','mb2','細いれんこんなら輪切りに、太いれんこんなら半月切りにします。シャキシャキした食感にする場合は2〜3mm幅程度、食べ応えがある食感にしたい場合は5〜6mm幅程度に切るとよいでしょう。水に浸けて水気を拭いた後、ごま油で炒めてください。醤油、砂糖、酒で味付けします。赤唐辛子を最後に入れると、ピリッとした味わいに！'),
+array('textimg','06','right','れんこんのきんぴら','mb2','細いれんこんなら輪切りに、太いれんこんなら半月切りにします。シャキシャキした食感にする場合は2〜3mm幅程度、食べ応えがある食感にしたい場合は5〜6mm幅程度に切るとよいでしょう。水に浸けて水気を拭いた後、ごま油で炒めてください。<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#sake" class="recipe-design__link">酒</a>で味付けします。赤唐辛子を最後に入れると、ピリッとした味わいに！'),
 
 // （小見出し）
 array('ttl_m','','筑前煮'),
-array('textimg','07','left','筑前煮','mb2','サラダ油を引いた鍋で、鶏もも肉を炒めます。鶏もも肉の色が変わったら、一口大に切ったれんこん、里芋、ごぼう、にんじん、しいたけ、こんにゃくを加えて炒めましょう。そこに酒、砂糖、醤油、みりん、<a href="'.$base_url.'/magazine/article/recipe-technic06.php" class="recipe-design__link">だし汁</a>を加えて煮ます。アクを取って落とし蓋をし、15~20分経てば完成です。'),
+array('textimg','07','left','筑前煮','mb2','サラダ油を引いた鍋で、鶏もも肉を炒めます。鶏もも肉の色が変わったら、一口大に切ったれんこん、里芋、ごぼう、にんじん、しいたけ、こんにゃくを加えて炒めましょう。そこに酒、砂糖、醤油、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#mirin2" class="recipe-design__link">みりん</a>、<a href="'.$base_url.'/magazine/article/recipe-technic06.php" class="recipe-design__link">だし汁</a>を加えて煮ます。アクを取って落とし蓋をし、15~20分経てば完成です。'),
 
 array('ttl_m','','れんこんのサラダ'),
 array('textimg','08','right','れんこんのサラダ','mb2','れんこんを薄切りにし、塩ゆでしておきます。ボウルにマヨネーズとマスタードを入れて混ぜ、そこへれんこんと小さく切ったハムを入れて混ぜ合わせてください。仕上げに塩こしょうを適量振ったら、できあがり。スライスしたきゅうりを入れるのもおすすめです。'),
@@ -179,6 +179,15 @@ array ( 'fl','01','下ごしらえしたれんこんを冷凍保存しておけ�
 array ( 'mama','01','それは便利ね！残ったれんこんで、次はほかのレシピにも挑戦してみよう〜！'),
 
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','15066'),
+  array ('recommend-recipe-id','15077'),
+  array ('recommend-recipe-id','15078'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

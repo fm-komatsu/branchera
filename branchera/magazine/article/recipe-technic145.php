@@ -89,14 +89,14 @@ array ('text','mb2','サラダやカルパッチョなどに欠かせないド�
 
 // （小見出し）
 array ('ttl_m','mb0','和風ドレッシング'),
-array ('text','mb2','定番で人気の和風ドレッシングは、サラダはもちろん、蒸し鶏や温野菜など、幅広い料理に使えます。'),
+array ('text','mb2','定番で人気の和風ドレッシングは、サラダはもちろん、<a href="'.$base_url.'/magazine/article/recipe09.php" class="recipe-design__link">蒸し鶏</a>や<a href="'.$base_url.'/magazine/article/recipe-technic155.php" class="recipe-design__link">温野菜</a>など、幅広い料理に使えます。'),
 
 // （小見出し）
 array ('ttl_m','mb1','材料'),
 array ('mtr-st'),
-array ('mtr','米酢','大さじ1と1/2'),
-array ('mtr','醤油','大さじ1と1/2'),
-array ('mtr','砂糖','小さじ1'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#osu" class="recipe-design__link">米酢</a>','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>1と1/2'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>','大さじ1と1/2'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>','小さじ1'),
 array ('mtr','すりごま（白）','小さじ1'),
 array ('mtr','サラダ油','大さじ1'),
 array ('mtr-end'),
@@ -173,7 +173,7 @@ array ('textimg','07','right','サラダチキン','mb2','あっさりした味�
 
 //（小見出し）
 array ('ttl_m','mb1','アボカドサラダ'),
-array ('textimg','08','left','アボカドサラダ','mb2','濃厚なアボカドとみずみずしいトマトの組み合わせが相性ぴったりのサラダです。2cm角に切ったアボカドをボウルに入れてレモン汁を振りかけます。トマトを2cm角に切って、アボカドと一緒に皿に盛り、イタリアンドレッシングをかけたら完成です。'),
+array ('textimg','08','left','アボカドサラダ','mb2','濃厚なアボカドとみずみずしいトマトの組み合わせが相性ぴったりのサラダです。2cm角に切った<a href="'.$base_url.'/magazine/article/recipe-technic68.php" class="recipe-design__link">アボカド</a>をボウルに入れてレモン汁を振りかけます。トマトを2cm角に切って、アボカドと一緒に皿に盛り、イタリアンドレッシングをかけたら完成です。'),
 
 //（小見出し）
 array ('ttl_m','mb1','カルパッチョ'),
@@ -201,6 +201,15 @@ array ('papa','01','大人用には、和風ドレッシングに柚子皮や柚
 //フラッキー　通常
 array ('fl','01','材料によっては傷みやすいから、使い切れる分だけ作るように注意してくれよな！'),
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','14009'),
+  array ('recommend-recipe-id','15030'),
+  array ('recommend-recipe-id','13003'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

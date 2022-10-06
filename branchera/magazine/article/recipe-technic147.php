@@ -96,7 +96,7 @@ array ('ttl_l','mb0','スキレットを初めて使う前のお手入れ方法'
 
 // （本文1）
 array ('text','mb2','鉄製のフライパン、スキレットは厚みがある分、蓄熱性が高く、焼きもの、炒めもの、煮込み料理なども美味しく仕上げることができます。<br>
-スキレットを使い始めるときには「シーズニング（油をなじませること）」の作業が必要です。ただし、すでにシーズニングされている商品の場合は、購入後すぐに使用できます。'),
+スキレットを使い始めるときには「シーズニング（油をなじませること）」の作業が必要です。ただし、既にシーズニングされている商品の場合は、購入後すぐに使用できます。'),
 
 // （小見出し）
 array ('ttl_m','mb1','必要な道具'),
@@ -137,7 +137,7 @@ array ('text','mb2','調理の後は、作った料理を入れたままにし�
 // （小見出し）
 array ('ttl_m','mb1','必要な道具'),
 array ('mtr-st'),
-array ('mtr','重曹','大さじ1'),
+array ('mtr','重曹','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>1'),
 array ('mtr','たわし',''),
 array ('mtr','キッチンペーパー',''),
 array ('mtr','食用油',''),
@@ -175,7 +175,7 @@ array ('text','mb2','美味しくできて、しかも簡単！スキレット�
 
 //（小見出し）
 array ('ttl_m','mb1','えびのアヒージョ'),
-array ('textimg','12','right','えびのアヒージョ','mb0','アヒージョは、具材をオリーブオイルで煮込むスペイン料理です。えびの殻をむき、<a href="'.$base_url.'/magazine/article/recipe-technic49.php" class="recipe-design__link">背わたを取り</a>、片栗粉と塩を揉み込み、水洗いして臭みを取ります。スキレットにオリーブオイルと<a href="'.$base_url.'/magazine/article/recipe-technic16.php" class="recipe-design__link">みじん切り</a>のにんにくを入れ、<a href="'.$base_url.'/magazine/article/recipe-technic02.php#yowabi" class="recipe-design__link">弱火</a>にかけます。具材と鷹の爪を入れて塩を振り、火が通れば完成です。そのままテーブルに出して召し上がれ。'),
+array ('textimg','12','right','えびのアヒージョ','mb0','アヒージョは、具材をオリーブオイルで煮込むスペイン料理です。えびの殻をむき、<a href="'.$base_url.'/magazine/article/recipe-technic49.php" class="recipe-design__link">背わたを取り</a>、片栗粉と<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shio" class="recipe-design__link">塩</a>を揉み込み、水洗いして臭みを取ります。スキレットにオリーブオイルと<a href="'.$base_url.'/magazine/article/recipe-technic16.php" class="recipe-design__link">みじん切り</a>のにんにくを入れ、<a href="'.$base_url.'/magazine/article/recipe-technic02.php#yowabi" class="recipe-design__link">弱火</a>にかけます。具材と鷹の爪を入れて塩を振り、火が通れば完成です。そのままテーブルに出して召し上がれ。'),
 array ('text','mb2','たこ、いかなどでも美味しいアヒージョができますよ。'),
 
 //（小見出し）
@@ -210,6 +210,15 @@ array ('papa','01','キャンプでアヒージョや<a href="'.$base_url.'/maga
 array ('ko','03','わ～い、きゃんぷ<br>
 こうちゃん、おそとでごはんたべた～い'),
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','14001'),
+  array ('recommend-recipe-id','14019'),
+  array ('recommend-recipe-id','15055'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

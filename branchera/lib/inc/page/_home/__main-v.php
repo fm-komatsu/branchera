@@ -2,11 +2,11 @@
   <div class="main-v__row">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <!-- <figure class="main-v__item swiper-slide">
-          <a href="<?php //echo $base_url; ?>/event/article/event-online3.php" data-ga-click="slider_eventonline3_220912">
-            <img src="<?php //echo $img_url; ?>/home/main-v/slider_eventonline3@2x_220912.jpg" alt="『オンラインイベント』こだわりのキッチンツアー&料理教室" class="u-img__max">
+        <figure class="main-v__item swiper-slide">
+          <a href="<?php echo $base_url; ?>/event/article/rashiku-monitor.php" data-ga-click="slider_rashiku-monitor2022">
+            <img src="<?php echo $img_url; ?>/home/main-v/slider_rashiku@2x.jpg" alt="オリジナルセミオーダー収納家具「RASHIKU」モニターキャンペーン" class="u-img__max">
           </a>
-        </figure> -->
+        </figure>
         <figure class="main-v__item swiper-slide">
           <a href="<?php echo $mylucky_url; ?>" data-ga-click="slider_lucky_220719" target="_blank">
             <img src="<?php echo $img_url; ?>/home/main-v/luckyroom_slider_banner.jpg" alt="ラッキールームがリニューアル" class="u-img__max">

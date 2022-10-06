@@ -87,7 +87,7 @@ array ('mtr-end'),
 array ('ttl_l','mb0','美味しい菜の花のゆで方をマスター！'),
 
 // （本文1）
-array ('text','mb2','早春に出回り、食卓を春らしく彩る菜の花。鮮やかな色彩と歯ごたえを生かすために、ゆで過ぎに注意しながら下ごしらえしましょう。'),
+array ('text','mb2','早春に出回り、食卓を春らしく彩る菜の花。鮮やかな色彩と歯ごたえを生かすために、ゆで過ぎに注意しながら<a href="'.$base_url.'/magazine/article/recipe-collect03.php" class="recipe-design__link">下ごしらえ</a>しましょう。'),
 
 // （小見出し）
 array ('ttl_m','mb0','菜の花の選び方'),
@@ -104,7 +104,7 @@ array ('ttl_m','mb1','菜の花のゆで方'),
 array ('ttl_s','mb1','材料'),
 array ('mtr-st'),
 array ('mtr','菜の花','1束'),
-array ('mtr','塩','小さじ1杯'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shio" class="recipe-design__link">塩</a>','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">小さじ</a>1杯'),
 array ('mtr-end'),
 
 array ('ttl_s','mb1','手順'),
@@ -131,11 +131,11 @@ array ('text','mb3','葉がやわらかい菜の花はしおれやすいので�
 array ('ttl_l','mb0','菜の花を使った人気レシピ'),
 
 // （本文2）
-array ('text','mb2','独特のほろ苦さと、みずみずしさが特徴の菜の花。シンプルなおひたしから洋風のパスタまで、菜の花を使った春らしい人気レシピをご紹介します！'),
+array ('text','mb2','独特のほろ苦さと、みずみずしさが特徴の菜の花。シンプルなおひたしから洋風の<a href="'.$base_url.'/magazine/article/recipe-technic64.php" class="recipe-design__link">パスタ</a>まで、菜の花を使った春らしい人気レシピをご紹介します！'),
 
 //（小見出し）
 array ('ttl_m','mb1','菜の花と油揚げの煮浸し'),
-array ('textimg','07','right','菜の花と油揚げの煮浸し','mb2','ジュワッと煮汁の染みた油揚げと、菜の花の相性が抜群の一品！鍋にだし汁、みりん、醤油を合わせて沸かします。油揚げは熱湯で油抜きをし、食べやすい大きさに切っておきましょう。下ごしらえした菜の花と油揚げを鍋に加え、弱めの中火で1分ほど煮たらできあがりです。'),
+array ('textimg','07','right','菜の花と油揚げの煮浸し','mb2','ジュワッと煮汁の染みた油揚げと、菜の花の相性が抜群の一品！鍋にだし汁、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#mirin2" class="recipe-design__link">みりん</a>、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>を合わせて沸かします。油揚げは熱湯で油抜きをし、食べやすい大きさに切っておきましょう。下ごしらえした菜の花と油揚げを鍋に加え、弱めの<a href="'.$base_url.'/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>で1分ほど煮たらできあがりです。'),
 
 //（小見出し）
 array ('ttl_m','mb1','菜の花の辛子和え'),
@@ -165,6 +165,15 @@ array ('fl','03','下ごしらえした菜の花は、ほかの葉物野菜と�
 array ('mama','01','いつも使っている葉物野菜の代わりにするだけで、食卓が旬の雰囲気に変わるね♪<br>フラッキー、ありがとう！'),
 
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','15064'),
+  array ('recommend-recipe-id','13003'),
+  array ('recommend-recipe-id','15157'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

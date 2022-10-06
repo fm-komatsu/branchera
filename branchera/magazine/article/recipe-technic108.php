@@ -85,8 +85,8 @@ array ('text','mb2','秋から冬にかけて旬を迎えるさつまいも。�
 array ('ttl_m','mb0','材料'),
 array ('mtr-st'),
 array ('mtr','さつまいも','1本（250g）'),
-array ('mtr','砂糖','大さじ2'),
-array ('mtr','醤油','小さじ1'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>2'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>','小さじ1'),
 array ('mtr','黒いりごま','適量'),
 array ('mtr','サラダ油','大さじ2'),
 array ('mtr-end'),
@@ -96,7 +96,7 @@ array ('ttl_m','mb0','手順'),
 array ('step','01','mb0','さつまいもはヘタを切り、小さめの<a href="'.$base_url.'/magazine/article/recipe-technic61.php" class="recipe-design__link">乱切り</a>にします。'),
 array ('step','02','mb0','切ったさつまいもを10分程度水にさらし、しっかりとキッチンペーパーで水気を拭き取ります。'),
 array ('step','03','mb0','さつまいもをフライパンに入れます。そこにサラダ油を入れ、<a href="'.$base_url.'/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>で熱してください。'),
-array ('step','04','mb0','サラダ油が泡立ってきたら弱火にして、蓋をします。そのまま10分程度蒸し焼きにしましょう。'),
+array ('step','04','mb0','サラダ油が泡立ってきたら<a href="'.$base_url.'/magazine/article/recipe-technic02.php#yowabi" class="recipe-design__link">弱火</a>にして、蓋をします。そのまま10分程度蒸し焼きにしましょう。'),
 array ('step','05','mb0','蓋を開け、さつまいもに竹串を通して、火が通っているか確認します。竹串がスッと通るくらいまで火が通ったら、余分な油をキッチンペーパーで拭き取ります。'),
 array ('step','06','mb0','中火にして砂糖と醤油を加え、さつまいもとよく絡めます。'),
 array ('step','07','mb3','最後に黒いりごまを加えて、ざっと混ぜたら完成です。'),
@@ -105,7 +105,7 @@ array ('step','07','mb3','最後に黒いりごまを加えて、ざっと混ぜ
 // Plus1
 array ('plus-st'),
 array('plus-ttl','mb0','砂糖の代わりにはちみつやみりんを使ったレシピも！'),
-array ('textimg','08','right','alt','mb2','大学芋の美味しさの決め手となる、甘い蜜。砂糖の代わりにはちみつを使うと、冷めても蜜が固まりにくくなります。砂糖の代わりにはちみつを使う場合も、分量の目安は大さじ2です。また、メープルシロップを使うと、すっきりした甘すぎない蜜になりますよ。'),
+array ('textimg','08','right','alt','mb2','大学芋の美味しさの決め手となる、甘い蜜。砂糖の代わりにはちみつを使うと、冷めても蜜が固まりにくくなります。砂糖の代わりにはちみつを使う場合も、分量の目安は大さじ2です。また、メープルシロップを使うと、スッキリした甘すぎない蜜になりますよ。なお、はちみつを使う場合、1歳未満の乳児に与えないよう注意しましょう。'),
 array ('text','mb0','ツヤっとした仕上がりにしたいときは、砂糖の代わりにみりんを使うのがおすすめです。<br>飴のように固まらずにツヤが出て、あっさりとした味になります。<br>砂糖の代わりに使用する場合、みりん1/2カップと醤油小さじ1を半量になるまで煮詰めてから、さつまいもと絡めましょう。さつまいもはフライパンで熱し、調味料だけ電子レンジで加熱して絡めてもOKです。ぜひ好みに合わせてアレンジしてくださいね。'),
 array ('plus-end'),
 
@@ -141,6 +141,15 @@ array ( 'mama','01','私も私も！'),
 array ( 'fl','01','おいおい！ヘルシーでも食べ過ぎは禁物だぞ〜！'),
 
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','14015'),
+  array ('recommend-recipe-id','14001'),
+  array ('recommend-recipe-id','14004'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

@@ -100,18 +100,18 @@ array ('mtr-st'),
 array ('mtr','にんじん','1本（150g）'),
 array ('mtr','水','200ml'),
 array ('mtr','バター','10g'),
-array ('mtr','砂糖','大さじ1'),
-array ('mtr','塩','ひとつまみ'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>','<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>1'),
+array ('mtr','<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shio" class="recipe-design__link">塩</a>','ひとつまみ'),
 array ('mtr-end'),
 
 // （小見出し）
 array ('ttl_m','mb1','手順'),
-array('step','01','mb3','にんじんは皮をむき、1cm厚さの輪切りにして<a href="'.$base_url.'/magazine/article/recipe-technic31.php#mentori" class="recipe-design__link">面取り</a>します。'),
+array('step','01','mb3','にんじんは皮をむき、1cm厚さの<a href="'.$base_url.'/magazine/article/recipe-technic60.php" class="recipe-design__link">輪切り</a>にして<a href="'.$base_url.'/magazine/article/recipe-technic31.php#mentori" class="recipe-design__link">面取り</a>します。'),
 
 // ■Check
 array ('chk-st'),
 array ('ttl4','mb2','面取りは煮崩れを防ぐため！'),
-array ('free','mb0','野菜をきれいな形で煮上げるために、煮崩れしやすい角をあらかじめ取っておくことを「面取り」というんだ。とがっている角の部分を、包丁で薄く削り取ろう。難しかったら、ピーラーを使うと楽だぞ！'),
+array ('free','mb0','野菜をきれいな形で煮上げるために、煮崩れしやすい角をあらかじめ取っておくことを「面取り」というんだ。とがっている角の部分を、包丁で薄く削り取ろう。難しかったら、<a href="'.$base_url.'/magazine/article/recipe-technic23.php" class="recipe-design__link">ピーラー</a>を使うと楽だぞ！'),
 array ('chk-end'),
 
 array('step','02','mb0','小鍋に水、バター、砂糖、塩、にんじんを入れ、<a href="'.$base_url.'/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>にかけます。'),
@@ -128,7 +128,7 @@ array ('plus-end'),
 // ■Plus1
 array ('plus-st'),
 array('plus-ttl','mb0','電子レンジで時短する方法'),
-array('text','mb2','にんじんグラッセを時間をかけずに簡単に仕上げたいときは、電子レンジの利用がおすすめです。上記のレシピと同分量の場合、水を大さじ2に減らし、カットしたにんじんと、その他の材料を耐熱ボウルに入れてラップをかけ、600Wに設定した電子レンジで2分加熱します。一度取り出して全体を混ぜ合わせ、再び2分加熱しましょう。'),
+array('text','mb2','にんじんグラッセを時間をかけずに簡単に仕上げたいときは、電子レンジの利用がおすすめです。上記のレシピと同分量の場合、水を大さじ2に減らし、カットしたにんじんと、そのほかの材料を耐熱ボウルに入れてラップをかけ、600Wに設定した電子レンジで2分加熱します。一度取り出して全体を混ぜ合わせ、再び2分加熱しましょう。'),
 array ('plus-end'),
 
 // （小見出し）
@@ -145,11 +145,11 @@ array ('textimg','05','right','かぼちゃのグラッセ','mb2','和風の煮�
 
 //（小見出し）
 array ('ttl_m','mb1','さつまいものグラッセ'),
-array ('textimg','06','left','さつまいものグラッセ','mb2','ほくほくの甘いさつまいもで作るグラッセは、おやつ感覚で楽しめる一品です。<br>さつまいもは1.5cm厚さの<a href="'.$base_url.'/magazine/article/recipe-technic60.php" class="recipe-design__link">輪切り</a>にし、水にさらしてアク抜きします。下ごしらえが済んださつまいもと、被るくらいの水を鍋に入れ、バター、砂糖、塩少々を加えて煮込みます。水気がなくなり、つやが出ればできあがりです。'),
+array ('textimg','06','left','さつまいものグラッセ','mb2','ほくほくの甘いさつまいもで作るグラッセは、おやつ感覚で楽しめる一品です。<br>さつまいもは1.5cm厚さの輪切りにし、水にさらしてアク抜きします。下ごしらえが済んださつまいもと、被るくらいの水を鍋に入れ、バター、砂糖、塩少々を加えて煮込みます。水気がなくなり、つやが出ればできあがりです。'),
 
 //（小見出し）
 array ('ttl_m','mb1','離乳食中期向けのにんじんグラッセ'),
-array ('textimg','07','right','離乳食中期向けのにんじんグラッセ','mb0','栄養豊富で甘みのあるにんじんグラッセは、赤ちゃんの離乳食にもおすすめです。<br>にんじんを大人用のグラッセより小さめにカットし、鍋でやわらかく煮ます。ゆで汁を捨て、<a href="'.$base_url.'/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ1〜2</a>程度の水と、ごく少量ずつのバター、砂糖、塩を加え、煮詰めてつやを出します。容器に移し、赤ちゃんの離乳の進み具合に合わせて小さく潰しましょう。'),
+array ('textimg','07','right','離乳食中期向けのにんじんグラッセ','mb0','栄養豊富で甘みのあるにんじんグラッセは、赤ちゃんの離乳食にもおすすめです。<br>にんじんを大人用のグラッセより小さめにカットし、鍋でやわらかく煮ます。ゆで汁を捨て、大さじ1〜2程度の水と、ごく少量ずつのバター、砂糖、塩を加え、煮詰めてつやを出します。容器に移し、赤ちゃんの離乳の進み具合に合わせて小さく潰しましょう。'),
 
 );
 
@@ -170,6 +170,15 @@ array ('fl','03','にんじんグラッセが余ったら、牛乳を加えて�
 //ミエ　驚く
 array ('mama','03','余りでもう1品できちゃうなんて助かる！明日の朝食はポタージュとトーストにしようっと♪<br>フラッキー、ありがとう！'),
 
+);
+
+//関連記事
+$recommendrecipe = array (
+  array	('recommend-recipe-st'),
+  array ('recommend-recipe-id','15112'),
+  array ('recommend-recipe-id','15149'),
+  array ('recommend-recipe-id','15055'),
+  array ('recommend-recipe-end'),  
 );
 
 // 用語解説

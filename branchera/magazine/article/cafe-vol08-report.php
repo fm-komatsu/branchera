@@ -84,7 +84,7 @@ include ($inc_path."/lib/inc/header.php");
 				<div class="u-column">
 					<div class="u-column__2">
 						<div class="u-column__item mb3_sp">
-							<p class="mb3">「6月1日や10月1日など暦に応じて」という方は約10 ％と少なく、70％以上の方が「体感温度（最低・最高気温の変化）」と答えています。<br>「衣替えした後に季節が戻ってまた衣類を引っ張り出した」や「もう寒くないとダウンコートをクリーニングに出したら急に寒い日がきて、また袖を通してしまった」など、なかなか暦通りにはいかないもの。やはり体感重視で「自分の身体の声を聞け！」ということでしょうか。<br>意外だったのは「衣替えはしない」という方が少なからずいたこと。断捨離ブームで衣服が少なくなったり、ウォークインクローゼットが普及したりして必要がなくなりつつもあるようです。「きちんとした衣替えは中学の制服まで。最近は『衣替え』の文言は死語なのでは？」なんてご意見も。</p>
+							<p class="mb3">「6月1日や10月1日など暦に応じて」という方は約10％と少なく、70％以上の方が「体感温度（最低・最高気温の変化）」と答えています。<br>「衣替えした後に季節が戻ってまた衣類を引っ張り出した」や「もう寒くないとダウンコートをクリーニングに出したら急に寒い日がきて、また袖を通してしまった」など、なかなか暦通りにはいかないもの。やはり体感重視で「自分の身体の声を聞け！」ということでしょうか。<br>意外だったのは「衣替えはしない」という方が少なからずいたこと。思い切って片付けて衣服が少なくなったり、ウォークインクローゼットが普及したりして必要がなくなりつつもあるようです。「きちんとした衣替えは中学の制服まで。最近は『衣替え』の文言は死語なのでは？」なんてご意見も。</p>
 						</div>
 						<div class="u-column__item">
 							<figure class="mb3">
@@ -117,7 +117,7 @@ include ($inc_path."/lib/inc/header.php");
 						<div class="u-column__item">
 							<p>まずは収納場所に対するお悩み。「全部出し終わり入れ替えを始めたら、入りきらず途方に暮れた」など。この現象はどうやら冬から春・夏への衣替え時に発生するようです。「夏服は薄手なのでスッキリ収納できるが、冬服は厚手なので収納に困る」「冬の時期に嵩張るコートを複数枚購入してしまい、収納ができなくなってしまった」と、かさばる冬服問題があるようです。<br>
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec01__img01-sp@2x.png" alt="冬服はかさばるね image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
-								また「服が多すぎ！」なのには「洋服が捨てられない。断捨離が苦手」や「コレ今年は着なかったなぁ…と思いながら、またしまい直してしまう」などの「服を捨てられない問題」も隠れているようです。<br>続いて服の傷みに関するお悩み。「礼服にカビが生えていた」「たたみじわが酷くてアイロンのかけ直しをしなければいけなかった」「衣類が変色していた、穴が空いていた」など手入れに関するものも目立ちました。<br class="u-only__sp">
+								また「服が多すぎ！」なのには「洋服が捨てられない。処分が苦手」や「コレ今年は着なかったなぁ…と思いながら、またしまい直してしまう」などの「服を捨てられない問題」も隠れているようです。<br>続いて服の傷みに関するお悩み。「礼服にカビが生えていた」「たたみじわが酷くてアイロンのかけ直しをしなければいけなかった」「衣類が変色していた、穴が空いていた」など手入れに関するものも目立ちました。<br class="u-only__sp">
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec01__img02-sp@2x.png" alt="お気に入りの服に限って虫に食われてたりしますよね image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
 							</p>
 						</div>
@@ -142,7 +142,7 @@ include ($inc_path."/lib/inc/header.php");
 						<div class="u-column__item">
 							<p>入れ替えの時期に思い切って整理することで、収納問題や服の劣化問題をある程度解決できるようです。<br>保管の工夫として「よく着るものとあまり着ないものに分けて保管する」や「何が入っているか外からわかるように収納する」「クローゼットの片側に冬物反対側に夏物、真ん中は春秋物を掛けている。引き出しごとそっくり入れ替える」など整理方法を見直すアイディアも見られましたが、ダントツは「捨てる」「整理する」でした。<br>
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec02__img01-sp@2x.png" alt="子供はすぐに大きくなるから服が増えますね image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
-								「なるべくワンシーズンで着倒して処分」なんて潔い方も。思い切って捨てることで収納場所も増え、「着ようと思った服が見つからなかった」などの服の行方不明事件も予防できそうです。捨てる判断がつきにくい場合は「2年以上着ていないものは処分するか、リサイクルする」など、自分なりのルールを決めるとやりやすいかもしれません。「衣替えの時期に娘が遊びに来て、断捨離されてしまった」…人の手を借りるのもありです。<br>ただし「捨てすぎて1年後に着る服がなかった」「あの服どこにやったかなと探すことが多い。それはほぼ捨てている」なんてこともあるので、捨てすぎにはご注意を！<br class="u-only__sp">
+								「なるべくワンシーズンで着倒して処分」なんて潔い方も。思い切って捨てることで収納場所も増え、「着ようと思った服が見つからなかった」などの服の行方不明事件も予防できそうです。捨てる判断がつきにくい場合は「2年以上着ていないものは処分するか、リサイクルする」など、自分なりのルールを決めるとやりやすいかもしれません。「衣替えの時期に娘が遊びに来て、片付けられてしまった」…人の手を借りるのもありです。<br>ただし「捨てすぎて1年後に着る服がなかった」「あの服どこにやったかなと探すことが多い。それはほぼ捨てている」なんてこともあるので、捨てすぎにはご注意を！<br class="u-only__sp">
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec02__img02-sp@2x.png" alt="期限を決めて処分するのはいいですね！ image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
 							</p>
 						</div>
@@ -160,15 +160,15 @@ include ($inc_path."/lib/inc/header.php");
 					<div class="u-column__2">
 						<div class="u-column__item u-only__pc">
 								<img class="mb3" src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img01@2x.png" alt="出勤の服は着る回数が激減した人もいるようです。 image｜<?php echo $pageTtl ?>" class="u-img__max u-only__pc mb3" style="max-width:352px" loading="lazy">
-								<img class="mb3" src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img02@2x.png" alt="断捨離するにはいい機会！ image｜<?php echo $pageTtl ?>" class="u-img__max u-only__pc" style="max-width:344px" loading="lazy">
+								<img class="mb3" src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img02@2x.png" alt="不用品処分にはいい機会！ image｜<?php echo $pageTtl ?>" class="u-img__max u-only__pc" style="max-width:344px" loading="lazy">
 								<img class="mb3" src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img03@2x.png" alt="洋服よりもマスク選びの時間が増えました〜。 image｜<?php echo $pageTtl ?>" class="u-img__max u-only__pc" style="max-width:347px" loading="lazy">
 						</div>
 						<div class="u-column__item">
 							<p class="mb8 mb4_sp">コロナ禍でリモートワークが増え「スーツを着なかった」「外出が少なかったので、着ていないものが多い。クリーニングに出すものは少ないかも」などのコメントが多数見られました。<br>「衣替えの時にクリーニングを利用する場合、どんなものを出していますか？」という質問で80％を占めている「コート、スーツ類」を着る機会そのものがなかったということですね。<br>
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img01-sp@2x.png" alt="出勤の服は着る回数が激減した人もいるようです。 image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
-							  さらに、外出自粛や在宅勤務で時間がある時に「自粛期間中に不要なものを処分したので衣替えが楽だった」など衣類の断捨離を進めた方も多数。少なくなった分を買い足すのかと思いきや「人と会うことがあまりなかったので洋服は買っていなかった」「新しい服など外出が怖くて買いに行けない」ということで、衣服の数そのものが減ってきているのかもしれません。<br>
-								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img02-sp@2x.png" alt="断捨離するにはいい機会！ image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
-						    断捨離をくぐりぬけ、手元に残ったお気に入りの服はぜひ大切にしたいもの。衣替えのお悩みでも触れたような服の傷みなどが心配な方は、プロの技で完璧に管理してくれる衣類の保管サービスを利用するのも一つの手です。アンケートの回答では「利用したことがない」が80％近くとまだまだ普及はしていないようですが、経験者からは「クリーニングに出した際、使用する時期までそのまま保管してもらったので、スペースもできて、掃除も楽だった」などの喜びの声も。最近の保管サービスは宅配や引き取りも行なっているので「冬のコートなどたくさんの枚数をクリーニング店に持って行くのが重たくて大変」などの問題も解決できそうです。
+							  さらに、外出自粛や在宅勤務で時間がある時に「自粛期間中に不要なものを処分したので衣替えが楽だった」など衣類の片付けを進めた方も多数。少なくなった分を買い足すのかと思いきや「人と会うことがあまりなかったので洋服は買っていなかった」「新しい服など外出が怖くて買いに行けない」ということで、衣服の数そのものが減ってきているのかもしれません。<br>
+								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img02-sp@2x.png" alt="不用品処分にはいい機会！ image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
+						    処分から逃れ、手元に残ったお気に入りの服はぜひ大切にしたいもの。衣替えのお悩みでも触れたような服の傷みなどが心配な方は、プロの技で完璧に管理してくれる衣類の保管サービスを利用するのも一つの手です。アンケートの回答では「利用したことがない」が80％近くとまだまだ普及はしていないようですが、経験者からは「クリーニングに出した際、使用する時期までそのまま保管してもらったので、スペースもできて、掃除も楽だった」などの喜びの声も。最近の保管サービスは宅配や引き取りも行なっているので「冬のコートなどたくさんの枚数をクリーニング店に持って行くのが重たくて大変」などの問題も解決できそうです。
 								<img src="<?php echo $img_url ?>/magazine/cafe-report/cafe-report-vol08/sec03__img03-sp@2x.png" alt="洋服よりもマスク選びの時間が増えました〜。 image｜<?php echo $pageTtl ?>" class="u-img__max u-only__sp mt2_sp mb2_sp center" loading="lazy">
 							</p>
 						</div>

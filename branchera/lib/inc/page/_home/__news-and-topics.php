@@ -127,29 +127,39 @@
 				// $dataGaClick = 'news_topics_online2022_boshu_220912';
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-		<?php // いま暮らcaféレポート
-				$cntId = '25042';
+		<?php //「RASHIKU」モニターキャンペーン
+				$cntId = '4098';
 				$noticeLabel = 'new';
-				$category = 'マガジン';
-				$cntTtl = '「いま暮らCafé『○○なら長谷工！どんなイメージ？～後編～』」';
-				$predicate = 'を公開しました。';
+				$category = 'キャンペーン';
+				$cntTtl = '「《限定１名さま》ご自宅のキッチンにジャストフィット！「RASHIKU」モニターキャンペーン」';
+				$predicate = '募集中です！';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_imakura_41-2';
+				$dataGaClick = 'news_topics_rashiku-monitor2022';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // いま暮らアンケート
+				$cntId = '11087';
+				$noticeLabel = 'new';
+				$category = 'アンケート';
+				$cntTtl = 'いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」';
+				$predicate = '募集中です！';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_imakura_enq43';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // お掃除コンテンツ
-				$cntId = '27021';
+				$cntId = '27022';
 				$noticeLabel = 'new';
 				$category = 'マガジン';
-				$cntTtl = '「部屋のお掃除プロ監修 三毛猫きらりのお掃除攻略ガイド『窓ガラスを掃除しよう！簡単に窓をピカピカにするコツを解説』」';
+				$cntTtl = '「部屋のお掃除プロ監修 三毛猫きらりのお掃除攻略ガイド『窓の結露対策、どうすればよい？カビの予防方法もご紹介』」';
 				$predicate = 'を公開しました。';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_cleaning21';
+				$dataGaClick = 'news_topics_cleaning22';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-
 		<?php // 交換商品
 				$cntId = '';
 				$noticeLabel = '';
@@ -161,8 +171,7 @@
 				$dataGaClick = 'news_topics_exchange220913';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-				
-      	<?php // 抽選賞品
+		<?php // 抽選賞品
 				$cntId = '9075';
 				$noticeLabel = '';
 				$category = '住まいレージ';
@@ -173,16 +182,47 @@
 				$dataGaClick = 'news_topics_monthly_2209';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-      	<?php
-				$cntId = '4096';
+		<?php // ClubOff by HASEKO
+				$cntId = '3025';
 				$noticeLabel = '';
-				$category = 'キャンペーン';
-				$cntTtl = '「8周年記念プレゼントキャンペーン当選者発表！」';
-				$predicate = 'を公開しました。';
+				$category = '優待サービス';
+				$cntTtl = '「ClubOff by HASEKO」。全国20万か所以上の施設で、';
+				$predicate = 'お得にご利用いただけるサービスです。';
+				$dataGaClick = 'news_topics_cluboff';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // いま暮らcaféレポート
+				$cntId = '25008';
+				$noticeLabel = '';
+				$category = 'マガジン';
+				$cntTtl = '「いま暮らCafé『あなたの今を聞かせて！季節替わりの準備』」';
+				$predicate = '公開中です。';
 				$news_imgUrl = '';
 				$news_cntUrl = '';
-				$dataGaClick = 'present-campaign888';
+				$dataGaClick = 'news_topics_imakura_08';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+		<?php // 交換商品
+				$cntId = '8004';
+				$noticeLabel = '';
+				$category = '住まいレージ';
+				$cntTtl = '「有名メーカー家具のご購入」';
+				$predicate = '公開中です。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_hit-furniture220928';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>				
+      	<?php
+				// $cntId = '4096';
+				// $noticeLabel = '';
+				// $category = 'キャンペーン';
+				// $cntTtl = '「8周年記念プレゼントキャンペーン当選者発表！」';
+				// $predicate = 'を公開しました。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'present-campaign888';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
 		<?php // アンケート
@@ -198,17 +238,6 @@
 				?>
 
 
-      	<?php // いま暮らアンケート
-				// $cntId = '11089';
-				// $noticeLabel = 'new';
-				// $category = 'アンケート';
-				// $cntTtl = '【50スマイルプレゼント】「特別企画『第2回 いま暮ら川柳』」';
-				// $predicate = '募集中です！';
-				// $news_imgUrl = '';
-				// $news_cntUrl = '';
-				// $dataGaClick = 'news_topics_imakura_enq42_senryu';
-				// include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
       	<?php // テクニック
 				// $cntId = '15163';
 				// $noticeLabel = '';
@@ -221,36 +250,27 @@
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
       	<?php // ALSOK 暮らしの危機管理
-				$cntId = '19005';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「プロに聞く。暮らしの危機管理。『マンションの風水害対策』」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_alsok_86';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '19005';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「プロに聞く。暮らしの危機管理。『マンションの風水害対策』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_alsok_86';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
       	<?php // 住まいのSOS
-				$cntId = '26011';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「プロが解決！住まいのSOS『換気扇を回しているのに…最近お料理のニオイが取り切れない！』」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_sumai-sos_11';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
-      	<?php // ClubOff by HASEKO
-				$cntId = '3025';
-				$noticeLabel = '';
-				$category = '優待サービス';
-				$cntTtl = '「ClubOff by HASEKO」。全国20万か所以上の施設で、';
-				$predicate = 'お得にご利用いただけるサービスです。';
-				$dataGaClick = 'news_topics_cluboff';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '26011';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「プロが解決！住まいのSOS『換気扇を回しているのに…最近お料理のニオイが取り切れない！』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_sumai-sos_11';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
       	<?php // お掃除コンテンツ

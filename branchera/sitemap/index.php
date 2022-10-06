@@ -105,7 +105,6 @@ include($inc_path . "/lib/inc/header.php");
 						<li><a href="<?php echo $base_url; ?>/smile/article/hcm-toilet.php">トイレ・洗面所リフォーム</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/hcm-bathroom.php">バスルームリフォーム</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/hcm-kitchen.php">キッチン・換気扇リフォーム</a></li>
-						<li><a href="<?php echo $base_url ?>/smile/article/exchange-cleaning_goods.php">おそうじグッズ</a></li>
 						<li><a href="<?php echo $base_url ?>/smile/article/exchange-emergency.php">防災グッズ</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-original_coffee.php#drip_bag">【いま暮ら珈琲】オリジナルコーヒー（ドリップバッグセット）</a></li>
 						<li><a href="<?php echo $base_url; ?>/smile/article/exchange-oyasai-crayon.php">【mizuiro】おやさいクレヨン Standard</a></li>
@@ -128,6 +127,7 @@ include($inc_path . "/lib/inc/header.php");
 				<div class="sitemap-list__item">
 					<h4 class="u-ttl__m"><a href="<?php echo $base_url; ?>/event">イベント・キャンペーン</a></h4>
 					<ul class="u-list__ul">
+						<li><a href="<?php echo $base_url ?>/event/article/rashiku-monitor.php">《限定１名さま》ご自宅のキッチンにジャストフィット！「RASHIKU」モニターキャンペーン</a></li>
 						<li><a href="<?php echo $base_url ?>/event/article/event-online3.php">『オンラインイベント』こだわりのキッチンツアー&料理教室</a></li>
 						<li><a href="<?php echo $base_url ?>/event/article/present-campaign888.php">8周年記念プレゼントキャンペーン当選者発表！</a></li>
 						<li><a href="<?php echo $base_url ?>/event/article/report-event-online02.php">『オンラインイベント』収納のお悩みプロが解決！！イベントレポート</a></li>
@@ -179,6 +179,7 @@ include($inc_path . "/lib/inc/header.php");
 				<div class="sitemap-list__item">
 					<h4 class="u-ttl__m"><a href="<?php echo $base_url; ?>/enquete">アンケート</a></h4>
 					<ul class="u-list__ul">
+						<li><a href="<?php echo $base_url ?>/enquete/article/cafe-vol43.php">いま暮らアンケート「機器にも“適齢期”があるんです！《換気扇 編》」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol22-report.php">第22回アンケートレポート「収納に関するアンケート」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol21-report.php">第21回アンケートレポート「満足度・意識調査2022」</a></li>
 						<li><a href="<?php echo $base_url ?>/enquete/article/enq-vol20-report.php">第20回アンケートレポート「お住まいに関するアンケート」</a></li>

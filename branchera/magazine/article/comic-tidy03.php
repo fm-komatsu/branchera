@@ -242,6 +242,16 @@ include( $inc_path . "/lib/inc/header.php" );
       </div>
       <!-- //wrapper -->
 
+      <div class="mb6">
+        <div>
+          <a href="<?php echo $base_url ?>/magazine/article/sumai-sos-vol09.php" data-ga-click="pr_<?php echo $filename ?>_pc" class="u-only__pc">
+            <img src="<?php echo $img_url ?>/magazine/comic01/comic-tidy03_pc@2x.jpg" alt="" class="u-img__max u-only__pc">
+          </a>
+          <a href="<?php echo $base_url ?>/magazine/article/sumai-sos-vol09.php" data-ga-click="pr_<?php echo $filename ?>_sp" class="u-only__sp">
+            <img src="<?php echo $img_url ?>/magazine/comic01/comic-tidy03_sp.jpg" alt="" class="u-img__max u-only__sp">
+          </a>
+        </div>
+      </div>
 
       <div class="wrapper wide">
 

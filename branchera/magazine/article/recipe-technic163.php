@@ -140,7 +140,7 @@ array ('ttl_m','mb1','きんぴらごぼうの炊き込みご飯'),
 array ('textimg','11','left','きんぴらごぼうの炊き込みご飯','mb2','きんぴらごぼうで作る炊き込みご飯です。研いだお米を炊飯器に入れ、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#shoyu" class="recipe-design__link">醤油</a>、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#mirin" class="recipe-design__link">みりん</a>、和風だしを加えてから、分量の線まで水を入れます。細かく切った<a href="'.$base_url.'/magazine/article/recipe04.php" class="recipe-design__link">鶏のもも肉</a>、細切りにしたにんじんと油揚げ、ほぐした<a href="'.$base_url.'/magazine/article/recipe-technic27.php#shimeji" class="recipe-design__link">しめじ</a>、きんぴらごぼうを入れて、ご飯を炊きます。炊き上がったら完成です。'),
 
 //（小見出し）
-array ('ttl_m','mb1','五目きんぴら'),
+array ('ttl_m','mb1','<span id="gomoku">五目きんぴら</span>'),
 array ('textimg','12','right','五目きんぴら','mb2','具だくさんの五目きんぴらは、一度に多くの食品が摂れる栄養豊富な一品です。<br>ごぼうは千切りに、れんこんは薄切りにして水にさらし、水気を切ります。フライパンにごま油を入れ、豚肉、ごぼうをよく炒めます。れんこん、<a href="'.$base_url.'/magazine/article/recipe-technic13.php#sengiri" class="recipe-design__link">にんじんの千切り</a>、こんにゃく、<a href="'.$base_url.'/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a>を加えて炒めます。醤油、酒、みりん（めんつゆでも可）を加えて、汁気がなくなったらできあがりです。'),
 
 //（小見出し）

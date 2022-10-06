@@ -1,0 +1,15 @@
+.rashiku-monitor .enquete-ex__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.rashiku-monitor .enquete-ex__img {
+    width: 100px;
+    height: 246px;
+    max-width: 100px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100px;
+    flex: 0 0 100px;
+    margin-left: 24px;
+}

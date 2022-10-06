@@ -214,7 +214,7 @@ $altCap13 = '';
               <?php echo($altCap04); ?>
             </dd>
           </dl>
-          <h4 class="recipe__ttl">そぎ切り</h4>
+          <h4 class="recipe__ttl" id="sogigiri">そぎ切り</h4>
           <dl class="recipe-design__step mb0">
             <dt class="recipe-design__step_img">
               <figure>

@@ -24,7 +24,7 @@ $altCap02 = '卵白を切るように溶きます。';
 $altCap03 = '酒・砂糖・片栗粉・塩を入れて混ぜます。';
 $altCap04 = 'ザルでこします。';
 $altCap05 = 'フライパン全体に油をひいていきます。';
-$altCap06 = '中火で熱し、温まったら濡れ布巾の上にフライパンをのせて底を冷まし、温度を均一にします。';
+$altCap06 = '中火で熱し、温まったら濡れぶきんの上にフライパンをのせて底を冷まし、温度を均一にします。';
 $altCap07 = '数秒経ったらフライパンをコンロに戻して、すぐに卵液を流し入れます。その後、フライパンを傾けて厚さが均等になるように広げます。';
 $altCap08 = '弱火と中火の間の火加減で1分ほど焼いていきます。';
 $altCap09 = '卵のふちがフライパンから離れてきたら、菜箸1本を卵の下に入れて引っかけるようにして、持ち上げて裏返します。';
@@ -56,7 +56,7 @@ $altCap13 = '';
 			<hr class="recipe__line">
 			<div class="recipe-icn mie_01">
 				<div class="inner">
-					<p>マユ先生、お弁当の彩りをよくするために<br class="u-only__pc">おすすめのトッピングを教えてください！<br>何だかいつも、茶色っぽいお弁当になってしまって…<br>手軽に使えて、華やかなお弁当にできる具材はないでしょうか？</p>
+					<p>マユ先生、<a href="<?php echo $base_url ?>/magazine/article/recipe-collect01.php" class="recipe-design__link">お弁当</a>の彩りをよくするために<br class="u-only__pc">おすすめのトッピングを教えてください！<br>何だかいつも、茶色っぽいお弁当になってしまって…<br>手軽に使えて、華やかなお弁当にできる具材はないでしょうか？</p>
 				</div>
 			</div>
 			<div class="recipe-icn mayu_01">
@@ -71,7 +71,7 @@ $altCap13 = '';
 			</div>
 			<div class="recipe-icn mayu_01">
 				<div class="inner">
-					<p>薄焼き卵は、ちょっとしたコツで失敗せずに作ることができますよ！<br>錦糸卵はお弁当以外にも、丼ものやサラダなどいろいろな料理に合うので<br class="u-only__pc">ぜひ、マスターしてくださいね！</p>
+					<p>薄焼き卵は、ちょっとしたコツで失敗せずに作ることができますよ！<br>錦糸卵はお弁当以外にも、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic100.php#chirashi" class="recipe-design__link">丼もの</a>や<a href="<?php echo $base_url ?>/magazine/article/recipe-technic145.php" class="recipe-design__link">サラダ</a>などいろいろな料理に合うので<br class="u-only__pc">ぜひ、マスターしてくださいね！</p>
 				</div>
 			</div>
 			<div class="recipe__movie recipe-movie technic">
@@ -98,10 +98,10 @@ $altCap13 = '';
 						</dl>
 						<dl class="recipe-design__materials">
 							<dt>酒</dt>
-							<dd>大さじ1</dd>
+							<dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic12.php" class="recipe-design__link">大さじ</a>1</dd>
 						</dl>
 						<dl class="recipe-design__materials">
-							<dt>砂糖</dt>
+							<dt><a href="<?php echo $base_url ?>/magazine/article/recipe-technic22.php#satou" class="recipe-design__link">砂糖</a></dt>
 							<dd>小さじ2</dd>
 						</dl>
 						<dl class="recipe-design__materials">
@@ -109,7 +109,7 @@ $altCap13 = '';
 							<dd>小さじ1</dd>
 						</dl>
 						<dl class="recipe-design__materials">
-							<dt>塩</dt>
+							<dt><a href="<?php echo $base_url ?>/magazine/article/recipe-technic22.php#shio" class="recipe-design__link">塩</a></dt>
 							<dd>ひとつまみ</dd>
 						</dl>
 						<dl class="recipe-design__materials">
@@ -201,7 +201,7 @@ $altCap13 = '';
 						</dt>
 						<dd class="recipe-design__step_txt">
 							<!-- <?php echo ($altCap06); ?> -->
-							<a href="<?php echo $base_url ?>/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>で熱して、温まったら濡れ布巾の上にフライパンをのせて底を冷まし、温度を均一にします。
+							<a href="<?php echo $base_url ?>/magazine/article/recipe-technic02.php#chubi" class="recipe-design__link">中火</a>で熱して、温まったら濡れぶきんの上にフライパンをのせて底を冷まし、温度を均一にします。
 						</dd>
 					</dl>
 					<dl class="recipe-design__step mb0">
@@ -286,7 +286,7 @@ $altCap13 = '';
 							alt="マユ先生のHow To" alt="マユ先生のHow To<?php echo ( '「'.$pageTtl .'」錦糸卵を使った人気レシピ｜冷やし中華'); ?>" style="max-width:362px"
 							class="u-img__max">
 						</figure>
-						<p>彩りよくヘルシーな蒸し野菜を作るコツは、野菜に均一に火が通るようにすること。野菜を切るときは、大きさを揃えるようにすると加熱ムラを防ぐことができます。また、さつまいもやじゃがいもなどのいも類、かぼちゃやれんこんといった固い野菜は、先に蒸し器に入れて5分ほど蒸しましょう。その後、ブロッコリーやいんげんなどほかの野菜を入れ、全体に火が通るまで蒸し上がったら完成です。</p>
+						<p>ゆでて水洗いした中華麺を皿に盛ります。錦糸卵のほか、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic13.php" class="recipe-design__link">千切り</a>にしたきゅうりとハム、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic110.php" class="recipe-design__link">チャーシュー</a>、紅しょうがなどをのせ、タレをかけてできあがりです。</p>
 					</div>
 					<div class="u-clearfix">
 						<h4 class="recipe__ttl">ちらし寿司</h4>
@@ -304,7 +304,7 @@ $altCap13 = '';
 							alt="マユ先生のHow To" alt="マユ先生のHow To<?php echo ( '「'.$pageTtl .'」錦糸卵を使った人気レシピ｜錦糸卵のせそうめん'); ?>" style="max-width:362px"
 							class="u-img__max">
 						</figure>
-						<p>ふんわりした錦糸卵は、そうめんとも相性グッド。夏場は食欲が落ちる季節なので、一緒にさまざまな具材をのせて彩りも楽しみましょう。</p>
+						<p>ふんわりした錦糸卵は、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic52.php" class="recipe-design__link">そうめん</a>とも相性グッド。夏場は食欲が落ちる季節なので、一緒にさまざまな具材をのせて彩りも楽しみましょう。</p>
 					</div>
 					<div class="u-clearfix">
 						<h4 class="recipe__ttl">そぼろ弁当</h4>
@@ -313,7 +313,7 @@ $altCap13 = '';
 							alt="マユ先生のHow To" alt="マユ先生のHow To<?php echo ( '「'.$pageTtl .'」錦糸卵を使った人気レシピ｜ちらし寿司'); ?>" style="max-width:362px"
 							class="u-img__max">
 						</figure>
-						<p>きれいな錦糸卵は、そぼろ弁当にのせても美味しく見せてくれます。茶色に傾きがちな色合いに、錦糸卵で彩りを加えましょう。赤みが欲しい場合は、漬け物や紅しょうがを添えてもよいでしょう。</p>
+						<p>きれいな錦糸卵は、<a href="<?php echo $base_url ?>/magazine/article/recipe-technic90.php" class="recipe-design__link">そぼろ</a>弁当にのせても美味しく見せてくれます。茶色に傾きがちな色合いに、錦糸卵で彩りを加えましょう。赤みが欲しい場合は、漬け物や紅しょうがを添えてもよいでしょう。</p>
 					</div>
 				</div>
 			</div>
@@ -324,14 +324,32 @@ $altCap13 = '';
 			</div>
 			<div class="recipe-icn mayu_01">
 				<div class="inner">
-					<p>錦糸卵の賞味期限ですが、冷蔵保存の場合は約2～3日、<br>冷凍保存の場合は約1～3ヵ月もつと言われています</p>
+					<p>錦糸卵の賞味期限ですが、冷蔵保存の場合は約2～3日、<br>冷凍保存の場合は約1～3ヵ月もつといわれています<br>冷凍保存の方法は、使いやすい分量に分けてラップに包み、<br class="u-only__pc">なるべく空気を抜いて、ファスナー付きの保存袋に入れます<br>いろいろな料理に活用してくださいね！</p>
 				</div>
 			</div>
-			<div class="recipe-icn mayu_01">
-				<div class="inner">
-					<p>冷凍保存の方法は、使いやすい分量に分けてラップに包み、<br class="u-only__pc">なるべく空気を抜いて、ファスナー付きの保存袋に入れます<br>いろいろな料理に活用してくださいね！</p>
-				</div>
-			</div>
+			<section class="mb3">
+				<h5>■関連記事</h5>
+				<ul>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-collect02.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/recipe_collect02.jpg" alt="●卵料理の簡単レシピ7選！朝食やお弁当におすすめ♪" class="f-photolist__reciperecommendimg u-img__max js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●卵料理の簡単レシピ7選！朝食やお弁当におすすめ♪</p>
+					</a>
+					</li>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-technic47.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/thumb_tech47.jpg" alt="●簡単＆きれい！お弁当の詰め方の基本とコツ" class="f-photolist__reciperecommendimg js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●簡単＆きれい！お弁当の詰め方の基本とコツ</p>
+					</a>
+					</li>
+					<li class="recipe-photolist__item recipe-photolist__reciperecommend">
+					<a href="<?php echo $base_url; ?>/magazine/article/recipe-technic65.php" class="recipe-photolist__row">
+						<img data-src="<?php echo $img_url; ?>/thum/comic02/thumb_tech65.jpg" alt="●だし巻き卵の作り方" class="f-photolist__reciperecommendimg u-img__max js-show" style="max-width:85px">
+						<p class="reciperecommend-ttl">●だし巻き卵の作り方</p>
+					</a>
+					</li>
+				</ul>
+			</section>
 			<div class="mb0">
 				<?php
 				include ($inc_path."/lib/inc/page/_magazine/__recipe-technic-footer.php");
