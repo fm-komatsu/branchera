@@ -149,15 +149,6 @@
 				$dataGaClick = 'news_topics_cleaning21';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
-      	<?php // ClubOff by HASEKO
-				$cntId = '3025';
-				$noticeLabel = '';
-				$category = '優待サービス';
-				$cntTtl = '「ClubOff by HASEKO」。全国20万か所以上の施設で、';
-				$predicate = 'お得にご利用いただけるサービスです。';
-				$dataGaClick = 'news_topics_cluboff';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
 
 		<?php // 交換商品
 				$cntId = '';
@@ -250,6 +241,15 @@
 				$news_imgUrl = '';
 				$news_cntUrl = '';
 				$dataGaClick = 'news_topics_sumai-sos_11';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
+      	<?php // ClubOff by HASEKO
+				$cntId = '3025';
+				$noticeLabel = '';
+				$category = '優待サービス';
+				$cntTtl = '「ClubOff by HASEKO」。全国20万か所以上の施設で、';
+				$predicate = 'お得にご利用いただけるサービスです。';
+				$dataGaClick = 'news_topics_cluboff';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 
