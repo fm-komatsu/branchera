@@ -1,0 +1,8 @@
+<div class="branchat">
+	<div class="branchat__row">
+		<div class="branchat__item">
+			<div id="ict_wrapper" data-account-id="haseko" data-svr-url="https://useradapter.ilivechat.jp" data-api-server-url="https://api.ilivechat.jp"></div>
+			<script src="https://resource.ilivechat.jp/haseko/assets/ichat-wjs.js" charset="utf-8"></script>
+		</div>
+	</div>
+</div>

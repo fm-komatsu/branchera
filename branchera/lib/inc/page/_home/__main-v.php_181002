@@ -1,0 +1,39 @@
+<section class="main-v">
+	<div class="main-v__row">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<figure class="main-v__item swiper-slide">
+					<div class="main-v__bts">
+						<a href="<?php echo $base_url; ?>/about/" class="main-v__bt"><span>ブランシエラクラブとは？</span></a>
+					</div>
+					<img src="<?php echo $base_url; ?>/lib/img/home/main-v/home@2x.png" alt="ブランシエラクラブとは" class="u-img__max">
+				</figure>
+				<figure class="main-v__item swiper-slide">
+					<div class="main-v__bts">
+						<a href="<?php echo $base_url; ?>/gift/article/cluboff.php" class="main-v__bt"><span>「Cluboff by HASEKO」紹介ページはこちら</span></a>
+					</div>
+					<img src="<?php echo $img_url; ?>/home/main-v/home-cluboff@2x.jpg" alt="「Cluboff by HASEKO」紹介ページはこちら" class="u-img__max">
+					<!-- <?php echo show_Onecategorys_home__random("gift",1,"3001","3002");
+					?> -->
+				</figure>
+				<figure class="main-v__item swiper-slide">
+					<?php echo show_category_home__random("lottery",1);
+					?>
+				</figure>
+				<figure class="main-v__item swiper-slide">
+					<?php echo show_categorys_home__random("recipe","",1);
+					?>
+				</figure>
+				<figure class="main-v__item swiper-slide">
+					<div class="main-v__bts">
+						<a href="<?php echo $base_url; ?>/hawaii/" target="_blank" class="main-v__bt"><span>ハワイ旅行プレゼント応募はこちら</span></a>
+					</div>
+					<img src="<?php echo $img_url; ?>/thum/hawaii@2x.jpg" alt="ハワイ" class="u-img__max">
+				</figure>
+			</div>
+			<div class="main-v__next"><i></i></div>
+			<div class="main-v__prev"><i></i></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</section>
