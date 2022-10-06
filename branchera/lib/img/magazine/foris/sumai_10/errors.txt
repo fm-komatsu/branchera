@@ -1,0 +1,1 @@
+[7/20/2022, 4:51:49 PM] layer "吹き出し6.psd": Unsupported extension: psd
