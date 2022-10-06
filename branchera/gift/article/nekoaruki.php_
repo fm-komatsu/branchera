@@ -1,0 +1,198 @@
+<?php
+//base
+include ("../../function.php");
+$content = get_id_data('3019');
+$pageTtl = $content['title'];
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+//$metaDesc = siteDesc($pageTtl);
+$metaDesc = $content['description'];
+$metaThum = $img_url.'/thum/'.$content['image'];
+
+//bodyClass
+$body_class ="page-article";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+	<article class="main__row">
+		<?php
+		$panAry[] = array("/gift/" ,"優待サービス");
+		include ($inc_path."/lib/inc/pan.php");
+		include ($inc_path."/lib/inc/page/_enquete/enquete-header.php");
+		?>
+		<div class="main__wrapper">
+
+			<section class="main__item mb0">
+				<h3 class="u-ttl__l first-of-type">写真展「岩合光昭の世界ネコ歩き2」に無料でご招待！</h3>
+				<figure class="mb4">
+					<img
+					data-src="../../lib/img/gift/mitsukoshi/nekoaruki/main-v.png"
+					data-retina="../../lib/img/gift/mitsukoshi/nekoaruki/main-v@2x.png"
+					alt="写真展「岩合光昭の世界ネコ歩き2」に無料でご招待！"
+					class="u-img__max mb2">
+				</figure>
+				<div class="mb5">
+					<p class="main__intro mb2">2012年から全国各地のネコファンを魅了してきたNHK BSプレミアムの人気番組「岩合光昭の世界ネコ歩き」の写真展がパワーアップして帰ってきました。<br>本展では、ブラジル・リオデジャネイロ南東部のコパカバーナビーチでモテモテの人気ネコ「シキンニョ」や全米最大の都市ニューヨークのピザ屋の看板ネコ「ホワイトスライス」など、世界60ヶ所以上の撮影地から厳選された16地域の個性溢れるネコたちの作品を約170点展覧。<br>また、会場では写真集やオリジナルグッズなども併せて販売いたします。<br>この機会に番組ファンはもちろん、ファンならずとも楽しめる“イワゴーネコワールド”をぜひお楽しみください。</p>
+				</div>
+				<div class="flex flex_around mb4">
+					<div class="mb4">
+						<figure class="center">
+							<img
+							data-src="../../lib/img/gift/mitsukoshi/nekoaruki/cat_shop.jpg"
+							data-retina="../../lib/img/gift/mitsukoshi/nekoaruki/cat_shop@2x.jpg"
+							alt="写真展「岩合光昭の世界ネコ歩き2」"
+							style="max-width:340px;"
+							class="u-img__max mb2">
+						</figure>
+						<figcaption class="u-small r-cap">&copy; Mitsuaki Iwago</figcaption>
+					</div>
+					<div>
+						<figure class="center">
+							<img
+							data-src="../../lib/img/gift/mitsukoshi/nekoaruki/cat_desert.jpg"
+							data-retina="../../lib/img/gift/mitsukoshi/nekoaruki/cat_desert@2x.jpg"
+							alt="写真展「岩合光昭の世界ネコ歩き2」"
+							style="max-width:340px;"
+							class="u-img__max mb2">
+						</figure>
+						<figcaption class="u-small r-cap">&copy; Mitsuaki Iwago</figcaption>
+					</div>
+				</div>
+				<div class="mb5 main__intro">
+					<h4 class="u-ttl__m">岩合光昭さんご本人にお会いできるチャンスです！</h4>
+					<p class="main__intro"><strong>本館7階催物会場写真展「岩合光昭の世界ネコ歩き2」会場にてトークショーならびにサイン会を開催いたします。</strong></p>
+					<div class="mb3">
+						<h5 class="u-ttl__s nekoaruki__ttl">岩合光昭氏 トークショー</h5>
+						<ul class="u-list__ul">
+							<li>5月3日（木・祝）・4日（金・祝）・12日（土）・13日（日）</li>
+							<li>各日 午後1時～・午後3時30分～ （各回約30分）</li>
+							<li>会場内にて</li>
+						</ul>
+						<small class="u-small">※トークショーご参加には入場券が必要となります。<br>※椅子のご用意はございません。<br>※混雑が予想される場合、入場制限をすることがございます。</small>
+					</div>
+					<hr>
+					<div>
+						<h5 class="u-ttl__s nekoaruki__ttl">岩合光昭氏 サイン会</h5>
+						<ul class="u-list__ul">
+							<li>5月3日（木・祝）・4日（金・祝）・12日（土）・13日（日）</li>
+							<li>各日 午後2時～・午後4時30分～</li>
+							<li>本館7階 写真展「岩合光昭の世界ネコ歩き2」物販コーナー</li>
+						</ul>
+						<small class="u-small">※サイン会は図録または写真集をお買いあげの方、各回先着200名さまに限らせていただきます。<br>※各日午前10時より、本館7階 写真展「岩合光昭の世界ネコ歩き2」物販コーナーにて2回分（各回200名さま・計400名さま）の整理券を配布いたします。</small>
+					</div>
+
+				</div>
+				<div class="u-assist_lite">
+					<h4 class="u-ttl__s">岩合光昭氏　プロフィール</h4>
+					<div class="flex between">
+						<div class="w60">
+							<p class="mb2">1950年東京生まれ。地球上のあらゆる地域をフィールドに活躍する動物写真家。その美しく、想像力をかきたてる作品は世界的に高く評価されている。一方で、身近なネコを40年以上ライフワークとして撮り続けている。2012年からNHK BSプレミアム「岩合光昭の世界ネコ歩き」の番組撮影を開始。ネコに関する著書に『ねこ』『岩合光昭の世界ネコ歩き』『ふるさとのねこ』『ねこの京都』『ねこといぬ』『岩合光昭の世界ネコさがし』『ねことはな』などがある。</p>
+							<p>
+								[Digital Iwago]　<a href="https://www.digitaliwago.com" class="u-icon" target="_blank">www.digitaliwago.com</a>
+							</p>
+					</div>
+						<figure class="w40 center mb2">
+							<img
+							data-src="../../lib/img/gift/mitsukoshi/nekoaruki/iwago_photo.jpg"
+							data-retina="../../lib/img/gift/mitsukoshi/nekoaruki/iwago_photo@2x.jpg"
+							alt="岩合光昭"
+							style="max-width:225px;"
+							class="u-img__max">
+							<figcaption class="u-small">&copy; Iwago Photographic Office</figcaption>
+						</figure>
+					</div>
+				</div>
+				<h4 class="u-ttl__m">ご利用の流れ</h4>
+
+				<figure class="u-only__pc">
+					<img
+					data-src="../../lib/img/gift/mitsukoshi/common/moushikomi.png"
+					data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi@2x.png"
+					alt="ご利用の流れ"
+					style="max-width:740px;"
+					class="u-img__max mb2">
+				</figure>
+
+				<figure class="u-only__sp center">
+					<img
+					data-src="../../lib/img/gift/mitsukoshi/common/moushikomi-sp.png"
+					data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi-sp@2x.png"
+					alt="ご利用の流れ"
+					style="max-width:317px;"
+					class="u-img__max mb2">
+				</figure>
+
+				<!-- <?php
+				$useName = "文化展";
+				$useNameAct = "無料ご招待画面は";
+				$useLinks = $base_url.'/gift/check/mitsukoshi.php';
+				include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+				?> -->
+				<div class="u-btn-layout mt2">
+					<div class="u-btn-layout__row">
+						<label class="u-btn_end">文化展は終了いたしました</label>
+					</div>
+				</div>
+
+
+				<h4 class="u-ttl__m">イベント概要</h4>
+				<div class="u-list__dl_table">
+					<dl>
+						<dt>[開催日]</dt>
+						<dd>2018年5月2日(水)～5月14日(月) 午前10時30分～午後６時30分[午後7時閉場] <br>※最終日は午後5時30分まで[午後6時閉場]</dd>
+					</dl>
+					<dl>
+						<dt>[会場]</dt>
+						<dd>日本橋三越本店 本館7階催物会場 <a href="https://goo.gl/maps/dkXw6t22Fu72" class="u-icon" target="_blank">地図はこちら</a></dd>
+					</dl>
+					<dl>
+						<dt>[料金]</dt>
+						<dd>入場料無料(ブランシエラクラブ会員ご本人さまのみ)<br>
+<small class="u-small">※現地までの交通費等は各自ご負担ください。<br>※正規入場料：一般・大学生800円、高校・中学生600円、小学生以下無料</small></dd>
+					</dl>
+					<dl>
+						<dt>[主催]</dt>
+						<dd>写真展「岩合光昭の世界ネコ歩き2」実行委員会</dd>
+					</dl>
+					<dl>
+						<dt>[協賛]</dt>
+						<dd>オリンパス株式会社</dd>
+					</dl>
+					<dl>
+						<dt>[企画協力]</dt>
+						<dd>株式会社NHKエンタープライズ</dd>
+					</dl>
+					<dl>
+						<dt>[企画制作]</dt>
+						<dd>クレヴィス</dd>
+					</dl>
+					<dl>
+						<dt>[注意事項]</dt>
+						<dd>・ご入場の際に会場入口で「長谷工ID」を確認いたします。<br>以下の「文化展 無料ご招待画面はこちら」ボタンを押した後に表示される「無料ご招待」画面をお見せいただくか、印刷したものをご持参ください。<br>・本展に関するご質問等は、<a href="../../form/form-contact/" class="u-icon" target="_blank">こちら</a>からお問い合わせください。</dd>
+					</dl>
+				</div>
+
+				<!-- <?php
+				$useName = "文化展";
+				$useNameAct = "無料ご招待画面は";
+				$useLinks = $base_url.'/gift/check/mitsukoshi.php';
+				include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+				?> -->
+				<div class="u-btn-layout mt2">
+					<div class="u-btn-layout__row">
+						<label class="u-btn_end">文化展は終了いたしました</label>
+					</div>
+				</div>
+
+		</div>
+
+	</article>
+</main>
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>

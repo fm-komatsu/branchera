@@ -1,0 +1,186 @@
+<?php
+//base
+include ("../../function.php");
+$content = get_id_data('3032');
+$pageTtl = $content['title'];
+$eventSts = $content['icon-img'];
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+//$metaDesc = siteDesc($pageTtl);
+$metaDesc = $content['description'];
+$metaThum = $img_url.'/thum/'.$content['image'];
+
+//bodyClass
+$body_class ="page-article geijutuin100th";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+	<article class="main__row">
+		<?php
+		$panAry[] = array("/gift/" ,"優待サービス");
+		include ($inc_path."/lib/inc/pan.php");
+		include ($inc_path."/lib/inc/page/_enquete/enquete-header.php");
+		?>
+		<div class="main__wrapper">
+
+			<section class="main__item mb0">
+				<h3 class="u-ttl__l first-of-type">近代日本芸術の100年 日本芸術院創設百周年記念展へ無料ご招待！</h3>
+				<figure class="mb4 u-only__pc">
+					<img
+					data-src="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/main-v.jpg"
+					data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/main-v@2x.jpg"
+					alt="第74回 春の院展"
+					class="u-img__max mb2">
+				</figure>
+				<figure class="mb4 u-only__sp">
+					<img
+					data-src="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/main-v-sp.jpg"
+					data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/main-v-sp@2x.jpg"
+					alt="第74回 春の院展"
+					class="u-img__max mb2">
+				</figure>
+				<div class="u-assist mb5">
+					<p>
+					日本芸術院は2019年9月に創設百周年を迎えるにあたり、日本芸術院創設百周年記念事業の一環として、「近代日本芸術の100年─日本芸術院創設百周年記念展」を開催いたします。
+					</p>
+					<p>
+					本展では日本芸術院第一部（美術）に所属する全会員の作品・資料とともに、かつて日本芸術院に所属した会員の中から選りすぐりの作品を合わせ、約80点を展覧いたします。
+					</p>
+				</div>
+
+				<div class="mb8">
+					<div class="flex between mb2">
+						<div class="center">
+							<figure>
+								<img
+									data-src="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/miyagi.jpg"
+									data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/miyagi@2x.jpg"
+									alt="【日本画】「宮城」（昭和13年）横山大観"
+									class="u-img__max">
+									<figcaption class="u-float__right u-small">【日本画】「宮城」（昭和13年）横山大観</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="flex between">
+						<div class="center">
+							<figure>
+								<img
+									data-src="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/daisu.jpg"
+									data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/geijutuin100th/daisu@2x.jpg"
+									alt="工芸「臺子飾(臺揃)総合作」（昭和9年）赤塚自得、板谷波山、香取秀真、清水六兵衛（五世）"
+									class="u-img__max">
+									<figcaption class="u-float__right u-small">【工芸】「臺子飾(臺揃)総合作」（昭和9年）<br>赤塚自得、板谷波山、香取秀真、清水六兵衛（五世）</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+
+					<h4 class="color-box__ttl color-box__ttl_black">芸術院会員によるギャラリートーク</h4>
+					<div class="color-box color-box__gold mb2">
+						<div class="color-box__row">
+							<div class="color-box__ex_none">
+								<div class="color-box__innner_white">
+									<p>
+										<span class="u-color__gold">■</span>5月1日（水・国民の祝日）<br>　彫　塑：澄川喜一会員（日本芸術院創設百周年記念事業実施検討委員会委員長）<br>
+										<span class="u-color__gold">■</span>5月4日（土・祝）<br>　日本画：土屋禮一会員 ＋ 書：井茂圭洞会員<br>
+										<span class="u-color__gold">■</span>5月9日（木）<br>　洋　画：奥谷博会員<br>
+										<span class="u-color__gold">■</span>5月11日（土）<br>　工　芸：奥田小由女会員<br>
+										<span class="u-color__gold">■</span>各日午後2時～ （約30分）　会場内にて
+									</p>
+									<small class="u-small">※ギャラリートークご参加には入場券が必要となります。※混雑が予想される場合、入場制限をすることがございます。</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<h4 class="u-ttl__m">ご利用の流れ</h4>
+
+				<figure class="u-only__pc">
+					<img
+					data-src="../../lib/img/gift/mitsukoshi/common/moushikomi.png"
+					data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi@2x.png"
+					alt="ご利用の流れ"
+					style="max-width:740px;"
+					class="u-img__max mb2">
+				</figure>
+
+				<figure class="u-only__sp center">
+					<img
+					data-src="../../lib/img/gift/mitsukoshi/common/moushikomi-sp.png"
+					data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi-sp@2x.png"
+					alt="ご利用の流れ"
+					style="max-width:317px;"
+					class="u-img__max mb2">
+				</figure>
+
+				<?php if($eventSts == 'new') { ?>
+					<?php
+					$useName = "文化展";
+					$useNameAct = "無料ご招待画面は";
+					$useLinks = $base_url.'/gift/check/mitsukoshi.php';
+					include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+					?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+					<div class="u-btn-layout__row">
+						<label class="u-btn_end">文化展は終了いたしました</label>
+					</div>
+				</div>
+        <?php } ?>
+
+
+				<h4 class="u-ttl__m">概要</h4>
+				<div class="u-list__dl_table_long">
+					<dl>
+						<dt>[開催日]</dt>
+						<dd>2019年5月1日(水・国民の祝日)～5月13日(月) 午前10時～午後6時30分 【午後7時閉場】<br>※最終日は午後5時30分まで 【午後6時閉場】</dd>
+					</dl>
+					<dl>
+						<dt>[会場]</dt>
+						<dd>日本橋三越本店　本館7階催物会場　<a href="https://goo.gl/maps/NoxQRJi4JsN2" class="u-icon" target="_blank">地図はこちら</a></dd>
+					</dl>
+					<dl>
+						<dt>[料金]</dt>
+						<dd>入場料無料(ブランシエラクラブ会員ご本人さまのみ)<br><small class="u-small">※現地までの交通費等は各自ご負担ください。<br>※正規入場料：一般・大学生1,000円（高校生以下無料・税込）</small></dd>
+					</dl>
+					<dl>
+						<dt>[主催]</dt>
+						<dd>日本芸術院</dd>
+					</dl>
+					<dl>
+						<dt>[注意事項]</dt>
+						<dd>
+							<ul class="u-list__ul_dot">
+							<li>ご入場の際に会場入口で「長谷工ID」を確認いたします。<br>以下の「文化展 無料ご招待画面はこちら」ボタンを押した後に表示される「無料ご招待」画面をお見せいただくか、印刷したものをご持参ください。</li>
+							<li>都合により、イベントの内容が変更となる場合がございます。予めご了承ください。</li>
+						</ul></dd>
+					</dl>
+				</div>
+
+				<?php if($eventSts == 'new') { ?>
+					<?php
+					$useName = "文化展";
+					$useNameAct = "無料ご招待画面は";
+					$useLinks = $base_url.'/gift/check/mitsukoshi.php';
+					include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+					?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+					<div class="u-btn-layout__row">
+						<label class="u-btn_end">文化展は終了いたしました</label>
+					</div>
+				</div>
+        <?php } ?>
+
+		</div>
+
+	</article>
+</main>
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>

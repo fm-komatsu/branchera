@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+body{
+font-family: "a-otf-ud-shin-go-pr6n",sans-serif;
+font-size:12px;
+line-height:1.0;
+-webkit-text-size-adjust: 100%;
+}
+#Wrapper {
+	width: 100%;
+	background: #FFF;
+	overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6,h7,li,th,td,dt,dd,p {
+	line-height: 1.0;
+	color: #333;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: bottom;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 700;
+}
+* {
+    overflow-wrap: break-word;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    vertical-align: baseline;
+}
+img {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	border: none;
+	text-align: center;
+}
+ul,ol,dl,li,dt,dd {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p {
+	text-align: left;
+	text-align: justify;
+}
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+ 
+.cf:after {
+    clear:both;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+ a img {
+    text-decoration: none;
+}
+a img, abbr, fieldset, img[usemap], table {
+    border-width: 0;
+}
+img {
+    vertical-align: middle;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+a:hover {
+	opacity: 0.6;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+
+
+

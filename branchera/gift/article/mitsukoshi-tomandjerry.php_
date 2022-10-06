@@ -1,0 +1,162 @@
+<?php
+//base
+include("../../function.php");
+$content = get_id_data('3039');
+$pageTtl = $content['title'];
+$eventSts = $content['icon-img'];
+
+//meta
+$metaTtl = $pageTtl . '-' . siteName();
+//$metaDesc = siteDesc($pageTtl);
+$metaDesc = $content['description'];
+$metaThum = $img_url . '/thum/' . $content['image'];
+
+//bodyClass
+$body_class = "page-article spring74";
+
+//htmlHeader
+include($inc_path . "/lib/inc/head.php");
+include($inc_path . "/lib/inc/header.php");
+?>
+
+<main class="main">
+  <article class="main__row">
+    <?php
+    $panAry[] = array("/gift/", "優待サービス");
+    include($inc_path . "/lib/inc/pan.php");
+    include($inc_path . "/lib/inc/page/_event/__main-header.php");
+    ?>
+    <div class="main__wrapper">
+
+      <section class="main__item mb0">
+        <h3 class="u-ttl__l first-of-type">福岡三越「誕生80周年 トムとジェリー展 カートゥーンの天才コンビ ハンナ=バーベラ」無料ご招待</h3>
+        <figure class="mb4 u-only__pc">
+          <img src="<?php echo ($img_url) ?>/gift/mitsukoshi/tomandjerry/main-v.jpg" alt="東京トールペイントコレクション展 2019" class="u-img__max mb2">
+        </figure>
+        <figure class="u-fig mb2 u-only__sp">
+          <img src="<?php echo ($img_url) ?>/gift/mitsukoshi/tomandjerry/main-v-sp.jpg" alt="東京トールペイントコレクション展 2019" class="u-img__max mb2">
+          <figcaption class="u-small">TOM AND JERRY and all related characters and elements © &amp; ™ Turner Entertainment Co. (s19)</figcaption>
+        </figure>
+        <div class="u-assist mb5 mb2_sp">
+          <p>
+          世界初公開！『トムとジェリー』の貴重な資料が海を越えてやってくる！
+          <br>1940年にウィリアム・ハンナとジョセフ・バーベラの天才コンビが世に送り出した短編アニメ―ション『トムとジェリー』。ネコとネズミのドタバタ劇は瞬く間に大ヒットシリーズとなりました。子どものころに見た"ワクワク""ハラハラ"なアニメーションは、世代を超えて世界中の人々から愛され続けています。
+          <br>本展は、2020年に誕生80周年を迎えることを記念し開催される世界初の展覧会。アメリカのワーナー・ブラザース アーカイブで保管されていたものを中心に、約250点の原画や資料を展観します。『トムとジェリー』のデビュー作「上には上がある」の貴重なセル画や設定資料、アカデミー賞に輝いた「ピアノ・コンサート」や、「武士道はつらい」のラフスケッチやストーリーボードなどを通して作品の魅力に迫ります。
+        </p>
+        </div>
+        <div class="mb2 mb0_sp">
+          <div class="u-column__2">
+            <div class="u-column__item">
+              <figure class="mb_sp u-fig">
+                <img src="<?php echo ($img_url) ?>/gift/mitsukoshi/tomandjerry/img__01.jpg" alt="「上には上がある」セル・セットアップ" class="u-img__max mb1">
+                <figcaption class="u-small u-float__right u-text__align_l">『トムとジェリー』<br>「上には上がある」セル・セットアップ</figcaption>
+              </figure>
+            </div>
+            <div class="u-column__item">
+              <figure class="mb_sp u-fig">
+                <img src="<?php echo ($img_url) ?>/gift/mitsukoshi/tomandjerry/img__02.jpg" alt="「武士道修行も楽じゃない」セル・セットアップ" class="u-img__max mb1">
+                <figcaption class="u-small u-float__right u-text__align_l">『トムとジェリー』<br>「武士道修行も楽じゃない」セル・セットアップ</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <h4 class="u-ttl__m">展覧会限定商品も合わせ、700種の商品を販売予定！</h4>
+        <figure>
+          <img src="../../lib/img/gift/mitsukoshi/tomandjerry/img__tenji.jpg" alt="展示会限定販売予定商品" class="u-img__max">
+        </figure>
+        <h4 class="u-ttl__m">ご利用の流れ</h4>
+
+        <figure class="u-only__pc">
+          <img src="../../lib/img/gift/mitsukoshi/common/moushikomi.png" data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi@2x.png" alt="ご利用の流れ" style="max-width:740px;" class="u-img__max mb2">
+        </figure>
+
+        <figure class="u-only__sp center">
+          <img src="../../lib/img/gift/mitsukoshi/common/moushikomi-sp.png" data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi-sp@2x.png" alt="ご利用の流れ" style="max-width:317px;" class="u-img__max mb2">
+        </figure>
+
+        <?php if ($eventSts == 'new') { ?>
+          <?php
+            $useName = "文化展";
+            $useNameAct = "無料ご招待画面は";
+            $useLinks = $base_url . '/gift/check/fukuoka-mitsukoshi.php';
+            include($inc_path . "/lib/inc/page/_gift/__u-fukuoka-mitsukoshi.php");
+            ?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+            <div class="u-btn-layout__row">
+              <label class="u-btn_end">文化展は終了いたしました</label>
+            </div>
+          </div>
+        <?php } ?>
+
+
+        <h4 class="u-ttl__m">概要</h4>
+        <div class="u-list__dl_table_long">
+          <dl>
+            <dt>[開催日]</dt>
+            <dd>
+              2020年1月2日（木）～ 1月13日（祝・月） 午前10時～午後8時（ご入館は閉館の30分前まで）
+              <br>※1月2日（木）は午前9時開館
+              <br>※最終日は午後5時閉館（ご入館は閉館の30分前まで）
+            </dd>
+          </dl>
+          <dl>
+            <dt>[会場]</dt>
+            <dd>福岡三越9階 「三越ギャラリー」 <a href="https://goo.gl/maps/q9QM6CgQMc2eANBP6" class="u-icon" target="_blank">地図はこちら</a></dd>
+          </dl>
+          <dl>
+            <dt>[料金]</dt>
+            <dd>入場料無料(ブランシエラクラブ会員ご本人さまのみ)<br><small class="u-small">※現地までの交通費等は各自ご負担ください。
+              <br>※正規入場料：当日券 一般・大学生800円、高校・中学生500円（小学生以下無料・税込） / 前売券 一般・大学生600円、高校・中学生300円（小学生以下無料・税込）</small></dd>
+          </dl>
+          <dl>
+            <dt>[主催]</dt>
+            <dd>誕生80周年 トムとジェリー展実行委員会</dd>
+          </dl>
+          <dl>
+            <dt>[協力]</dt>
+            <dd>ワーナー ブラザース ジャパン合同会社</dd>
+          </dl>
+          <dl>
+            <dt>[出品協力]</dt>
+            <dd>ワーナー・ブラザース コーポレート・アーカイブ</dd>
+          </dl>
+          <dl>
+            <dt>[福岡展特別協賛]</dt>
+            <dd>にしてつグループ</dd>
+          </dl>
+          <dl>
+            <dt>[注意事項]</dt>
+            <dd>
+              <ul class="u-list__ul_dot">
+                <li>ご入場の際に会場入口で「長谷工ID」を確認いたします。<br>以下の「文化展 無料ご招待画面はこちら」ボタンを押した後に表示される「無料ご招待」画面をお見せいただくか、印刷したものをご持参ください。</li>
+                <li>お子さまの安全のため、小学生以下の方々は、保護者の方同伴でご入館ください。</li>
+                <li>身体障害者手帳・精神障害者保健福祉手帳・療育手帳の交付を受けている方および、その介護者の方は手帳のご提示にて無料でご入館いただけます。</li>
+                <li>都合により、イベントの内容が変更となる場合がございます。予めご了承ください。</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+
+        <?php if ($eventSts == 'new') { ?>
+          <?php
+            $useName = "文化展";
+            $useNameAct = "無料ご招待画面は";
+            $useLinks = $base_url . '/gift/check/fukuoka-mitsukoshi.php';
+            include($inc_path . "/lib/inc/page/_gift/__u-fukuoka-mitsukoshi.php");
+            ?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+            <div class="u-btn-layout__row">
+              <label class="u-btn_end">文化展は終了いたしました</label>
+            </div>
+          </div>
+        <?php } ?>
+
+    </div>
+
+  </article>
+</main>
+<?php include($inc_path . "/lib/inc/pagetop.php"); ?>
+<?php include($inc_path . "/lib/inc/footer.php"); ?>
+<?php include($inc_path . "/lib/inc/foot.php"); ?>

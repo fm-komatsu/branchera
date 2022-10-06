@@ -1,0 +1,114 @@
+<?php
+//base
+include ("../../function.php");
+$content = get_id_data('3024');
+$pageTtl = $content['title'];
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+//$metaDesc = siteDesc($pageTtl);
+$metaDesc = $content['description'];
+$metaThum = $img_url.'/thum/'.$content['image'];
+
+//bodyClass
+$body_class ="page-article";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+	<article class="main__row">
+		<?php
+		$panAry[] = array("/gift/" ,"優待サービス");
+		include ($inc_path."/lib/inc/pan.php");
+		include ($inc_path."/lib/inc/page/_enquete/enquete-header.php");
+		?>
+		<div class="main__wrapper">
+
+			<section class="main__item mb0">
+				<!-- <h3 class="u-ttl__l first-of-type">第65回 日本伝統工芸展</h3> -->
+				<figure class="mb4">
+					<img
+					data-src="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/main-v.png"
+					data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/main-v@2x.png"
+					alt="華道家・假屋崎省吾 文化展 無料ご招待"
+					class="u-img__max mb2">
+				</figure>
+				<div class="mb5">
+					<div class="u-assist">
+						<p class="mb2" style="font-feature-settings:'palt';">日本の優れた伝統工芸の保存と後継者の育成を目的に、公益社団法人 日本工芸会が毎年開催する国内最大級の公募展。<br>陶芸、染織、漆芸、金工、木竹工、人形、諸工芸7部門の重要無形文化財保持者（人間国宝）の最新作と一般公募作品より厳正な鑑・審査を経て選ばれた入選作約600点を一堂に展覧いたします。</p>
+					</div>
+				</div>
+				<h3 class="u-ttl__m">展示品の一例</h3>
+				<div class="flex flex_around mb4">
+					<div class="mb4">
+						<figure class="center">
+							<img
+							data-src="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/dentoukougei_item01.png"
+							data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/dentoukougei_item01@2x.png"
+							alt="トルコ「アンタルヤ国際園芸博覧会」"
+							style="max-width:355px;"
+							class="u-img__max mb2">
+						</figure>
+						<figcaption class="u-small r-cap">日本工芸会総裁賞 金工=四分一象嵌打出銀器<br>前田宏智氏作品</figcaption>
+					</div>
+					<div>
+						<figure class="center">
+							<img
+							data-src="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/dentoukougei_item02.png"
+							data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/dentoukougei/dentoukougei_item02@2x.png"
+							alt="高松宮記念賞(漆芸)しんたにひとみ氏作品"
+							style="max-width:355px;"
+							class="u-img__max mb2">
+						</figure>
+						<figcaption class="u-small r-cap">高松宮記念賞 漆芸=乾漆螺鈿天牛箱<br>しんたにひとみ氏作品</figcaption>
+					</div>
+				</div>
+
+				<div class="u-btns">
+					<div class="u-btns__row">
+						<a href="https://www.mitsukoshi.mistore.jp/nihombashi/event_calendar/dentoukougei.html" target="_blank" class="u-btn_point center mt2">第65回 日本伝統工芸展 詳細はこちら</a>
+					</div>
+				</div>
+
+
+				<h4 class="u-ttl__m">イベント概要</h4>
+				<div class="u-list__dl_table">
+					<dl>
+						<dt>[開催日]</dt>
+						<dd>2018年9月19日(水)～10月1日(月) 午前10時～午後7時 ※最終日は午後6時閉場</dd>
+					</dl>
+					<dl>
+						<dt>[会場]</dt>
+						<dd>日本橋三越本店 本館・新館7階催物会場 <a href="https://goo.gl/maps/dkXw6t22Fu72" class="u-icon" target="_blank">地図はこちら</a></dd>
+					</dl>
+					<dl>
+						<dt>[料金]</dt>
+						<dd>入場料無料<br><small class="u-small">※ブランシエラクラブ会員さま以外の方もご利用いただけます。<br>※現地までの交通費等は各自ご負担ください。</small></dd>
+					</dl>
+					<dl>
+						<dt>[主催]</dt>
+						<dd>文化庁、東京都教育委員会、NHK、朝日新聞社、（公社）日本工芸会</dd>
+					</dl>
+				</div>
+
+				<div class="u-btns">
+					<div class="u-btns__row">
+						<a href="https://www.mitsukoshi.mistore.jp/nihombashi/event_calendar/dentoukougei.html" target="_blank" class="u-btn_point center mt2">第65回 日本伝統工芸展 詳細はこちら</a>
+					</div>
+				</div>
+				<!-- <div class="u-btn-layout mt2">
+					<div class="u-btn-layout__row">
+						<label class="u-btn_end">文化展は終了いたしました</label>
+					</div>
+				</div> -->
+
+		</div>
+
+	</article>
+</main>
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>

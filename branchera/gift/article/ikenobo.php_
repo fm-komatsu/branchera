@@ -1,0 +1,180 @@
+<?php
+//base
+include ("../../function.php");
+$content = get_id_data('3034');
+$pageTtl = $content['title'];
+$eventSts = $content['icon-img'];
+
+//meta
+$metaTtl = $pageTtl.'-'.siteName();
+//$metaDesc = siteDesc($pageTtl);
+$metaDesc = $content['description'];
+$metaThum = $img_url.'/thum/'.$content['image'];
+
+//bodyClass
+$body_class ="page-article geijutuin100th";
+
+//htmlHeader
+include ($inc_path."/lib/inc/head.php");
+include ($inc_path."/lib/inc/header.php");
+?>
+
+<main class="main">
+  <article class="main__row">
+    <?php
+    $panAry[] = array("/gift/" ,"優待サービス");
+    include ($inc_path."/lib/inc/pan.php");
+    include ($inc_path."/lib/inc/page/_enquete/enquete-header.php");
+    ?>
+    <div class="main__wrapper">
+
+      <section class="main__item mb0">
+        <h3 class="u-ttl__l first-of-type">「いけばなの根源 池坊展 What's IKEBANA? いけばな大作戦！」無料ご招待</h3>
+        <figure class="mb4 u-only__pc">
+          <img
+          data-src="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/main-v.jpg"
+          data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/main-v@2x.jpg"
+          alt="いけばなの根源 池坊展 What's IKEBANA? いけばな大作戦！"
+          class="u-img__max mb2">
+        </figure>
+        <figure class="mb4 u-only__sp">
+          <img
+          data-src="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/main-v-sp.jpg"
+          data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/main-v-sp@2x.jpg"
+          alt="いけばなの根源 池坊展 What's IKEBANA? いけばな大作戦！"
+          class="u-img__max mb2">
+        </figure>
+        <div class="u-assist mb5">
+          <p>
+            「What's IKEBANA？ いけばな大作戦！」をテーマに、華道家元四十五世池坊専永、次期家元池坊専好の大作展示をはじめ、関東近郊で活躍する池坊の華道家による約500点のいけばな作品を展示します。また、新元号を記念した特別展示やガイドツアーなどの“いけばな作戦”を決行、今まで感じたことのない、いけばなの奥深さ、おもしろさを発見できる展覧会です。
+          </p>
+        </div>
+
+        <div class="mb8">
+          <h4 class="u-ttl__m">【特別展示】『天皇即位の花』復元展示！</h4>
+          <div class="flex between mb2">
+            <div class="w40">
+              <p>2019年は、およそ200年ぶりの譲位による新天皇の即位、そして新元号への改元と、日本人にとって特別な節目を迎えます。新しい時代の到来を寿ぎ、歴代天皇の即位時に池坊が献上したと伝わる『即位の花』を復元し、特別展示します。</p>
+            </div>
+            <div class="center w60">
+              <figure>
+                <img
+                  data-src="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/sokuinohana.jpg"
+                  data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/sokuinohana@2x.jpg"
+                  alt="天皇即位の花"
+                  class="u-img__max">
+                  <figcaption class="u-float__right u-small">池坊 総務所蔵</figcaption>
+              </figure>
+            </div>
+          </div>
+          <h4 class="u-ttl__m">【特別展示】『池坊 × 葛飾北斎』</h4>
+          <div class="flex between mb2">
+            <div class="w45">
+              <p>19世紀後半、ヨーロッパを席巻したジャポニズム。そのきっかけとなった葛飾北斎を。東京2020を前に世界から日本文化に対して注目が集まる今、改めて取り上げ、肉筆画の展示といけばなとのコラボレーションを展開します。いけばなと浮世絵、日本が誇る2つの文化が織りなす美の空間をご堪能ください。</p>
+            </div>
+            <div class="center w55">
+              <figure>
+                <img
+                  data-src="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/kanagawaokinamiura.jpg"
+                  data-retina="<?php echo($img_url) ?>/gift/mitsukoshi/ikenobo/kanagawaokinamiura@2x.jpg"
+                  alt="神奈川沖浪裏"
+                  class="u-img__max">
+                  <figcaption class="u-float__right u-small">協力：一般法人日本美術アカデミー</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="u-ttl__m">ご利用の流れ</h4>
+
+        <figure class="u-only__pc">
+          <img
+          data-src="../../lib/img/gift/mitsukoshi/common/moushikomi.png"
+          data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi@2x.png"
+          alt="ご利用の流れ"
+          style="max-width:740px;"
+          class="u-img__max mb2">
+        </figure>
+
+        <figure class="u-only__sp center">
+          <img
+          data-src="../../lib/img/gift/mitsukoshi/common/moushikomi-sp.png"
+          data-retina="../../lib/img/gift/mitsukoshi/common/moushikomi-sp@2x.png"
+          alt="ご利用の流れ"
+          style="max-width:317px;"
+          class="u-img__max mb2">
+        </figure>
+
+        <?php if($eventSts == 'new') { ?>
+          <?php
+          $useName = "文化展";
+          $useNameAct = "無料ご招待画面は";
+          $useLinks = $base_url.'/gift/check/mitsukoshi.php';
+          include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+          ?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+          <div class="u-btn-layout__row">
+            <label class="u-btn_end">文化展は終了いたしました</label>
+          </div>
+        </div>
+        <?php } ?>
+
+
+        <h4 class="u-ttl__m">概要</h4>
+        <div class="u-list__dl_table_long">
+          <dl>
+            <dt>[開催日]</dt>
+            <dd>2019年5月22日(水)～5月27日(月)<br>
+            <span class="u-small">一次展：22日（水）・23日（木）/二次展：24日（金）・25日（土）/三次展：26日（日）・27日（月）</span>
+            <br>
+            午前10時～午後6時30分 【午後7時閉場】<br>※最終日は午後5時30分まで 【午後6時閉場】</dd>
+          </dl>
+          <dl>
+            <dt>[会場]</dt>
+            <dd>日本橋三越本店　本館7階催物会場　<a href="https://goo.gl/maps/NoxQRJi4JsN2" class="u-icon" target="_blank">地図はこちら</a></dd>
+          </dl>
+          <dl>
+            <dt>[料金]</dt>
+            <dd>入場料無料(ブランシエラクラブ会員ご本人さまのみ)<br><small class="u-small">※現地までの交通費等は各自ご負担ください。<br>※正規入場料：一般・大学生900円（お着物でお越しの方・高校生以下無料・税込）</small></dd>
+          </dl>
+          <dl>
+            <dt>[主催]</dt>
+            <dd>一般財団法人池坊華道会</dd>
+          </dl>
+          <dl>
+            <dt>[後援]</dt>
+            <dd>朝日新聞社、毎日新聞社、読売新聞社、日本経済新聞社、産経新聞社、東京新聞</dd>
+          </dl>
+          <dl>
+            <dt>[注意事項]</dt>
+            <dd>
+              <ul class="u-list__ul_dot">
+              <li>ご入場の際に会場入口で「長谷工ID」を確認いたします。<br>以下の「文化展 無料ご招待画面はこちら」ボタンを押した後に表示される「無料ご招待」画面をお見せいただくか、印刷したものをご持参ください。</li>
+              <li>都合により、イベントの内容が変更となる場合がございます。予めご了承ください。</li>
+            </ul></dd>
+          </dl>
+        </div>
+
+        <?php if($eventSts == 'new') { ?>
+          <?php
+          $useName = "文化展";
+          $useNameAct = "無料ご招待画面は";
+          $useLinks = $base_url.'/gift/check/mitsukoshi.php';
+          include ($inc_path."/lib/inc/page/_gift/__u-mitsukoshi.php");
+          ?>
+        <?php } else { ?>
+          <div class="u-btn-layout mt2">
+          <div class="u-btn-layout__row">
+            <label class="u-btn_end">文化展は終了いたしました</label>
+          </div>
+        </div>
+        <?php } ?>
+
+    </div>
+
+  </article>
+</main>
+<?php  include ($inc_path."/lib/inc/pagetop.php"); ?>
+<?php  include ($inc_path."/lib/inc/footer.php"); ?>
+<?php  include ($inc_path."/lib/inc/foot.php"); ?>
