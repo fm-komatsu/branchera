@@ -1,0 +1,153 @@
+<?php
+include ("../function.php");
+$title ="長谷工住まいの大相談会";
+$meta_title ="".$title." | ".$sitename."";
+$meta_description ="80周年を迎えた長谷工グループだから、あなたに住まいの理想を届けることができる。";
+$body_class ="hsw"
+?>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title><?php echo $meta_title ?></title>
+<meta name="description" content="<?php echo $meta_description; ?>">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<script src="<?php echo $base_url ?>/js/modernizr.js"></script>
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/base.css">
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/common.css?vol3.3">
+<link rel="stylesheet" href="<?php echo $base_url ?>/css/page.css?vol3.3">
+<link rel="shortcut icon" href="<?php echo $base_url ?>/img/favicon.ico">
+
+<!-- OGP -->
+<meta property="og:title" content="<?php echo $title ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="<?php echo $meta_description; ?>" />
+<meta property="og:url" content="<?php echo $_SERVER[" REQUEST_URI "]; ?>" />
+<meta property="og:site_name" content="<?php echo $sitename ?>" />
+<!-- //OGP -->
+
+</head>
+
+<body class="<?php echo $body_class." ".$mydir." ".$filename ?>">
+<?php include ($inc_path."/inc/ie10.php") ?>
+<div id="all">
+
+<header class="hswHeader">
+  <!--div class="hswHeaderlogo">
+    <a href="http://www.haseko.co.jp/hc/80th/" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/logo.png" alt="80th 長谷工コーポレーション"/></a>
+  </div-->
+  <div class="hswInner">
+    <p class="tb"><img src="<?php echo $base_url ?>/img/hsw/img01.png" alt="長谷工住まいの大相談会" /></p>
+    <p class="sp"><img src="<?php echo $base_url ?>/img/hsw/img01-sp@2x.png" alt="長谷工住まいの大相談会" /></p>
+    <p class="sp w85_sp center"><img src="<?php echo $base_url ?>/img/hsw/img01-2-sp@2x.png" alt="長谷工住まいの大相談会" /></p>
+  </div>
+</header>
+
+
+<main id="main">
+<article id="conts">
+
+<section class="hswArea01">
+    <div class="redLine">
+        <span class="center">＼参加無料・特典あり／</span>
+    </div>    
+</section>
+<section class="hswArea02">
+    <div class="hswInner">
+    <p class="center tb"><img src="<?php echo $base_url ?>/img/hsw/img02.png" /></p>
+    <p class="center sp"><img src="<?php echo $base_url ?>/img/hsw/img02-1-sp@2x.png" /><br><img src="<?php echo $base_url ?>/img/hsw/img02-2-sp@2x.png" /></p>
+    <p class="center tb"><img src="<?php echo $base_url ?>/img/hsw/img03.png" /></p>
+    <p class="center sp"><img src="<?php echo $base_url ?>/img/hsw/img03-sp@2x.png" /></p>
+    </div>
+</section>
+
+<section class="hswArea03">
+    <div class="hswInner flex between">
+        <div class="w50 event01">
+            <p class="center"><img src="<?php echo $base_url ?>/img/hsw/img04.png" alt="スーパーウィークWプレゼントキャンペーン" /></p>
+            <p class="center w85_sp"><a class="fade" href="<?php echo $link_url ?>/id" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/btn01.png" alt="長谷工IDとは" /></a></p>
+        </div>
+        <div class="w50">
+            <p class="center"><img src="<?php echo $base_url ?>/img/hsw/img05.png" alt="開催場所 ビステーション新橋" /></p>
+            <p class="center w85_sp"><a class="fade" href="https://goo.gl/maps/szbzSUhCBSo" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/btn02.png" alt="Google Mapを見る" /></a></p>
+        </div>        
+    </div>
+</section>
+
+<section class="hswArea04">
+    <p class="center mb2 tb"><img src="<?php echo $base_url ?>/img/hsw/img06.png" alt="長谷工スーパーウィーク限定イベント・セミナー【予約優先】" /></p>
+    <p class="center mb2 sp"><img src="<?php echo $base_url ?>/img/hsw/img06-sp@2x.png" alt="長谷工スーパーウィーク限定イベント・セミナー【予約優先】" /></p>
+    <!--p class="center w90_sp"><a class="fade" href="<?php echo $base_url ?>/form/form-superweek/" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/btn03.png" alt="参加ご予約はこちら" /></a></p-->
+</section>
+
+<section class="hswArea05">
+  <div class="hswInner">
+   <h4 class="center mb3">長谷工 住まいの大相談会　開催概要</h4>
+    <div class="flex between mb2">    
+    <div class="shousai">
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■開催期間</dt>
+        <dd class="w80" style=" line-height:1.4;">2017年2月27日（月）～3月4日（土）</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■開催場所</dt>
+        <dd class="w80" style=" line-height:1.4;">ビステーション新橋　〒105-0004 東京都港区新橋2-20-15 新橋駅前ビル1号館6階</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■アクセス</dt>
+        <dd class="w80" style=" line-height:1.4;">山手線、東海道線、京浜東北線、横須賀線より新橋駅「汐留口改札口」から直結<br>ゆりかもめ新橋駅「1A」「1B」から徒歩1分<br>東京メトロ新橋駅「2番」から徒歩1分<br>都営浅草線新橋駅「A2」から徒歩1分</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■主催</dt>
+        <dd class="w80" style=" line-height:1.4;">長谷工グループ</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■協力</dt>
+        <dd class="w80" style=" line-height:1.4;">長谷工グループ「ブランシエラクラブ」、ビステーション新橋</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■内容</dt>
+        <dd class="w80" style=" line-height:1.4;">長谷工グループがお届けする、住まいに関する個別相談会および特別セミナー＆イベント</dd>
+      </dl>
+      <dl class="flex between">
+        <dt class="w20" style=" line-height:1.4; font-weight:bold;">■参加特典</dt>
+        <dd class="w80" style=" line-height:1.4;">長谷工IDご登録で1000スマイル（ポイント）<br>さらに会場来訪・セミナー参加いただくと1000スマイル+長谷工オリジナルブランド「たなかみ米」2合プレゼント</dd>
+      </dl>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+</article>
+</main>
+
+<div id="pagetop"><a href="#all" data-scroll>ページのトップへ</a></div>
+
+<footer id="footer">
+<div class="flex between w60 center tb">
+    <p class="w33" style="margin-top:-1px;"><a href="http://www.haseko.co.jp/hc/80th/" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/logo-haseko.png" alt="長谷工コーポレーション" /></a></p>
+    <p class="w33"><a href="<?php echo $base_url ?>" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/logo-bran.png" alt="長谷工グループブランシエラクラブ" /></a></p>
+    <p class="w33"><a href="http://www.bistation.jp/" target="_blank"><img src="<?php echo $base_url ?>/img/hsw/logo-bis.png" alt="ビステーション新橋" /></a></p>
+</div>
+<div class="sp mb4">
+    <p class="w50_sp center mb4" style="margin-top:-1px;"><a href="http://www.haseko.co.jp/hc/80th/" target="_blank"><img class="w100" src="<?php echo $base_url ?>/img/hsw/logo-haseko@2x.png" alt="長谷工コーポレーション" /></a></p>
+    <p class="w50_sp center"><a href="<?php echo $base_url ?>" target="_blank"><img class="w100" src="<?php echo $base_url ?>/img/hsw/logo-bran@2x.png" alt="長谷工グループブランシエラクラブ" /></a></p>    
+</div>
+<p class="w50_sp sp center"><a href="http://www.bistation.jp/" target="_blank"><img class="w100" src="<?php echo $base_url ?>/img/hsw/logo-bis@2x.png" alt="ビステーション新橋" /></a></p>
+
+<!--address>
+  <div class="copyright">© HASEKO GROUP BRANCHERA CLUB. All Rights Reserved.</div>
+</address-->
+
+</footer>
+
+</div>
+
+<script src="<?php echo $base_url ?>/js/common.js"></script>
+<!-- add scripts -->
+<!-- //add scripts -->
+<?php include ($inc_path."/inc/tags.php") ?>
+</body>
+</html>
