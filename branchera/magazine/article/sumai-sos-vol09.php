@@ -147,16 +147,16 @@ $release_day = "";
 						</div>
 					</div>
 				</div>
-				<div div class="mb7 mb5_sp sumai06_btn u-only__pc">
+				<!-- <div div class="mb7 mb5_sp sumai06_btn u-only__pc">
 					<a href="https://www.haseko.co.jp/kasikosh/purchase/web/" data-ga-click="sos09_01" target="_blank">
-						<img src="<?php echo $img_url ?>/magazine/foris/sumai_09/tips-button@2x.png" alt="長谷工でもやってます！ 詳しくはこちら" class="u-img__max center sumai06_btnitem" style="max-width:541px;" loading="lazy">
+						<img src="<?php //echo $img_url ?>/magazine/foris/sumai_09/tips-button@2x.png" alt="長谷工でもやってます！ 詳しくはこちら" class="u-img__max center sumai06_btnitem" style="max-width:541px;" loading="lazy">
 					</a>
 				</div>
 				<div div class="mb7 mb5_sp pt2_sp sumai06_btn u-only__sp">
 					<a href="https://www.haseko.co.jp/kasikosh/purchase/web/" data-ga-click="sos09_01" target="_blank">
-						<img src="<?php echo $img_url ?>/magazine/foris/sumai_09/tips-button-sp@2x.png" alt="長谷工でもやってます！ 詳しくはこちら" class="u-img__max u-only__sp sumai06_btnitem" loading="lazy">
+						<img src="<?php //echo $img_url ?>/magazine/foris/sumai_09/tips-button-sp@2x.png" alt="長谷工でもやってます！ 詳しくはこちら" class="u-img__max u-only__sp sumai06_btnitem" loading="lazy">
 					</a>
-				</div>
+				</div> -->
 
 				<div class="option mb8 mb2_sp">
 					<img src="<?php echo $img_url ?>/magazine/foris/sumai_09/option@2x.png" alt="option" class="u-img__max u-only__pc center" loading="lazy">
@@ -328,6 +328,9 @@ $release_day = "";
 			<?php $CmGtmId = "";
 			include($inc_path . "/lib/inc/page/_magazine/__comic01_cm.php");
 			?>
+		</div>
+		<div class="mt8 mt3_sp mb2_sp">
+			<mitsuketa-banner point-id="MitMagSumaiSosVol09D20221003" img-url="<?php echo $img_url; ?>" login-url="<?php echo $login_url; ?>" :login-status="<?php echo $ssoFlag; ?>"></mitsuketa-banner>
 		</div>
 		</div>
 	</article>
