@@ -138,9 +138,20 @@
 				$dataGaClick = 'news_topics_rashiku-monitor2022';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
+		<?php // お掃除コンテンツ
+				$cntId = '27023';
+				$noticeLabel = 'new';
+				$category = 'マガジン';
+				$cntTtl = '「部屋のお掃除プロ監修 三毛猫きらりのお掃除攻略ガイド『油汚れの落とし方・場所別の掃除方法と汚れを予防するアイデア』」';
+				$predicate = 'を公開しました。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_cleaning23';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
 		<?php // テクニック
 				$cntId = '15164';
-				$noticeLabel = 'new';
+				$noticeLabel = '';
 				$category = 'マガジン';
 				$cntTtl = '「今さら聞けない料理のアレコレ『煮しめのレシピ！和食の定番料理を簡単に美味しく作る方法をご紹介』';
 				$predicate = 'を公開しました。';
@@ -151,7 +162,7 @@
 				?>
 		<?php // 交換商品
 				$cntId = '10063';
-				$noticeLabel = 'new';
+				$noticeLabel = '';
 				$category = '住まいレージ';
 				$cntTtl = '交換商品に3種のおせち【期間・数量限定】';
 				$predicate = 'が追加されました！';
@@ -170,17 +181,6 @@
 				// $news_cntUrl = '';
 				// $dataGaClick = 'news_topics_imakura_enq43';
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
-		<?php // お掃除コンテンツ
-				$cntId = '27022';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「部屋のお掃除プロ監修 三毛猫きらりのお掃除攻略ガイド『窓の結露対策、どうすればよい？カビの予防方法もご紹介』」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_cleaning22';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 交換商品
 				$cntId = '';
@@ -224,6 +224,17 @@
 				$dataGaClick = 'news_topics_cluboff';
 				include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
+		<?php // ALSOK 暮らしの危機管理
+				$cntId = '21013';
+				$noticeLabel = '';
+				$category = 'マガジン';
+				$cntTtl = '「プロに聞く。暮らしの危機管理。『秋のうちに見直したい〜冬の防犯と防災』」';
+				$predicate = '公開中です。';
+				$news_imgUrl = '';
+				$news_cntUrl = '';
+				$dataGaClick = 'news_topics_alsok_87';
+				include($inc_path . "/lib/inc/page/_home/__news.php");
+				?>
 		<?php // いま暮らcaféレポート
 				// $cntId = '25008';
 				// $noticeLabel = '';
@@ -236,15 +247,15 @@
 				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 何でか、部屋が片付かない。
-				$cntId = '12011';
-				$noticeLabel = '';
-				$category = 'マガジン';
-				$cntTtl = '「何でか、部屋が片付かない。『第11話　扇風機はどこに収納？家電の収納方法を伝授！』」';
-				$predicate = '公開中です。';
-				$news_imgUrl = '';
-				$news_cntUrl = '';
-				$dataGaClick = 'news_topics_comic_11';
-				include($inc_path . "/lib/inc/page/_home/__news.php");
+				// $cntId = '12011';
+				// $noticeLabel = '';
+				// $category = 'マガジン';
+				// $cntTtl = '「何でか、部屋が片付かない。『第11話　扇風機はどこに収納？家電の収納方法を伝授！』」';
+				// $predicate = '公開中です。';
+				// $news_imgUrl = '';
+				// $news_cntUrl = '';
+				// $dataGaClick = 'news_topics_comic_11';
+				// include($inc_path . "/lib/inc/page/_home/__news.php");
 				?>
 		<?php // 交換商品
 				// $cntId = '8004';
@@ -281,18 +292,6 @@
 				// include ($inc_path."/lib/inc/page/_home/__news.php");
 				?>
 
-
-      	<?php // ALSOK 暮らしの危機管理
-				// $cntId = '19005';
-				// $noticeLabel = '';
-				// $category = 'マガジン';
-				// $cntTtl = '「プロに聞く。暮らしの危機管理。『マンションの風水害対策』」';
-				// $predicate = '公開中です。';
-				// $news_imgUrl = '';
-				// $news_cntUrl = '';
-				// $dataGaClick = 'news_topics_alsok_86';
-				// include($inc_path . "/lib/inc/page/_home/__news.php");
-				?>
 
       	<?php // 住まいのSOS
 				// $cntId = '26011';

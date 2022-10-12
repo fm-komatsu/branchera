@@ -1,4 +1,6 @@
 <dl class="u-news">
+  <dt>2022年10月12日</dt>
+  <dd><a href="<?php echo $base_url ?>/magazine/article/cleaning23.php">【マガジン】「三毛猫きらりのお掃除攻略ガイド『油汚れの落とし方・場所別の掃除方法と汚れを予防するアイデア』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年10月5日</dt>
   <dd><a href="<?php echo $base_url ?>/magazine/article/recipe-technic164.php">【マガジン】「今さら聞けない料理のアレコレ『煮しめのレシピ！和食の定番料理を簡単に美味しく作る方法をご紹介』」を公開しました。詳しくはこちら</a></dd>
   <dt>2022年10月5日</dt>
