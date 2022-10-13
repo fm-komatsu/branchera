@@ -151,7 +151,7 @@ $release_day = "";
 									<img src="<?php echo $img_url ?>/magazine/foris/sumai_11/option-img01@2x.jpg" alt="油汚れはその日のうちに！" class="u-img__max u-only__pc" loading="lazy">
 								</figure>
 								<div class="w50 acdcontent__flex-right">
-									<p class="mt0 mb2_sp">換気扇の外側部分はふだんから小まめに拭いておきましょう。掃除道具には<a href="<?php echo $base_url ?>/smile/article/exchange-cleaning_goods.php#cleanner" class="sumai11__link" data-ga-click="sos11_02">電解質クリーナー</a>と<a href="<?php echo $base_url ?>/smile/article/exchange-cleaning_goods.php#cloth" class="sumai11__link" data-ga-click="sos11_03">マイクロファイバークロス</a>がおススメです。他にも重曹やセスキ炭酸ソーダを水で溶かしてスプレーして拭いたり、薄めた食器用洗剤で湿らせたクロスで拭いたりしても油汚れは落ちます。いろいろ試してお気に入りを探してみるのもいいでしょう。換気扇フィルターを設置すると、汚れ防止に役立ちます（定期的に交換しましょう）。</p>
+									<p class="mt0 mb2_sp">換気扇の外側部分はふだんから小まめに拭いておきましょう。掃除道具には電解質クリーナーとマイクロファイバークロスがおススメです。他にも重曹やセスキ炭酸ソーダを水で溶かしてスプレーして拭いたり、薄めた食器用洗剤で湿らせたクロスで拭いたりしても油汚れは落ちます。いろいろ試してお気に入りを探してみるのもいいでしょう。換気扇フィルターを設置すると、汚れ防止に役立ちます（定期的に交換しましょう）。</p>
 									<a href="<?php echo $base_url ?>/magazine/article/cleaning03.php" data-ga-click="sos11_04" class="sumai11__link-icon mb2_sp">レンジフードキレイ術の詳細はこちら</a>
 								</div>
 							</div>
@@ -290,12 +290,14 @@ $release_day = "";
 				<div class="main__item">
 					<?php include($inc_path . "/lib/inc/page/_magazine/__back_num_sumai.php") ?>
 				</div>
-				<div class="mb3">
-					<?php $CmGtmId = "";
-					include ($inc_path."/lib/inc/page/_magazine/__comic01_cm.php");
-					?>
+				<!--<div class="mb3">
+		    <?php //$CmGtmId = "2"; include ($inc_path."/lib/inc/page/_magazine/__comic01_cm.php");
+				?>
+			</div> -->
+				<div class="mt8 mt3_sp mb2_sp">
+					<mitsuketa-banner point-id="MitMagSumaiSosVol11D20221003" img-url="<?php echo $img_url; ?>" login-url="<?php echo $login_url; ?>" :login-status="<?php echo $ssoFlag; ?>"></mitsuketa-banner>
 				</div>
-			</div>
+		</div>
 	</article>
 </main>
 
